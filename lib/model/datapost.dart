@@ -1,0 +1,5811 @@
+class Post {
+  const Post({
+    this.pic,
+    this.atk,
+    this.def,
+    this.nai,
+    this.ttyy,
+    this.maxhp,
+    this.maxcp4,
+    this.na,
+  });
+
+  final String pic;
+  final String ttyy;
+  final int atk;
+  final int def;
+  final int nai;
+  final int maxhp;
+  final int maxcp4;
+  final String na;
+}
+
+
+final List<Post> mlbug = [
+Post(
+pic:"lib/images/p10.png",
+ttyy:"lib/images/mbug.png",atk:55,def:55,nai:128,maxhp:113,
+maxcp4:437,
+na:"綠毛蟲"
+),
+Post(
+pic:"lib/images/p11.png",
+ttyy:"lib/images/mbug.png",atk:45,def:80,nai:137,maxhp:120,
+maxcp4:450,
+na:"鐵甲蛹"
+),
+Post(
+pic:"lib/images/p12.png",
+ttyy:"lib/images/mbug.pnglib/images/mflying.png",atk:167,def:137,nai:155,maxhp:134,
+maxcp4:1827,
+na:"巴大蝶"
+),
+Post(
+pic:"lib/images/p13.png",
+ttyy:"lib/images/mbug.pnglib/images/mpoison.png",atk:63,def:50,nai:120,maxhp:106,
+maxcp4:456,
+na:"獨角蟲"
+),
+Post(
+pic:"lib/images/p14.png",
+ttyy:"lib/images/mbug.pnglib/images/mpoison.png",atk:46,def:75,nai:128,maxhp:113,
+maxcp4:432,
+na:"鐵殼蛹"
+),
+Post(
+pic:"lib/images/p15.png",
+ttyy:"lib/images/mbug.pnglib/images/mpoison.png",atk:169,def:130,nai:163,maxhp:140,
+maxcp4:1846,
+na:"大針蜂"
+),
+Post(
+pic:"lib/images/p46.png",
+ttyy:"lib/images/mbug.pnglib/images/mgrass.png",atk:121,def:99,nai:111,maxhp:99,
+maxcp4:1018,
+na:"派拉斯",
+),
+Post(
+pic:"lib/images/p47.png",
+ttyy:"lib/images/mbug.pnglib/images/mgrass.png",atk:165,def:146,nai:155,maxhp:134,
+maxcp4:1859,
+na:"派拉斯特"
+),
+Post(
+pic:"lib/images/p48.png",
+ttyy:"lib/images/mbug.pnglib/images/mpoison.png",atk:100,def:100,nai:155,maxhp:134,
+maxcp4:1004,
+na:"毛球"
+),
+Post(
+pic:"lib/images/p49.png",
+ttyy:"lib/images/mbug.pnglib/images/mpoison.png",atk:179,def:143,nai:172,maxhp:147,
+maxcp4:2082,
+na:"摩魯蛾",
+),
+Post(
+pic:"lib/images/p123.png",
+ttyy:"lib/images/mbug.pnglib/images/mflying.png",atk:218,def:170,nai:172,maxhp:147,
+maxcp4:2706,
+na:"飛天螳螂"
+),
+Post(
+pic:"lib/images/p127.png",
+ttyy:"lib/images/mbug.png",atk:238,def:182,nai:163,maxhp:140,
+maxcp4:2959,
+na:"凱羅斯"
+),
+Post(
+pic:"lib/images/p165.png",
+ttyy:"lib/images/mbug.pnglib/images/mflying.png",atk:72,def:118,nai:120,maxhp:106,
+maxcp4:728,
+na:"芭瓢蟲",
+),
+Post(
+pic:"lib/images/p166.png",
+ttyy:"lib/images/mbug.pnglib/images/mflying.png",atk:107,def:179,nai:146,maxhp:127,
+maxcp4:1346,
+na:"安瓢蟲"
+),
+Post(
+pic:"lib/images/p167.png",
+ttyy:"lib/images/mbug.pnglib/images/mpoison.png",atk:105,def:73,nai:120,maxhp:106,
+maxcp4:816,
+na:"圓絲蛛"
+),
+Post(
+pic:"lib/images/p168.png",
+ttyy:"lib/images/mbug.pnglib/images/mpoison.png",atk:161,def:124,nai:172,maxhp:147,
+maxcp4:1772,
+na:"阿利多斯"
+),
+Post(
+pic:"lib/images/p193.png",
+ttyy:"lib/images/mbug.pnglib/images/mflying.png",atk:154,def:94,nai:163,maxhp:140,
+maxcp4:1470,
+na:"蜻蜻蜓"
+),
+Post(
+pic:"lib/images/p204.png",
+ttyy:"lib/images/mbug.png",atk:108,def:122,nai:137,maxhp:120,
+maxcp4:1108,
+na:"榛果球"
+),
+Post(
+pic:"lib/images/p205.png",
+ttyy:"lib/images/mbug.pnglib/images/msteel.png",atk:161,def:205,nai:181,maxhp:154,
+maxcp4:2282,
+na:"佛烈托斯"
+),
+Post(
+pic:"lib/images/p212.png",
+ttyy:"lib/images/mbug.pnglib/images/msteel.png",atk:236,def:181,nai:172,maxhp:147,
+maxcp4:3001,
+na:"巨鉗螳螂"
+),
+Post(
+pic:"lib/images/p213.png",
+ttyy:"lib/images/mbug.pnglib/images/mrock.png",atk:17,def:396,nai:85,maxhp:79,
+maxcp4:405,
+na:"壺壺"
+),
+Post(
+pic:"lib/images/p214.png",
+ttyy:"lib/images/mbug.pnglib/images/mfighting.png",atk:234,def:179,nai:190,maxhp:162,
+maxcp4:3101,
+na:"赫拉克羅斯"
+),
+Post(
+pic:"lib/images/p265.png",
+ttyy:"lib/images/mbug.png",atk:75,def:59,nai:128,maxhp:113,
+maxcp4:578,
+na:"刺尾蟲"
+),
+Post(
+pic:"lib/images/p266.png",
+ttyy:"lib/images/mbug.png",atk:60,def:77,nai:137,maxhp:120,
+maxcp4:553,
+na:"甲殼繭"
+),
+Post(
+pic:"lib/images/p267.png",
+ttyy:"lib/images/mbug.pnglib/images/mflying.png",atk:189,def:98,nai:155,maxhp:134,
+maxcp4:1765,
+na:"狩獵鳳蝶"
+),
+Post(
+pic:"lib/images/p268.png",
+ttyy:"lib/images/mbug.png",atk:60,def:77,nai:137,maxhp:120,
+maxcp4:553,
+na:"盾甲繭"
+),
+Post(
+pic:"lib/images/p269.png",
+ttyy:"lib/images/mbug.pnglib/images/mpoison.png",atk:98,def:162,nai:155,maxhp:134,
+maxcp4:1224,
+na:"毒粉蛾"
+),
+Post(
+pic:"lib/images/p283.png",
+ttyy:"lib/images/mbug.pnglib/images/mwater.png",atk:93,def:87,nai:120,maxhp:106,
+maxcp4:791,
+na:"溜溜糖球"
+),
+Post(
+pic:"lib/images/p284.png",
+ttyy:"lib/images/mbug.pnglib/images/mflying.png",atk:192,def:150,nai:172,maxhp:147,
+maxcp4:2270,
+na:"雨翅蛾"
+),
+Post(
+pic:"lib/images/p290.png",
+ttyy:"lib/images/mbug.pnglib/images/mground.png",atk:80,def:126,nai:104,maxhp:94,
+maxcp4:768,
+na:"土居忍士"
+),
+Post(
+pic:"lib/images/p291.png",
+ttyy:"lib/images/mbug.pnglib/images/mflying.png",atk:199,def:112,nai:156,maxhp:135,
+maxcp4:1969,
+na:"鐵面忍者"
+),
+Post(
+pic:"lib/images/p292.png",
+ttyy:"lib/images/mbug.pnglib/images/mghost.png",atk:153,def:73,nai:1,maxhp:12,
+maxcp4:393,
+na:"脫殼忍者"
+),
+Post(
+pic:"lib/images/p313.png",
+ttyy:"lib/images/mbug.png",atk:143,def:166,nai:163,maxhp:140,
+maxcp4:1771,
+na:"電螢蟲"
+),
+Post(
+pic:"lib/images/p314.png",
+ttyy:"lib/images/mbug.png",atk:143,def:166,nai:163,maxhp:140,
+maxcp4:1771,
+na:"甜甜螢"
+),
+Post(
+pic:"lib/images/p347.png",
+ttyy:"lib/images/mrock.pnglib/images/mbug.png",atk:176,def:100,nai:128,maxhp:113,
+maxcp4:1529,
+na:"太古羽蟲"
+),
+Post(
+pic:"lib/images/p348.png",
+ttyy:"lib/images/mrock.pnglib/images/mbug.png",atk:222,def:174,nai:181,maxhp:154,
+maxcp4:2848,
+na:"太古盔甲"
+),
+Post(
+pic:"lib/images/p401.png",
+ttyy:"lib/images/mbug.png",atk:45,def:74,nai:114,maxhp:101,
+maxcp4:401,
+na:"圓法師"
+),
+Post(
+pic:"lib/images/p402.png",
+ttyy:"lib/images/mbug.png",atk:160,def:100,nai:184,maxhp:157,
+maxcp4:1653,
+na:"音箱蟀"
+),
+Post(
+pic:"lib/images/p412.png",
+ttyy:"lib/images/mbug.png",atk:53,def:83,nai:120,maxhp:106,
+maxcp4:488,
+na:"結草兒"
+),
+Post(
+pic:"lib/images/p413.png",
+ttyy:"lib/images/mbug.pnglib/images/mgrass.png",atk:141,def:180,nai:155,maxhp:134,
+maxcp4:1773,
+na:"結草貴婦"
+),
+Post(
+pic:"lib/images/p414.png",
+ttyy:"lib/images/mbug.pnglib/images/mflying.png",atk:185,def:98,nai:172,maxhp:147,
+maxcp4:1815,
+na:"紳士蛾"
+),
+Post(
+pic:"lib/images/p415.png",
+ttyy:"lib/images/mbug.pnglib/images/mflying.png",atk:59,def:83,nai:102,maxhp:92,
+maxcp4:494,
+na:"三蜜蜂"
+),
+Post(
+pic:"lib/images/p416.png",
+ttyy:"lib/images/mbug.pnglib/images/mflying.png",atk:149,def:190,nai:172,maxhp:147,
+maxcp4:2005,
+na:"蜂女王"
+),
+Post(
+pic:"lib/images/p451.png",
+ttyy:"lib/images/mpoison.pnglib/images/mbug.png",atk:93,def:151,nai:120,maxhp:106,
+maxcp4:1009,
+na:"鉗尾蠍",
+),
+Post(
+pic:"lib/images/p469.png",
+ttyy:"lib/images/mbug.pnglib/images/mflying.png",atk:231,def:156,nai:200,maxhp:169,
+maxcp4:2946,
+na:"遠古巨蜓"
+),
+Post(
+pic:"lib/images/p540.png",
+ttyy:"lib/images/mbug.pnglib/images/mgrass.png",atk:96,def:124,nai:128,maxhp:113,
+maxcp4:977,
+na:"蟲寶包"
+),
+Post(
+pic:"lib/images/p541.png",
+ttyy:"lib/images/mbug.pnglib/images/mgrass.png",atk:115,def:162,nai:146,maxhp:127,
+maxcp4:1370,
+na:"寶包繭"
+),
+Post(
+pic:"lib/images/p542.png",
+ttyy:"lib/images/mbug.pnglib/images/mgrass.png",atk:205,def:165,nai:181,maxhp:154,
+maxcp4:2580,
+na:"保母蟲"
+),
+Post(
+pic:"lib/images/p543.png",
+ttyy:"lib/images/mbug.pnglib/images/mpoison.png",atk:83,def:99,nai:102,maxhp:92,
+maxcp4:706,
+na:"百足蜈蚣",
+),
+Post(
+pic:"lib/images/p544.png",
+ttyy:"lib/images/mbug.pnglib/images/mpoison.png",atk:100,def:173,nai:120,maxhp:106,
+maxcp4:1144,
+na:"車輪毬"
+),
+Post(
+pic:"lib/images/p545.png",
+ttyy:"lib/images/mbug.pnglib/images/mpoison.png",atk:203,def:175,nai:155,maxhp:134,
+maxcp4:2447,
+na:"蜈蚣王"
+),
+Post(
+pic:"lib/images/p557.png",
+ttyy:"lib/images/mbug.pnglib/images/mrock.png",atk:118,def:128,nai:137,maxhp:120,
+maxcp4:1224,
+na:"石居蟹"
+),
+Post(
+pic:"lib/images/p558.png",
+ttyy:"lib/images/mbug.pnglib/images/mrock.png",atk:188,def:200,nai:172,maxhp:147,
+maxcp4:2542,
+na:"岩殿居蟹"
+),
+Post(
+pic:"lib/images/p588.png",
+ttyy:"lib/images/mbug.png",atk:137,def:87,nai:137,maxhp:120,
+maxcp4:1182,
+na:"蓋蓋蟲"
+),
+Post(
+pic:"lib/images/p589.png",
+ttyy:"lib/images/mbug.pnglib/images/msteel.png",atk:223,def:187,nai:172,maxhp:147,
+maxcp4:2889,
+na:"騎士蝸牛"
+),
+Post(
+pic:"lib/images/p595.png",
+ttyy:"lib/images/mbug.pnglib/images/melectric.png",atk:110,def:98,nai:137,maxhp:120,
+maxcp4:1023,
+na:"電電蟲",
+),
+Post(
+pic:"lib/images/p596.png",
+ttyy:"lib/images/mbug.pnglib/images/melectric.png",atk:201,def:128,nai:172,maxhp:147,
+maxcp4:2206,
+na:"電蜘蛛"
+),
+Post(
+pic:"lib/images/p616.png",
+ttyy:"lib/images/mbug.png",atk:72,def:140,nai:137,maxhp:120,
+maxcp4:834,
+na:"小嘴蝸"
+),
+Post(
+pic:"lib/images/p617.png",
+ttyy:"lib/images/mbug.png",atk:220,def:120,nai:190,maxhp:162,
+maxcp4:2441,
+na:"敏捷蟲",
+),
+Post(
+pic:"lib/images/p632.png",
+ttyy:"lib/images/mbug.pnglib/images/msteel.png",atk:217,def:188,nai:151,maxhp:131,
+maxcp4:2659,
+na:"鐵蟻"
+),
+Post(
+pic:"lib/images/p636.png",
+ttyy:"lib/images/mbug.pnglib/images/mfire.png",atk:156,def:107,nai:146,maxhp:127,
+maxcp4:1496,
+na:"燃燒蟲"
+),
+Post(
+pic:"lib/images/p637.png",
+ttyy:"lib/images/mbug.pnglib/images/mfire.png",atk:264,def:189,nai:198,maxhp:168,
+maxcp4:3632,
+na:"火神蟲"
+),
+Post(
+pic:"lib/images/p649.png",
+ttyy:"lib/images/mbug.pnglib/images/msteel.png",atk:252,def:199,nai:174,maxhp:149,
+maxcp4:3353,
+na:"蓋諾賽克特",
+),
+];
+
+
+final List<Post> mldark = [
+Post(
+pic:"lib/images/p197.png",
+ttyy:"lib/images/mdark.png",atk:126,def:240,nai:216,maxhp:182,
+maxcp4:2137,
+na:"月亮伊布"
+),
+Post(
+pic:"lib/images/p198.png",
+ttyy:"lib/images/mdark.pnglib/images/mflying.png",atk:175,def:87,nai:155,maxhp:134,
+maxcp4:1562,
+na:"黑暗鴉"
+),
+Post(
+pic:"lib/images/p215.png",
+ttyy:"lib/images/mdark.pnglib/images/mice.png",atk:189,def:146,nai:146,maxhp:127,
+maxcp4:2051,
+na:"狃拉"
+),
+Post(
+pic:"lib/images/p228.png",
+ttyy:"lib/images/mdark.pnglib/images/mfire.png",atk:152,def:83,nai:128,maxhp:113,
+maxcp4:1234,
+na:"戴魯比"
+),
+Post(
+pic:"lib/images/p229.png",
+ttyy:"lib/images/mdark.pnglib/images/mfire.png",atk:224,def:144,nai:181,maxhp:154,
+maxcp4:2635,
+na:"黑魯加"
+),
+Post(
+pic:"lib/images/p248.png",
+ttyy:"lib/images/mrock.pnglib/images/mdark.png",atk:251,def:207,nai:225,maxhp:189,
+maxcp4:3834,
+na:"班基拉斯"
+),
+Post(
+pic:"lib/images/p261.png",
+ttyy:"lib/images/mdark.png",atk:96,def:61,nai:111,maxhp:99,
+maxcp4:678,
+na:"土狼犬"
+),
+Post(
+pic:"lib/images/p262.png",
+ttyy:"lib/images/mdark.png",atk:171,def:132,nai:172,maxhp:147,
+maxcp4:1926,
+na:"大狼犬"
+),
+Post(
+pic:"lib/images/p274.png",
+ttyy:"lib/images/mgrass.pnglib/images/mdark.png",atk:134,def:78,nai:172,maxhp:147,
+maxcp4:1227,
+na:"長鼻葉"
+),
+Post(
+pic:"lib/images/p275.png",
+ttyy:"lib/images/mgrass.pnglib/images/mdark.png",atk:200,def:121,nai:207,maxhp:175,
+maxcp4:2333,
+na:"狡猾天狗"
+),
+Post(
+pic:"lib/images/p302.png",
+ttyy:"lib/images/mdark.pnglib/images/mghost.png",atk:141,def:136,nai:137,maxhp:120,
+maxcp4:1476,
+na:"勾魂眼"
+),
+Post(
+pic:"lib/images/p318.png",
+ttyy:"lib/images/mwater.pnglib/images/mdark.png",atk:171,def:39,nai:128,maxhp:113,
+maxcp4:1020,
+na:"利牙魚"
+),
+Post(
+pic:"lib/images/p319.png",
+ttyy:"lib/images/mwater.pnglib/images/mdark.png",atk:243,def:83,nai:172,maxhp:147,
+maxcp4:2181,
+na:"巨牙鯊",
+),
+Post(
+pic:"lib/images/p332.png",
+ttyy:"lib/images/mgrass.pnglib/images/mdark.png",atk:221,def:115,nai:172,maxhp:147,
+maxcp4:2298,
+na:"夢歌仙人掌"
+),
+Post(
+pic:"lib/images/p342.png",
+ttyy:"lib/images/mwater.pnglib/images/mdark.png",atk:224,def:142,nai:160,maxhp:138,
+maxcp4:2474,
+na:"鐵螯龍蝦"
+),
+Post(
+pic:"lib/images/p359.png",
+ttyy:"lib/images/mdark.png",atk:246,def:120,nai:163,maxhp:140,
+maxcp4:2526,
+na:"阿勃梭魯"
+),
+Post(
+pic:"lib/images/p430.png",
+ttyy:"lib/images/mdark.pnglib/images/mflying.png",atk:243,def:103,nai:225,maxhp:189,
+maxcp4:2711,
+na:"烏鴉頭頭"
+),
+Post(
+pic:"lib/images/p434.png",
+ttyy:"lib/images/mpoison.pnglib/images/mdark.png",atk:121,def:90,nai:160,maxhp:138,
+maxcp4:1151,
+na:"臭鼬噗"
+),
+Post(
+pic:"lib/images/p435.png",
+ttyy:"lib/images/mpoison.pnglib/images/mdark.png",atk:184,def:132,nai:230,maxhp:193,
+maxcp4:2358,
+na:"坦克臭鼬"
+),
+Post(
+pic:"lib/images/p442.png",
+ttyy:"lib/images/mghost.pnglib/images/mdark.png",atk:169,def:199,nai:137,maxhp:120,
+maxcp4:2072,
+na:"花岩怪"
+),
+Post(
+pic:"lib/images/p452.png",
+ttyy:"lib/images/mpoison.pnglib/images/mdark.png",atk:180,def:202,nai:172,maxhp:147,
+maxcp4:2453,
+na:"龍王蠍"
+),
+Post(
+pic:"lib/images/p461.png",
+ttyy:"lib/images/mdark.pnglib/images/mice.png",atk:243,def:171,nai:172,maxhp:147,
+maxcp4:3005,
+na:"瑪狃拉"
+),
+Post(
+pic:"lib/images/p491.png",
+ttyy:"lib/images/mdark.png",atk:285,def:198,nai:172,maxhp:147,
+maxcp4:3739,
+na:"達克萊伊"
+),
+Post(
+pic:"lib/images/p509.png",
+ttyy:"lib/images/mdark.png",atk:98,def:73,nai:121,maxhp:107,
+maxcp4:772,
+na:"扒手貓"
+),
+Post(
+pic:"lib/images/p510.png",
+ttyy:"lib/images/mdark.png",atk:187,def:106,nai:162,maxhp:139,
+maxcp4:1846,
+na:"酷豹"
+),
+Post(
+pic:"lib/images/p551.png",
+ttyy:"lib/images/mground.pnglib/images/mdark.png",atk:132,def:69,nai:137,maxhp:120,
+maxcp4:1037,
+na:"黑眼鱷"
+),
+Post(
+pic:"lib/images/p552.png",
+ttyy:"lib/images/mground.pnglib/images/mdark.png",atk:155,def:90,nai:155,maxhp:134,
+maxcp4:1418,
+na:"混混鱷"
+),
+Post(
+pic:"lib/images/p553.png",
+ttyy:"lib/images/mground.pnglib/images/mdark.png",atk:229,def:158,nai:216,maxhp:182,
+maxcp4:3046,
+na:"流氓鱷"
+),
+Post(
+pic:"lib/images/p559.png",
+ttyy:"lib/images/mdark.pnglib/images/mfighting.png",atk:132,def:132,nai:137,maxhp:120,
+maxcp4:1372,
+na:"滑頭小子"
+),
+Post(
+pic:"lib/images/p560.png",
+ttyy:"lib/images/mdark.pnglib/images/mfighting.png",atk:163,def:222,nai:163,maxhp:140,
+maxcp4:2283,
+na:"頭巾混混"
+),
+Post(
+pic:"lib/images/p570.png",
+ttyy:"lib/images/mdark.png",atk:153,def:78,nai:120,maxhp:106,
+maxcp4:1175,
+na:"索羅亞"
+),
+Post(
+pic:"lib/images/p571.png",
+ttyy:"lib/images/mdark.png",atk:250,def:127,nai:155,maxhp:134,
+maxcp4:2571,
+na:"索羅亞克"
+),
+Post(
+pic:"lib/images/p624.png",
+ttyy:"lib/images/mdark.pnglib/images/msteel.png",atk:154,def:114,nai:128,maxhp:113,
+maxcp4:1433,
+na:"駒刀小兵"
+),
+Post(
+pic:"lib/images/p625.png",
+ttyy:"lib/images/mdark.pnglib/images/msteel.png",atk:232,def:176,nai:163,maxhp:140,
+maxcp4:2844,
+na:"劈斬司令"
+),
+Post(
+pic:"lib/images/p629.png",
+ttyy:"lib/images/mdark.pnglib/images/mflying.png",atk:105,def:139,nai:172,maxhp:147,
+maxcp4:1271,
+na:"禿鷹小子",
+),
+Post(
+pic:"lib/images/p630.png",
+ttyy:"lib/images/mdark.pnglib/images/mflying.png",atk:129,def:205,nai:242,maxhp:203,
+maxcp4:2138,
+na:"禿鷹娜"
+),
+Post(
+pic:"lib/images/p633.png",
+ttyy:"lib/images/mdark.pnglib/images/mdragon.png",atk:116,def:93,nai:141,maxhp:123,
+maxcp4:1062,
+na:"單首龍"
+),
+Post(
+pic:"lib/images/p634.png",
+ttyy:"lib/images/mdark.pnglib/images/mdragon.png",atk:159,def:135,nai:176,maxhp:150,
+maxcp4:1839,
+na:"雙頭龍"
+),
+Post(
+pic:"lib/images/p635.png",
+ttyy:"lib/images/mdark.pnglib/images/mdragon.png",atk:256,def:188,nai:211,maxhp:178,
+maxcp4:3625,
+na:"三頭龍"
+),];
+
+final List<Post> mldragon = [
+  Post(
+      pic:"lib/images/p147.png",
+      ttyy:"lib/images/mdragon.png",atk:119,def:91,nai:121,maxhp:107,
+      maxcp4:1004,
+      na:"迷你龍"
+  ),
+  Post(
+      pic:"lib/images/p148.png",
+      ttyy:"lib/images/mdragon.png",atk:163,def:135,nai:156,maxhp:135,
+      maxcp4:1780,
+      na:"哈克龍"
+  ),
+  Post(
+      pic:"lib/images/p149.png",
+      ttyy:"lib/images/mdragon.pnglib/images/mflying.png",atk:263,def:198,nai:209,maxhp:177,
+      maxcp4:3792,
+      na:"快龍"
+  ),
+  Post(
+      pic:"lib/images/p230.png",
+      ttyy:"lib/images/mwater.pnglib/images/mdragon.png",atk:194,def:194,nai:181,maxhp:154,
+      maxcp4:2641,
+      na:"刺龍王"
+  ),
+  Post(
+      pic:"lib/images/p329.png",
+      ttyy:"lib/images/mground.pnglib/images/mdragon.png",atk:134,def:99,nai:137,maxhp:120,
+      maxcp4:1225,
+      na:"超音波幼蟲"
+  ),
+  Post(
+      pic:"lib/images/p330.png",
+      ttyy:"lib/images/mground.pnglib/images/mdragon.png",atk:205,def:168,nai:190,maxhp:162,
+      maxcp4:2661,
+      na:"沙漠蜻蜓"
+  ),
+  Post(
+      pic:"lib/images/p334.png",
+      ttyy:"lib/images/mdragon.pnglib/images/mflying.png",atk:141,def:201,nai:181,maxhp:154,
+      maxcp4:2004,
+      na:"七夕青鳥"
+  ),
+  Post(
+      pic:"lib/images/p371.png",
+      ttyy:"lib/images/mdragon.png",atk:134,def:93,nai:128,maxhp:113,
+      maxcp4:1156,
+      na:"寶貝龍"
+  ),
+  Post(
+      pic:"lib/images/p372.png",
+      ttyy:"lib/images/mdragon.png",atk:172,def:155,nai:163,maxhp:140,
+      maxcp4:2031,
+      na:"甲殼龍"
+  ),
+  Post(
+      pic:"lib/images/p373.png",
+      ttyy:"lib/images/mdragon.pnglib/images/mflying.png",atk:277,def:168,nai:216,maxhp:182,
+      maxcp4:3749,
+      na:"暴飛龍"
+  ),
+  Post(
+      pic:"lib/images/p380.png",
+      ttyy:"lib/images/mdragon.pnglib/images/mpsychic.png",atk:228,def:246,nai:190,maxhp:162,
+      maxcp4:3510,
+      na:"拉帝亞斯"
+  ),
+  Post(
+    pic:"lib/images/p381.png",
+    ttyy:"lib/images/mdragon.pnglib/images/mpsychic.png",atk:268,def:212,nai:190,maxhp:162,
+    maxcp4:3812,
+    na:"拉帝歐斯",
+  ),
+  Post(
+      pic:"lib/images/p384.png",
+      ttyy:"lib/images/mdragon.pnglib/images/mflying.png",atk:284,def:170,nai:213,maxhp:180,
+      maxcp4:3835,
+      na:"烈空坐"
+  ),
+  Post(
+      pic:"lib/images/p443.png",
+      ttyy:"lib/images/mdragon.pnglib/images/mground.png",atk:124,def:84,nai:151,maxhp:131,
+      maxcp4:1112,
+      na:"圓陸鯊"
+  ),
+  Post(
+      pic:"lib/images/p444.png",
+      ttyy:"lib/images/mdragon.pnglib/images/mground.png",atk:172,def:125,nai:169,maxhp:145,
+      maxcp4:1874,
+      na:"尖牙陸鯊"
+  ),
+  Post(
+      pic:"lib/images/p445.png",
+      ttyy:"lib/images/mdragon.pnglib/images/mground.png",atk:261,def:193,nai:239,maxhp:200,
+      maxcp4:3962,
+      na:"烈咬陸鯊"
+  ),
+  Post(
+      pic:"lib/images/p483.png",
+      ttyy:"lib/images/msteel.pnglib/images/mdragon.png",atk:275,def:211,nai:205,maxhp:173,
+      maxcp4:4038,
+      na:"帝牙盧卡"
+  ),
+  Post(
+      pic:"lib/images/p484.png",
+      ttyy:"lib/images/mwater.pnglib/images/mdragon.png",atk:280,def:215,nai:189,maxhp:161,
+      maxcp4:3991,
+      na:"帕路奇亞"
+  ),
+  Post(
+      pic:"lib/images/p487.png",
+      ttyy:"lib/images/mghost.pnglib/images/mdragon.png",atk:187,def:225,nai:284,maxhp:236,
+      maxcp4:3379,
+      na:"騎拉帝納"
+  ),
+  Post(
+      pic:"lib/images/p610.png",
+      ttyy:"lib/images/mdragon.png",atk:154,def:101,nai:130,maxhp:114,
+      maxcp4:1368,
+      na:"牙牙"
+  ),
+  Post(
+      pic:"lib/images/p611.png",
+      ttyy:"lib/images/mdragon.png",atk:212,def:123,nai:165,maxhp:142,
+      maxcp4:2234,
+      na:"斧牙龍"
+  ),
+  Post(
+    pic:"lib/images/p612.png",
+    ttyy:"lib/images/mdragon.png",atk:284,def:172,nai:183,maxhp:156,
+    maxcp4:3593,
+    na:"雙斧戰龍",
+  ),
+  Post(
+      pic:"lib/images/p621.png",
+      ttyy:"lib/images/mdragon.png",atk:213,def:170,nai:184,maxhp:157,
+      maxcp4:2732,
+      na:"赤面龍"
+  ),
+  Post(
+      pic:"lib/images/p633.png",
+      ttyy:"lib/images/mdark.pnglib/images/mdragon.png",atk:116,def:93,nai:141,maxhp:123,
+      maxcp4:1062,
+      na:"單首龍"
+  ),
+  Post(
+      pic:"lib/images/p634.png",
+      ttyy:"lib/images/mdark.pnglib/images/mdragon.png",atk:159,def:135,nai:176,maxhp:150,
+      maxcp4:1839,
+      na:"雙頭龍"
+  ),
+  Post(
+      pic:"lib/images/p635.png",
+      ttyy:"lib/images/mdark.pnglib/images/mdragon.png",atk:256,def:188,nai:211,maxhp:178,
+      maxcp4:3625,
+      na:"三頭龍"
+  ),
+  Post(
+    pic:"lib/images/p643.png",
+    ttyy:"lib/images/mdragon.pnglib/images/mfire.png",atk:275,def:211,nai:205,maxhp:173,
+    maxcp4:4038,
+    na:"雷希拉姆",
+  ),
+  Post(
+    pic:"lib/images/p644.png",
+    ttyy:"lib/images/mdragon.pnglib/images/melectric.png",atk:275,def:211,nai:205,maxhp:173,
+    maxcp4:4038,
+    na:"捷克羅姆",
+  ),
+  Post(
+    pic:"lib/images/p646.png",
+    ttyy:"lib/images/mdragon.pnglib/images/mice.png",atk:246,def:170,nai:245,maxhp:205,
+    maxcp4:3575,
+    na:"酋雷姆",
+  ),
+];
+
+final List<Post> mlelectric = [
+  Post(
+      pic:"lib/images/p25.png",
+      ttyy:"lib/images/melectric.png",atk:112,def:96,nai:111,maxhp:99,
+      maxcp4:938,
+      na:"皮卡丘"
+  ),
+  Post(
+      pic:"lib/images/p26.png",
+      ttyy:"lib/images/melectric.png",atk:193,def:151,nai:155,maxhp:134,
+      maxcp4:2182,
+      na:"雷丘"
+  ),
+  Post(
+    pic:"lib/images/p81.png",
+    ttyy:"lib/images/melectric.pnglib/images/msteel.png",atk:165,def:121,nai:93,maxhp:85,
+    maxcp4:1362,
+    na:"小磁怪",
+  ),
+  Post(
+      pic:"lib/images/p82.png",
+      ttyy:"lib/images/melectric.pnglib/images/msteel.png",atk:223,def:169,nai:137,maxhp:120,
+      maxcp4:2485,
+      na:"三合一磁怪"
+  ),
+  Post(
+    pic:"lib/images/p100.png",
+    ttyy:"lib/images/melectric.png",atk:109,def:111,nai:120,maxhp:106,
+    maxcp4:1010,
+    na:"霹靂電球",
+  ),
+  Post(
+      pic:"lib/images/p101.png",
+      ttyy:"lib/images/melectric.png",atk:173,def:173,nai:155,maxhp:134,
+      maxcp4:2099,
+      na:"頑皮雷彈"
+  ),
+  Post(
+    pic:"lib/images/p125.png",
+    ttyy:"lib/images/melectric.png",atk:198,def:158,nai:163,maxhp:140,
+    maxcp4:2334,
+    na:"電擊獸",
+  ),
+  Post(
+      pic:"lib/images/p135.png",
+      ttyy:"lib/images/melectric.png",atk:232,def:182,nai:163,maxhp:140,
+      maxcp4:2888,
+      na:"雷伊布"
+  ),
+  Post(
+      pic:"lib/images/p145.png",
+      ttyy:"lib/images/melectric.pnglib/images/mflying.png",atk:253,def:185,nai:207,maxhp:175,
+      maxcp4:3527,
+      na:"閃電鳥"
+  ),
+  Post(
+      pic:"lib/images/p170.png",
+      ttyy:"lib/images/mwater.pnglib/images/melectric.png",atk:106,def:97,nai:181,maxhp:154,
+      maxcp4:1119,
+      na:"燈籠魚"
+  ),
+  Post(
+      pic:"lib/images/p171.png",
+      ttyy:"lib/images/mwater.pnglib/images/melectric.png",atk:146,def:137,nai:268,maxhp:223,
+      maxcp4:2085,
+      na:"電燈怪"
+  ),
+  Post(
+    pic:"lib/images/p172.png",
+    ttyy:"lib/images/melectric.png",atk:77,def:53,nai:85,maxhp:79,
+    maxcp4:473,
+    na:"皮丘",
+  ),
+  Post(
+      pic:"lib/images/p179.png",
+      ttyy:"lib/images/melectric.png",atk:114,def:79,nai:146,maxhp:127,
+      maxcp4:991,
+      na:"咩利羊"
+  ),
+  Post(
+      pic:"lib/images/p180.png",
+      ttyy:"lib/images/melectric.png",atk:145,def:109,nai:172,maxhp:147,
+      maxcp4:1521,
+      na:"茸茸羊"
+  ),
+  Post(
+    pic:"lib/images/p181.png",
+    ttyy:"lib/images/melectric.png",atk:211,def:169,nai:207,maxhp:175,
+    maxcp4:2852,
+    na:"電龍",
+  ),
+  Post(
+      pic:"lib/images/p239.png",
+      ttyy:"lib/images/melectric.png",atk:135,def:101,nai:128,maxhp:113,
+      maxcp4:1206,
+      na:"電擊怪"
+  ),
+  Post(
+    pic:"lib/images/p243.png",
+    ttyy:"lib/images/melectric.png",atk:241,def:195,nai:207,maxhp:175,
+    maxcp4:3452,
+    na:"雷公",
+  ),
+  Post(
+      pic:"lib/images/p309.png",
+      ttyy:"lib/images/melectric.png",atk:123,def:78,nai:120,maxhp:106,
+      maxcp4:965,
+      na:"落雷獸"
+  ),
+  Post(
+      pic:"lib/images/p310.png",
+      ttyy:"lib/images/melectric.png",atk:215,def:127,nai:172,maxhp:147,
+      maxcp4:2340,
+      na:"雷電獸"
+  ),
+  Post(
+      pic:"lib/images/p311.png",
+      ttyy:"lib/images/melectric.png",atk:167,def:129,nai:155,maxhp:134,
+      maxcp4:1778,
+      na:"正電拍拍"
+  ),
+  Post(
+      pic:"lib/images/p312.png",
+      ttyy:"lib/images/melectric.png",atk:147,def:150,nai:155,maxhp:134,
+      maxcp4:1694,
+      na:"負電拍拍"
+  ),
+  Post(
+      pic:"lib/images/p403.png",
+      ttyy:"lib/images/melectric.png",atk:117,def:64,nai:128,maxhp:113,
+      maxcp4:876,
+      na:"小貓怪"
+  ),
+  Post(
+      pic:"lib/images/p404.png",
+      ttyy:"lib/images/melectric.png",atk:159,def:95,nai:155,maxhp:134,
+      maxcp4:1486,
+      na:"勒克貓"
+  ),
+  Post(
+      pic:"lib/images/p405.png",
+      ttyy:"lib/images/melectric.png",atk:232,def:156,nai:190,maxhp:162,
+      maxcp4:2888,
+      na:"倫琴貓"
+  ),
+  Post(
+      pic:"lib/images/p417.png",
+      ttyy:"lib/images/melectric.png",atk:94,def:172,nai:155,maxhp:134,
+      maxcp4:1213,
+      na:"帕奇利茲"
+  ),
+  Post(
+      pic:"lib/images/p462.png",
+      ttyy:"lib/images/melectric.pnglib/images/msteel.png",atk:238,def:205,nai:172,maxhp:147,
+      maxcp4:3205,
+      na:"自爆磁怪"
+  ),
+  Post(
+      pic:"lib/images/p466.png",
+      ttyy:"lib/images/melectric.png",atk:249,def:163,nai:181,maxhp:154,
+      maxcp4:3079,
+      na:"電擊魔獸"
+  ),
+  Post(
+      pic:"lib/images/p479.png",
+      ttyy:"lib/images/melectric.pnglib/images/mghost.png",atk:185,def:159,nai:137,maxhp:120,
+      maxcp4:2031,
+      na:"洛托姆"
+  ),
+  Post(
+      pic:"lib/images/p522.png",
+      ttyy:"lib/images/melectric.png",atk:118,def:64,nai:128,maxhp:113,
+      maxcp4:882,
+      na:"斑斑馬"
+  ),
+  Post(
+    pic:"lib/images/p523.png",
+    ttyy:"lib/images/melectric.png",atk:211,def:136,nai:181,maxhp:154,
+    maxcp4:2428,
+    na:"雷電斑馬",
+  ),
+  Post(
+      pic:"lib/images/p587.png",
+      ttyy:"lib/images/melectric.pnglib/images/mflying.png",atk:158,def:127,nai:146,maxhp:127,
+      maxcp4:1633,
+      na:"電飛鼠"
+  ),
+  Post(
+    pic:"lib/images/p595.png",
+    ttyy:"lib/images/mbug.pnglib/images/melectric.png",atk:110,def:98,nai:137,maxhp:120,
+    maxcp4:1023,
+    na:"電電蟲",
+  ),
+  Post(
+      pic:"lib/images/p596.png",
+      ttyy:"lib/images/mbug.pnglib/images/melectric.png",atk:201,def:128,nai:172,maxhp:147,
+      maxcp4:2206,
+      na:"電蜘蛛"
+  ),
+  Post(
+      pic:"lib/images/p602.png",
+      ttyy:"lib/images/melectric.png",atk:105,def:78,nai:111,maxhp:99,
+      maxcp4:811,
+      na:"麻麻小魚"
+  ),
+  Post(
+      pic:"lib/images/p603.png",
+      ttyy:"lib/images/melectric.png",atk:156,def:130,nai:163,maxhp:140,
+      maxcp4:1715,
+      na:"麻麻鰻"
+  ),
+  Post(
+      pic:"lib/images/p604.png",
+      ttyy:"lib/images/melectric.png",atk:217,def:152,nai:198,maxhp:168,
+      maxcp4:2732,
+      na:"麻麻鰻魚王"
+  ),
+  Post(
+      pic:"lib/images/p618.png",
+      ttyy:"lib/images/mground.pnglib/images/melectric.png",atk:144,def:171,nai:240,maxhp:201,
+      maxcp4:2162,
+      na:"泥巴魚"
+  ),
+  Post(
+    pic:"lib/images/p642.png",
+    ttyy:"lib/images/melectric.pnglib/images/mflying.png",atk:266,def:164,nai:188,maxhp:160,
+    maxcp4:3345,
+    na:"雷電雲",
+  ),
+  Post(
+    pic:"lib/images/p644.png",
+    ttyy:"lib/images/mdragon.pnglib/images/melectric.png",atk:275,def:211,nai:205,maxhp:173,
+    maxcp4:4038,
+    na:"捷克羅姆",
+  ),
+];
+final List<Post> mlfairy = [
+  Post(
+      pic:"lib/images/p35.png",
+      ttyy:"lib/images/mfairy.png",atk:107,def:108,nai:172,maxhp:147,
+      maxcp4:1155,
+      na:"皮皮"
+  ),
+  Post(
+    pic:"lib/images/p36.png",
+    ttyy:"lib/images/mfairy.png",atk:178,def:162,nai:216,maxhp:182,
+    maxcp4:2437,
+    na:"皮可西",
+  ),
+  Post(
+      pic:"lib/images/p39.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mfairy.png",atk:80,def:41,nai:251,maxhp:210,
+      maxcp4:724,
+      na:"胖丁"
+  ),
+  Post(
+      pic:"lib/images/p40.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mfairy.png",atk:156,def:90,nai:295,maxhp:244,
+      maxcp4:1926,
+      na:"胖可丁"
+  ),
+  Post(
+      pic:"lib/images/p122.png",
+      ttyy:"lib/images/mpsychic.pnglib/images/mfairy.png",atk:192,def:205,nai:120,maxhp:106,
+      maxcp4:2228,
+      na:"魔牆人偶"
+  ),
+  Post(
+    pic:"lib/images/p173.png",
+    ttyy:"lib/images/mfairy.png",atk:75,def:79,nai:137,maxhp:120,
+    maxcp4:671,
+    na:"皮寶寶",
+  ),
+  Post(
+      pic:"lib/images/p174.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mfairy.png",atk:69,def:32,nai:207,maxhp:175,
+      maxcp4:535,
+      na:"寶寶丁"
+  ),
+  Post(
+    pic:"lib/images/p175.png",
+    ttyy:"lib/images/mfairy.png",atk:67,def:116,nai:111,maxhp:99,
+    maxcp4:657,
+    na:"波克比",
+  ),
+  Post(
+      pic:"lib/images/p176.png",
+      ttyy:"lib/images/mfairy.pnglib/images/mflying.png",atk:139,def:181,nai:146,maxhp:127,
+      maxcp4:1708,
+      na:"波克基古"
+  ),
+  Post(
+      pic:"lib/images/p183.png",
+      ttyy:"lib/images/mwater.pnglib/images/mfairy.png",atk:37,def:93,nai:172,maxhp:147,
+      maxcp4:461,
+      na:"瑪力露"
+  ),
+  Post(
+      pic:"lib/images/p184.png",
+      ttyy:"lib/images/mwater.pnglib/images/mfairy.png",atk:112,def:152,nai:225,maxhp:189,
+      maxcp4:1588,
+      na:"瑪力露麗"
+  ),
+  Post(
+      pic:"lib/images/p209.png",
+      ttyy:"lib/images/mfairy.png",atk:137,def:85,nai:155,maxhp:134,
+      maxcp4:1237,
+      na:"布魯"
+  ),
+  Post(
+      pic:"lib/images/p210.png",
+      ttyy:"lib/images/mfairy.png",atk:212,def:131,nai:207,maxhp:175,
+      maxcp4:2552,
+      na:"布魯皇"
+  ),
+  Post(
+      pic:"lib/images/p280.png",
+      ttyy:"lib/images/mpsychic.pnglib/images/mfairy.png",atk:79,def:59,nai:99,maxhp:90,
+      maxcp4:539,
+      na:"拉魯拉絲"
+  ),
+  Post(
+      pic:"lib/images/p281.png",
+      ttyy:"lib/images/mpsychic.pnglib/images/mfairy.png",atk:117,def:90,nai:116,maxhp:103,
+      maxcp4:966,
+      na:"奇魯莉安"
+  ),
+  Post(
+      pic:"lib/images/p282.png",
+      ttyy:"lib/images/mpsychic.pnglib/images/mfairy.png",atk:237,def:195,nai:169,maxhp:145,
+      maxcp4:3093,
+      na:"沙奈朵"
+  ),
+  Post(
+      pic:"lib/images/p298.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mfairy.png",atk:36,def:71,nai:137,maxhp:120,
+      maxcp4:364,
+      na:"露力麗"
+  ),
+  Post(
+      pic:"lib/images/p303.png",
+      ttyy:"lib/images/msteel.pnglib/images/mfairy.png",atk:155,def:141,nai:137,maxhp:120,
+      maxcp4:1634,
+      na:"大嘴娃"
+  ),
+  Post(
+      pic:"lib/images/p439.png",
+      ttyy:"lib/images/mpsychic.pnglib/images/mfairy.png",atk:125,def:142,nai:85,maxhp:79,
+      maxcp4:1095,
+      na:"魔尼尼"
+  ),
+  Post(
+      pic:"lib/images/p468.png",
+      ttyy:"lib/images/mfairy.pnglib/images/mflying.png",atk:225,def:217,nai:198,maxhp:168,
+      maxcp4:3332,
+      na:"波克基斯"
+  ),
+  Post(
+      pic:"lib/images/p546.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mfairy.png",atk:71,def:111,nai:120,maxhp:106,
+      maxcp4:700,
+      na:"木棉球"
+  ),
+  Post(
+      pic:"lib/images/p547.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mfairy.png",atk:164,def:176,nai:155,maxhp:134,
+      maxcp4:2014,
+      na:"風妖精"
+  ),
+];
+final List<Post> mlfighting = [
+  Post(
+      pic:"lib/images/p56.png",
+      ttyy:"lib/images/mfighting.png",atk:148,def:82,nai:120,maxhp:106,
+      maxcp4:1164,
+      na:"猴怪"
+  ),
+  Post(
+      pic:"lib/images/p57.png",
+      ttyy:"lib/images/mfighting.png",atk:207,def:138,nai:163,maxhp:140,
+      maxcp4:2288,
+      na:"火爆猴"
+  ),
+  Post(
+      pic:"lib/images/p62.png",
+      ttyy:"lib/images/mwater.pnglib/images/mfighting.png",atk:182,def:184,nai:207,maxhp:175,
+      maxcp4:2586,
+      na:"蚊香泳士"
+  ),
+  Post(
+      pic:"lib/images/p66.png",
+      ttyy:"lib/images/mfighting.png",atk:137,def:82,nai:172,maxhp:147,
+      maxcp4:1278,
+      na:"腕力"
+  ),
+  Post(
+      pic:"lib/images/p67.png",
+      ttyy:"lib/images/mfighting.png",atk:177,def:125,nai:190,maxhp:162,
+      maxcp4:2031,
+      na:"豪力"
+  ),
+  Post(
+      pic:"lib/images/p68.png",
+      ttyy:"lib/images/mfighting.png",atk:234,def:159,nai:207,maxhp:175,
+      maxcp4:3056,
+      na:"怪力"
+  ),
+  Post(
+      pic:"lib/images/p106.png",
+      ttyy:"lib/images/mfighting.png",atk:224,def:181,nai:137,maxhp:120,
+      maxcp4:2576,
+      na:"飛腿郎"
+  ),
+  Post(
+      pic:"lib/images/p107.png",
+      ttyy:"lib/images/mfighting.png",atk:193,def:197,nai:137,maxhp:120,
+      maxcp4:2332,
+      na:"快拳郎"
+  ),
+  Post(
+      pic:"lib/images/p214.png",
+      ttyy:"lib/images/mbug.pnglib/images/mfighting.png",atk:234,def:179,nai:190,maxhp:162,
+      maxcp4:3101,
+      na:"赫拉克羅斯"
+  ),
+  Post(
+      pic:"lib/images/p236.png",
+      ttyy:"lib/images/mfighting.png",atk:64,def:64,nai:111,maxhp:99,
+      maxcp4:492,
+      na:"無畏小子"
+  ),
+  Post(
+      pic:"lib/images/p237.png",
+      ttyy:"lib/images/mfighting.png",atk:173,def:207,nai:137,maxhp:120,
+      maxcp4:2156,
+      na:"戰舞郎"
+  ),
+  Post(
+      pic:"lib/images/p256.png",
+      ttyy:"lib/images/mfire.pnglib/images/mfighting.png",atk:163,def:115,nai:155,maxhp:134,
+      maxcp4:1652,
+      na:"力壯雞"
+  ),
+  Post(
+      pic:"lib/images/p257.png",
+      ttyy:"lib/images/mfire.pnglib/images/mfighting.png",atk:240,def:141,nai:190,maxhp:162,
+      maxcp4:2848,
+      na:"火焰雞"
+  ),
+  Post(
+      pic:"lib/images/p286.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mfighting.png",atk:241,def:144,nai:155,maxhp:134,
+      maxcp4:2628,
+      na:"斗笠菇"
+  ),
+  Post(
+      pic:"lib/images/p296.png",
+      ttyy:"lib/images/mfighting.png",atk:99,def:54,nai:176,maxhp:150,
+      maxcp4:817,
+      na:"幕下力士"
+  ),
+  Post(
+      pic:"lib/images/p297.png",
+      ttyy:"lib/images/mfighting.png",atk:209,def:114,nai:302,maxhp:250,
+      maxcp4:2829,
+      na:"鐵掌力士"
+  ),
+  Post(
+    pic:"lib/images/p307.png",
+    ttyy:"lib/images/mfighting.pnglib/images/mpsychic.png",atk:78,def:107,nai:102,maxhp:92,
+    maxcp4:693,
+    na:"瑪沙那",
+  ),
+  Post(
+      pic:"lib/images/p308.png",
+      ttyy:"lib/images/mfighting.pnglib/images/mpsychic.png",atk:121,def:152,nai:155,maxhp:134,
+      maxcp4:1431,
+      na:"恰雷姆"
+  ),
+  Post(
+    pic:"lib/images/p391.png",
+    ttyy:"lib/images/mfire.pnglib/images/mfighting.png",atk:158,def:105,nai:162,maxhp:139,
+    maxcp4:1574,
+    na:"猛火猴",
+  ),
+  Post(
+      pic:"lib/images/p392.png",
+      ttyy:"lib/images/mfire.pnglib/images/mfighting.png",atk:222,def:151,nai:183,maxhp:156,
+      maxcp4:2683,
+      na:"烈焰猴"
+  ),
+  Post(
+      pic:"lib/images/p447.png",
+      ttyy:"lib/images/mfighting.png",atk:127,def:78,nai:120,maxhp:106,
+      maxcp4:993,
+      na:"利歐路"
+  ),
+  Post(
+    pic:"lib/images/p448.png",
+    ttyy:"lib/images/mfighting.pnglib/images/msteel.png",atk:236,def:144,nai:172,maxhp:147,
+    maxcp4:2703,
+    na:"路卡利歐",
+  ),
+  Post(
+      pic:"lib/images/p453.png",
+      ttyy:"lib/images/mpoison.pnglib/images/mfighting.png",atk:116,def:76,nai:134,maxhp:117,
+      maxcp4:952,
+      na:"不良蛙"
+  ),
+  Post(
+      pic:"lib/images/p454.png",
+      ttyy:"lib/images/mpoison.pnglib/images/mfighting.png",atk:211,def:133,nai:195,maxhp:165,
+      maxcp4:2488,
+      na:"毒骷蛙"
+  ),
+  Post(
+      pic:"lib/images/p475.png",
+      ttyy:"lib/images/mpsychic.pnglib/images/mfighting.png",atk:237,def:195,nai:169,maxhp:145,
+      maxcp4:3093,
+      na:"艾路雷朵"
+  ),
+  Post(
+      pic:"lib/images/p499.png",
+      ttyy:"lib/images/mfire.pnglib/images/mfighting.png",atk:173,def:106,nai:207,maxhp:175,
+      maxcp4:1924,
+      na:"炒炒豬"
+  ),
+  Post(
+    pic:"lib/images/p500.png",
+    ttyy:"lib/images/mfire.pnglib/images/mfighting.png",atk:235,def:127,nai:242,maxhp:203,
+    maxcp4:2982,
+    na:"炎武王",
+  ),
+  Post(
+      pic:"lib/images/p532.png",
+      ttyy:"lib/images/mfighting.png",atk:134,def:87,nai:181,maxhp:154,
+      maxcp4:1315,
+      na:"搬運小匠"
+  ),
+  Post(
+      pic:"lib/images/p533.png",
+      ttyy:"lib/images/mfighting.png",atk:180,def:134,nai:198,maxhp:168,
+      maxcp4:2169,
+      na:"鐵骨土人"
+  ),
+  Post(
+      pic:"lib/images/p534.png",
+      ttyy:"lib/images/mfighting.png",atk:243,def:158,nai:233,maxhp:195,
+      maxcp4:3337,
+      na:"修繕老頭"
+  ),
+  Post(
+      pic:"lib/images/p538.png",
+      ttyy:"lib/images/mfighting.png",atk:172,def:160,nai:260,maxhp:217,
+      maxcp4:2562,
+      na:"投射鬼"
+  ),
+  Post(
+      pic:"lib/images/p539.png",
+      ttyy:"lib/images/mfighting.png",atk:231,def:153,nai:181,maxhp:154,
+      maxcp4:2788,
+      na:"打擊鬼"
+  ),
+  Post(
+      pic:"lib/images/p559.png",
+      ttyy:"lib/images/mdark.pnglib/images/mfighting.png",atk:132,def:132,nai:137,maxhp:120,
+      maxcp4:1372,
+      na:"滑頭小子"
+  ),
+  Post(
+      pic:"lib/images/p560.png",
+      ttyy:"lib/images/mdark.pnglib/images/mfighting.png",atk:163,def:222,nai:163,maxhp:140,
+      maxcp4:2283,
+      na:"頭巾混混"
+  ),
+  Post(
+      pic:"lib/images/p619.png",
+      ttyy:"lib/images/mfighting.png",atk:160,def:98,nai:128,maxhp:113,
+      maxcp4:1389,
+      na:"功夫鼬"
+  ),
+  Post(
+      pic:"lib/images/p620.png",
+      ttyy:"lib/images/mfighting.png",atk:258,def:127,nai:163,maxhp:140,
+      maxcp4:2710,
+      na:"師父鼬"
+  ),
+  Post(
+      pic:"lib/images/p638.png",
+      ttyy:"lib/images/msteel.pnglib/images/mfighting.png",atk:192,def:229,nai:209,maxhp:177,
+      maxcp4:3022,
+      na:"勾帕路翁"
+  ),
+  Post(
+      pic:"lib/images/p639.png",
+      ttyy:"lib/images/mrock.pnglib/images/mfighting.png",atk:260,def:192,nai:209,maxhp:177,
+      maxcp4:3698,
+      na:"代拉基翁"
+  ),
+  Post(
+      pic:"lib/images/p640.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mfighting.png",atk:192,def:229,nai:209,maxhp:177,
+      maxcp4:3022,
+      na:"畢力吉翁"
+  ),
+  Post(
+    pic:"lib/images/p647.png",
+    ttyy:"lib/images/mwater.pnglib/images/mfighting.png",atk:260,def:192,nai:209,maxhp:177,
+    maxcp4:3698,
+    na:"凱路迪歐",
+  ),
+];
+final List<Post> mlfire = [
+  Post(
+      pic:"lib/images/p4.png",
+      ttyy:"lib/images/mfire.png",atk:116,def:93,nai:118,maxhp:105,
+      maxcp4:980,
+      na:"小火龍"
+  ),
+  Post(
+      pic:"lib/images/p5.png",
+      ttyy:"lib/images/mfire.png",atk:158,def:126,nai:151,maxhp:131,
+      maxcp4:1653,
+      na:"火恐龍"
+  ),
+  Post(
+      pic:"lib/images/p6.png",
+      ttyy:"lib/images/mfire.pnglib/images/mflying.png",atk:223,def:173,nai:186,maxhp:158,
+      maxcp4:2889,
+      na:"噴火龍"
+  ),
+  Post(
+      pic:"lib/images/p37.png",
+      ttyy:"lib/images/mfire.png",atk:96,def:109,nai:116,maxhp:103,
+      maxcp4:883,
+      na:"六尾"
+  ),
+  Post(
+      pic:"lib/images/p38.png",
+      ttyy:"lib/images/mfire.png",atk:169,def:190,nai:177,maxhp:151,
+      maxcp4:2279,
+      na:"九尾"
+  ),
+  Post(
+      pic:"lib/images/p58.png",
+      ttyy:"lib/images/mfire.png",atk:136,def:93,nai:146,maxhp:127,
+      maxcp4:1243,
+      na:"卡蒂狗"
+  ),
+  Post(
+      pic:"lib/images/p59.png",
+      ttyy:"lib/images/mfire.png",atk:227,def:166,nai:207,maxhp:175,
+      maxcp4:3029,
+      na:"風速狗"
+  ),
+  Post(
+      pic:"lib/images/p77.png",
+      ttyy:"lib/images/mfire.png",atk:170,def:127,nai:137,maxhp:120,
+      maxcp4:1697,
+      na:"小火馬"
+  ),
+  Post(
+      pic:"lib/images/p78.png",
+      ttyy:"lib/images/mfire.png",atk:207,def:162,nai:163,maxhp:140,
+      maxcp4:2461,
+      na:"烈焰馬"
+  ),
+  Post(
+      pic:"lib/images/p126.png",
+      ttyy:"lib/images/mfire.png",atk:206,def:154,nai:163,maxhp:140,
+      maxcp4:2394,
+      na:"鴨嘴火獸"
+  ),
+  Post(
+      pic:"lib/images/p136.png",
+      ttyy:"lib/images/mfire.png",atk:246,def:179,nai:163,maxhp:140,
+      maxcp4:3029,
+      na:"火伊布"
+  ),
+  Post(
+      pic:"lib/images/p146.png",
+      ttyy:"lib/images/mfire.pnglib/images/mflying.png",atk:251,def:181,nai:207,maxhp:175,
+      maxcp4:3465,
+      na:"火焰鳥"
+  ),
+  Post(
+      pic:"lib/images/p155.png",
+      ttyy:"lib/images/mfire.png",atk:116,def:93,nai:118,maxhp:105,
+      maxcp4:980,
+      na:"火球鼠"
+  ),
+  Post(
+      pic:"lib/images/p156.png",
+      ttyy:"lib/images/mfire.png",atk:158,def:126,nai:151,maxhp:131,
+      maxcp4:1653,
+      na:"火岩鼠"
+  ),
+  Post(
+      pic:"lib/images/p157.png",
+      ttyy:"lib/images/mfire.png",atk:223,def:173,nai:186,maxhp:158,
+      maxcp4:2889,
+      na:"火爆獸"
+  ),
+  Post(
+      pic:"lib/images/p218.png",
+      ttyy:"lib/images/mfire.png",atk:118,def:71,nai:120,maxhp:106,
+      maxcp4:895,
+      na:"熔岩蟲"
+  ),
+  Post(
+      pic:"lib/images/p219.png",
+      ttyy:"lib/images/mfire.pnglib/images/mrock.png",atk:139,def:191,nai:137,maxhp:120,
+      maxcp4:1702,
+      na:"熔岩蝸牛"
+  ),
+  Post(
+      pic:"lib/images/p228.png",
+      ttyy:"lib/images/mdark.pnglib/images/mfire.png",atk:152,def:83,nai:128,maxhp:113,
+      maxcp4:1234,
+      na:"戴魯比"
+  ),
+  Post(
+      pic:"lib/images/p229.png",
+      ttyy:"lib/images/mdark.pnglib/images/mfire.png",atk:224,def:144,nai:181,maxhp:154,
+      maxcp4:2635,
+      na:"黑魯加"
+  ),
+  Post(
+      pic:"lib/images/p240.png",
+      ttyy:"lib/images/mfire.png",atk:151,def:99,nai:128,maxhp:113,
+      maxcp4:1323,
+      na:"鴨嘴寶寶"
+  ),
+  Post(
+      pic:"lib/images/p244.png",
+      ttyy:"lib/images/mfire.png",atk:235,def:171,nai:251,maxhp:210,
+      maxcp4:3473,
+      na:"炎帝"
+  ),
+  Post(
+      pic:"lib/images/p250.png",
+      ttyy:"lib/images/mfire.pnglib/images/mflying.png",atk:239,def:244,nai:214,maxhp:180,
+      maxcp4:3863,
+      na:"鳳王"
+  ),
+  Post(
+    pic:"lib/images/p255.png",
+    ttyy:"lib/images/mfire.png",atk:130,def:87,nai:128,maxhp:113,
+    maxcp4:1093,
+    na:"火稚雞",
+  ),
+  Post(
+      pic:"lib/images/p256.png",
+      ttyy:"lib/images/mfire.pnglib/images/mfighting.png",atk:163,def:115,nai:155,maxhp:134,
+      maxcp4:1652,
+      na:"力壯雞"
+  ),
+  Post(
+      pic:"lib/images/p257.png",
+      ttyy:"lib/images/mfire.pnglib/images/mfighting.png",atk:240,def:141,nai:190,maxhp:162,
+      maxcp4:2848,
+      na:"火焰雞"
+  ),
+  Post(
+    pic:"lib/images/p322.png",
+    ttyy:"lib/images/mfire.pnglib/images/mground.png",atk:119,def:79,nai:155,maxhp:134,
+    maxcp4:1057,
+    na:"呆火駝",
+  ),
+  Post(
+      pic:"lib/images/p323.png",
+      ttyy:"lib/images/mfire.pnglib/images/mground.png",atk:194,def:136,nai:172,maxhp:147,
+      maxcp4:2193,
+      na:"噴火駝"
+  ),
+  Post(
+      pic:"lib/images/p324.png",
+      ttyy:"lib/images/mfire.png",atk:151,def:203,nai:172,maxhp:147,
+      maxcp4:2093,
+      na:"煤炭龜"
+  ),
+  Post(
+      pic:"lib/images/p390.png",
+      ttyy:"lib/images/mfire.png",atk:113,def:86,nai:127,maxhp:112,
+      maxcp4:957,
+      na:"小火焰猴"
+  ),
+  Post(
+    pic:"lib/images/p391.png",
+    ttyy:"lib/images/mfire.pnglib/images/mfighting.png",atk:158,def:105,nai:162,maxhp:139,
+    maxcp4:1574,
+    na:"猛火猴",
+  ),
+  Post(
+      pic:"lib/images/p392.png",
+      ttyy:"lib/images/mfire.pnglib/images/mfighting.png",atk:222,def:151,nai:183,maxhp:156,
+      maxcp4:2683,
+      na:"烈焰猴"
+  ),
+  Post(
+      pic:"lib/images/p467.png",
+      ttyy:"lib/images/mfire.png",atk:247,def:172,nai:181,maxhp:154,
+      maxcp4:3132,
+      na:"鴨嘴炎獸"
+  ),
+  Post(
+      pic:"lib/images/p485.png",
+      ttyy:"lib/images/mfire.pnglib/images/msteel.png",atk:251,def:213,nai:209,maxhp:177,
+      maxcp4:3754,
+      na:"席多藍恩"
+  ),
+  Post(
+      pic:"lib/images/p494.png",
+      ttyy:"lib/images/mpsychic.pnglib/images/mfire.png",atk:210,def:210,nai:225,maxhp:189,
+      maxcp4:3265,
+      na:"比克提尼"
+  ),
+  Post(
+      pic:"lib/images/p498.png",
+      ttyy:"lib/images/mfire.png",atk:115,def:85,nai:163,maxhp:140,
+      maxcp4:1083,
+      na:"暖暖豬"
+  ),
+  Post(
+      pic:"lib/images/p499.png",
+      ttyy:"lib/images/mfire.pnglib/images/mfighting.png",atk:173,def:106,nai:207,maxhp:175,
+      maxcp4:1924,
+      na:"炒炒豬"
+  ),
+  Post(
+    pic:"lib/images/p500.png",
+    ttyy:"lib/images/mfire.pnglib/images/mfighting.png",atk:235,def:127,nai:242,maxhp:203,
+    maxcp4:2982,
+    na:"炎武王",
+  ),
+  Post(
+      pic:"lib/images/p513.png",
+      ttyy:"lib/images/mfire.png",atk:104,def:94,nai:137,maxhp:120,
+      maxcp4:956,
+      na:"爆香猴"
+  ),
+  Post(
+      pic:"lib/images/p514.png",
+      ttyy:"lib/images/mfire.png",atk:206,def:133,nai:181,maxhp:154,
+      maxcp4:2350,
+      na:"爆香猿"
+  ),
+  Post(
+      pic:"lib/images/p554.png",
+      ttyy:"lib/images/mfire.png",atk:153,def:86,nai:172,maxhp:147,
+      maxcp4:1442,
+      na:"火紅不倒翁"
+  ),
+  Post(
+      pic:"lib/images/p555.png",
+      ttyy:"lib/images/mfire.png",atk:263,def:114,nai:233,maxhp:195,
+      maxcp4:3105,
+      na:"達摩狒狒"
+  ),
+  Post(
+    pic:"lib/images/p607.png",
+    ttyy:"lib/images/mghost.pnglib/images/mfire.png",atk:108,def:98,nai:137,maxhp:120,
+    maxcp4:1006,
+    na:"燭光靈",
+  ),
+  Post(
+      pic:"lib/images/p608.png",
+      ttyy:"lib/images/mghost.pnglib/images/mfire.png",atk:169,def:115,nai:155,maxhp:134,
+      maxcp4:1708,
+      na:"燈火幽靈"
+  ),
+  Post(
+    pic:"lib/images/p609.png",
+    ttyy:"lib/images/mghost.pnglib/images/mfire.png",atk:271,def:182,nai:155,maxhp:134,
+    maxcp4:3268,
+    na:"水晶燈火靈",
+  ),
+  Post(
+    pic:"lib/images/p631.png",
+    ttyy:"lib/images/mfire.png",atk:204,def:129,nai:198,maxhp:168,
+    maxcp4:2395,
+    na:"食蟻爐",
+  ),
+  Post(
+      pic:"lib/images/p636.png",
+      ttyy:"lib/images/mbug.pnglib/images/mfire.png",atk:156,def:107,nai:146,maxhp:127,
+      maxcp4:1496,
+      na:"燃燒蟲"
+  ),
+  Post(
+      pic:"lib/images/p637.png",
+      ttyy:"lib/images/mbug.pnglib/images/mfire.png",atk:264,def:189,nai:198,maxhp:168,
+      maxcp4:3632,
+      na:"火神蟲"
+  ),
+  Post(
+    pic:"lib/images/p643.png",
+    ttyy:"lib/images/mdragon.pnglib/images/mfire.png",atk:275,def:211,nai:205,maxhp:173,
+    maxcp4:4038,
+    na:"雷希拉姆",
+  ),
+];
+final List<Post> mlflying = [
+  Post(
+      pic:"lib/images/p6.png",
+      ttyy:"lib/images/mfire.pnglib/images/mflying.png",atk:223,def:173,nai:186,maxhp:158,
+      maxcp4:2889,
+      na:"噴火龍"
+  ),
+  Post(
+      pic:"lib/images/p12.png",
+      ttyy:"lib/images/mbug.pnglib/images/mflying.png",atk:167,def:137,nai:155,maxhp:134,
+      maxcp4:1827,
+      na:"巴大蝶"
+  ),
+  Post(
+      pic:"lib/images/p16.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:85,def:73,nai:120,maxhp:106,
+      maxcp4:680,
+      na:"波波"
+  ),
+  Post(
+      pic:"lib/images/p17.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:117,def:105,nai:160,maxhp:138,
+      maxcp4:1194,
+      na:"比比鳥"
+  ),
+  Post(
+      pic:"lib/images/p18.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:166,def:154,nai:195,maxhp:165,
+      maxcp4:2129,
+      na:"大比鳥"
+  ),
+  Post(
+      pic:"lib/images/p21.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:112,def:60,nai:120,maxhp:106,
+      maxcp4:798,
+      na:"烈雀"
+  ),
+  Post(
+      pic:"lib/images/p22.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:182,def:133,nai:163,maxhp:140,
+      maxcp4:1997,
+      na:"大嘴雀"
+  ),
+  Post(
+      pic:"lib/images/p41.png",
+      ttyy:"lib/images/mpoison.pnglib/images/mflying.png",atk:83,def:73,nai:120,maxhp:106,
+      maxcp4:667,
+      na:"超音蝠"
+  ),
+  Post(
+      pic:"lib/images/p42.png",
+      ttyy:"lib/images/mpoison.pnglib/images/mflying.png",atk:161,def:150,nai:181,maxhp:154,
+      maxcp4:1976,
+      na:"大嘴蝠"
+  ),
+  Post(
+      pic:"lib/images/p83.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:124,def:115,nai:141,maxhp:123,
+      maxcp4:1236,
+      na:"大蔥鴨"
+  ),
+  Post(
+      pic:"lib/images/p84.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:158,def:83,nai:111,maxhp:99,
+      maxcp4:1200,
+      na:"嘟嘟"
+  ),
+  Post(
+      pic:"lib/images/p85.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:218,def:140,nai:155,maxhp:134,
+      maxcp4:2362,
+      na:"嘟嘟利"
+  ),
+  Post(
+      pic:"lib/images/p123.png",
+      ttyy:"lib/images/mbug.pnglib/images/mflying.png",atk:218,def:170,nai:172,maxhp:147,
+      maxcp4:2706,
+      na:"飛天螳螂"
+  ),
+  Post(
+      pic:"lib/images/p130.png",
+      ttyy:"lib/images/mwater.pnglib/images/mflying.png",atk:237,def:186,nai:216,maxhp:182,
+      maxcp4:3391,
+      na:"暴鯉龍"
+  ),
+  Post(
+      pic:"lib/images/p142.png",
+      ttyy:"lib/images/mrock.pnglib/images/mflying.png",atk:221,def:159,nai:190,maxhp:162,
+      maxcp4:2783,
+      na:"化石翼龍"
+  ),
+  Post(
+      pic:"lib/images/p144.png",
+      ttyy:"lib/images/mice.pnglib/images/mflying.png",atk:192,def:236,nai:207,maxhp:175,
+      maxcp4:3051,
+      na:"急凍鳥"
+  ),
+  Post(
+      pic:"lib/images/p145.png",
+      ttyy:"lib/images/melectric.pnglib/images/mflying.png",atk:253,def:185,nai:207,maxhp:175,
+      maxcp4:3527,
+      na:"閃電鳥"
+  ),
+  Post(
+      pic:"lib/images/p146.png",
+      ttyy:"lib/images/mfire.pnglib/images/mflying.png",atk:251,def:181,nai:207,maxhp:175,
+      maxcp4:3465,
+      na:"火焰鳥"
+  ),
+  Post(
+      pic:"lib/images/p149.png",
+      ttyy:"lib/images/mdragon.pnglib/images/mflying.png",atk:263,def:198,nai:209,maxhp:177,
+      maxcp4:3792,
+      na:"快龍"
+  ),
+  Post(
+      pic:"lib/images/p163.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:67,def:88,nai:155,maxhp:134,
+      maxcp4:677,
+      na:"咕咕"
+  ),
+  Post(
+      pic:"lib/images/p164.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:145,def:156,nai:225,maxhp:189,
+      maxcp4:2024,
+      na:"貓頭夜鷹"
+  ),
+  Post(
+    pic:"lib/images/p165.png",
+    ttyy:"lib/images/mbug.pnglib/images/mflying.png",atk:72,def:118,nai:120,maxhp:106,
+    maxcp4:728,
+    na:"芭瓢蟲",
+  ),
+  Post(
+      pic:"lib/images/p166.png",
+      ttyy:"lib/images/mbug.pnglib/images/mflying.png",atk:107,def:179,nai:146,maxhp:127,
+      maxcp4:1346,
+      na:"安瓢蟲"
+  ),
+  Post(
+      pic:"lib/images/p169.png",
+      ttyy:"lib/images/mpoison.pnglib/images/mflying.png",atk:194,def:178,nai:198,maxhp:168,
+      maxcp4:2646,
+      na:"叉字蝠"
+  ),
+  Post(
+      pic:"lib/images/p176.png",
+      ttyy:"lib/images/mfairy.pnglib/images/mflying.png",atk:139,def:181,nai:146,maxhp:127,
+      maxcp4:1708,
+      na:"波克基古"
+  ),
+  Post(
+      pic:"lib/images/p177.png",
+      ttyy:"lib/images/mpsychic.pnglib/images/mflying.png",atk:134,def:89,nai:120,maxhp:106,
+      maxcp4:1102,
+      na:"天然雀"
+  ),
+  Post(
+      pic:"lib/images/p178.png",
+      ttyy:"lib/images/mpsychic.pnglib/images/mflying.png",atk:192,def:146,nai:163,maxhp:140,
+      maxcp4:2188,
+      na:"天然鳥"
+  ),
+  Post(
+      pic:"lib/images/p187.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mflying.png",atk:67,def:94,nai:111,maxhp:99,
+      maxcp4:600,
+      na:"毽子草"
+  ),
+  Post(
+      pic:"lib/images/p188.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mflying.png",atk:91,def:120,nai:146,maxhp:127,
+      maxcp4:976,
+      na:"毽子花"
+  ),
+  Post(
+      pic:"lib/images/p189.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mflying.png",atk:118,def:183,nai:181,maxhp:154,
+      maxcp4:1636,
+      na:"毽子棉"
+  ),
+  Post(
+      pic:"lib/images/p193.png",
+      ttyy:"lib/images/mbug.pnglib/images/mflying.png",atk:154,def:94,nai:163,maxhp:140,
+      maxcp4:1470,
+      na:"蜻蜻蜓"
+  ),
+  Post(
+      pic:"lib/images/p198.png",
+      ttyy:"lib/images/mdark.pnglib/images/mflying.png",atk:175,def:87,nai:155,maxhp:134,
+      maxcp4:1562,
+      na:"黑暗鴉"
+  ),
+  Post(
+      pic:"lib/images/p207.png",
+      ttyy:"lib/images/mground.pnglib/images/mflying.png",atk:143,def:184,nai:163,maxhp:140,
+      maxcp4:1857,
+      na:"天蠍"
+  ),
+  Post(
+      pic:"lib/images/p225.png",
+      ttyy:"lib/images/mice.pnglib/images/mflying.png",atk:128,def:90,nai:128,maxhp:113,
+      maxcp4:1094,
+      na:"信使鳥"
+  ),
+  Post(
+      pic:"lib/images/p226.png",
+      ttyy:"lib/images/mwater.pnglib/images/mflying.png",atk:148,def:226,nai:163,maxhp:140,
+      maxcp4:2108,
+      na:"巨翅飛魚"
+  ),
+  Post(
+      pic:"lib/images/p227.png",
+      ttyy:"lib/images/msteel.pnglib/images/mflying.png",atk:148,def:226,nai:163,maxhp:140,
+      maxcp4:2108,
+      na:"盔甲鳥"
+  ),
+  Post(
+      pic:"lib/images/p249.png",
+      ttyy:"lib/images/mpsychic.pnglib/images/mflying.png",atk:193,def:310,nai:235,maxhp:197,
+      maxcp4:3703,
+      na:"洛奇亞"
+  ),
+  Post(
+      pic:"lib/images/p250.png",
+      ttyy:"lib/images/mfire.pnglib/images/mflying.png",atk:239,def:244,nai:214,maxhp:180,
+      maxcp4:3863,
+      na:"鳳王"
+  ),
+  Post(
+      pic:"lib/images/p267.png",
+      ttyy:"lib/images/mbug.pnglib/images/mflying.png",atk:189,def:98,nai:155,maxhp:134,
+      maxcp4:1765,
+      na:"狩獵鳳蝶"
+  ),
+  Post(
+      pic:"lib/images/p276.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:106,def:61,nai:120,maxhp:106,
+      maxcp4:765,
+      na:"傲骨燕"
+  ),
+  Post(
+      pic:"lib/images/p277.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:185,def:124,nai:155,maxhp:134,
+      maxcp4:1920,
+      na:"大王燕"
+  ),
+  Post(
+      pic:"lib/images/p278.png",
+      ttyy:"lib/images/mwater.pnglib/images/mflying.png",atk:106,def:61,nai:120,maxhp:106,
+      maxcp4:765,
+      na:"長翅鷗"
+  ),
+  Post(
+      pic:"lib/images/p279.png",
+      ttyy:"lib/images/mwater.pnglib/images/mflying.png",atk:175,def:174,nai:155,maxhp:134,
+      maxcp4:2127,
+      na:"大嘴鷗"
+  ),
+  Post(
+      pic:"lib/images/p284.png",
+      ttyy:"lib/images/mbug.pnglib/images/mflying.png",atk:192,def:150,nai:172,maxhp:147,
+      maxcp4:2270,
+      na:"雨翅蛾"
+  ),
+  Post(
+      pic:"lib/images/p291.png",
+      ttyy:"lib/images/mbug.pnglib/images/mflying.png",atk:199,def:112,nai:156,maxhp:135,
+      maxcp4:1969,
+      na:"鐵面忍者"
+  ),
+  Post(
+    pic:"lib/images/p333.png",
+    ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:76,def:132,nai:128,maxhp:113,
+    maxcp4:824,
+    na:"青綿鳥",
+  ),
+  Post(
+      pic:"lib/images/p334.png",
+      ttyy:"lib/images/mdragon.pnglib/images/mflying.png",atk:141,def:201,nai:181,maxhp:154,
+      maxcp4:2004,
+      na:"七夕青鳥"
+  ),
+  Post(
+      pic:"lib/images/p357.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mflying.png",atk:136,def:163,nai:223,maxhp:188,
+      maxcp4:1941,
+      na:"熱帶龍"
+  ),
+  Post(
+      pic:"lib/images/p373.png",
+      ttyy:"lib/images/mdragon.pnglib/images/mflying.png",atk:277,def:168,nai:216,maxhp:182,
+      maxcp4:3749,
+      na:"暴飛龍"
+  ),
+  Post(
+      pic:"lib/images/p384.png",
+      ttyy:"lib/images/mdragon.pnglib/images/mflying.png",atk:284,def:170,nai:213,maxhp:180,
+      maxcp4:3835,
+      na:"烈空坐"
+  ),
+  Post(
+      pic:"lib/images/p396.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:101,def:58,nai:120,maxhp:106,
+      maxcp4:719,
+      na:"姆克兒"
+  ),
+  Post(
+      pic:"lib/images/p397.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:142,def:94,nai:146,maxhp:127,
+      maxcp4:1299,
+      na:"姆克鳥"
+  ),
+  Post(
+      pic:"lib/images/p398.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:234,def:140,nai:198,maxhp:168,
+      maxcp4:2825,
+      na:"姆克鷹"
+  ),
+  Post(
+      pic:"lib/images/p414.png",
+      ttyy:"lib/images/mbug.pnglib/images/mflying.png",atk:185,def:98,nai:172,maxhp:147,
+      maxcp4:1815,
+      na:"紳士蛾"
+  ),
+  Post(
+      pic:"lib/images/p415.png",
+      ttyy:"lib/images/mbug.pnglib/images/mflying.png",atk:59,def:83,nai:102,maxhp:92,
+      maxcp4:494,
+      na:"三蜜蜂"
+  ),
+  Post(
+      pic:"lib/images/p416.png",
+      ttyy:"lib/images/mbug.pnglib/images/mflying.png",atk:149,def:190,nai:172,maxhp:147,
+      maxcp4:2005,
+      na:"蜂女王"
+  ),
+  Post(
+    pic:"lib/images/p425.png",
+    ttyy:"lib/images/mghost.pnglib/images/mflying.png",atk:117,def:80,nai:207,maxhp:175,
+    maxcp4:1197,
+    na:"飄飄球",
+  ),
+  Post(
+      pic:"lib/images/p426.png",
+      ttyy:"lib/images/mghost.pnglib/images/mflying.png",atk:180,def:102,nai:312,maxhp:258,
+      maxcp4:2382,
+      na:"隨風球"
+  ),
+  Post(
+      pic:"lib/images/p430.png",
+      ttyy:"lib/images/mdark.pnglib/images/mflying.png",atk:243,def:103,nai:225,maxhp:189,
+      maxcp4:2711,
+      na:"烏鴉頭頭"
+  ),
+  Post(
+      pic:"lib/images/p441.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:183,def:91,nai:183,maxhp:156,
+      maxcp4:1791,
+      na:"聒噪鳥"
+  ),
+  Post(
+    pic:"lib/images/p458.png",
+    ttyy:"lib/images/mwater.pnglib/images/mflying.png",atk:105,def:179,nai:128,maxhp:113,
+    maxcp4:1248,
+    na:"小球飛魚",
+  ),
+  Post(
+      pic:"lib/images/p468.png",
+      ttyy:"lib/images/mfairy.pnglib/images/mflying.png",atk:225,def:217,nai:198,maxhp:168,
+      maxcp4:3332,
+      na:"波克基斯"
+  ),
+  Post(
+      pic:"lib/images/p469.png",
+      ttyy:"lib/images/mbug.pnglib/images/mflying.png",atk:231,def:156,nai:200,maxhp:169,
+      maxcp4:2946,
+      na:"遠古巨蜓"
+  ),
+  Post(
+      pic:"lib/images/p472.png",
+      ttyy:"lib/images/mground.pnglib/images/mflying.png",atk:185,def:222,nai:181,maxhp:154,
+      maxcp4:2692,
+      na:"天蠍王"
+  ),
+  Post(
+      pic:"lib/images/p519.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:98,def:80,nai:137,maxhp:120,
+      maxcp4:848,
+      na:"豆豆鴿"
+  ),
+  Post(
+    pic:"lib/images/p520.png",
+    ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:144,def:107,nai:158,maxhp:136,
+    maxcp4:1442,
+    na:"波波鴿",
+  ),
+  Post(
+      pic:"lib/images/p521.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:226,def:146,nai:190,maxhp:162,
+      maxcp4:2734,
+      na:"轟隆雉雞"
+  ),
+  Post(
+      pic:"lib/images/p527.png",
+      ttyy:"lib/images/mpsychic.pnglib/images/mflying.png",atk:107,def:85,nai:163,maxhp:140,
+      maxcp4:1016,
+      na:"滾滾蝙蝠"
+  ),
+  Post(
+      pic:"lib/images/p528.png",
+      ttyy:"lib/images/mpsychic.pnglib/images/mflying.png",atk:161,def:119,nai:167,maxhp:143,
+      maxcp4:1716,
+      na:"心蝙蝠"
+  ),
+  Post(
+      pic:"lib/images/p561.png",
+      ttyy:"lib/images/mpsychic.pnglib/images/mflying.png",atk:204,def:167,nai:176,maxhp:150,
+      maxcp4:2550,
+      na:"象徵鳥"
+  ),
+  Post(
+      pic:"lib/images/p566.png",
+      ttyy:"lib/images/mrock.pnglib/images/mflying.png",atk:213,def:89,nai:146,maxhp:127,
+      maxcp4:1842,
+      na:"始祖小鳥"
+  ),
+  Post(
+      pic:"lib/images/p567.png",
+      ttyy:"lib/images/mrock.pnglib/images/mflying.png",atk:292,def:139,nai:181,maxhp:154,
+      maxcp4:3331,
+      na:"始祖大鳥"
+  ),
+  Post(
+      pic:"lib/images/p580.png",
+      ttyy:"lib/images/mwater.pnglib/images/mflying.png",atk:84,def:96,nai:158,maxhp:136,
+      maxcp4:856,
+      na:"鴨寶寶"
+  ),
+  Post(
+      pic:"lib/images/p581.png",
+      ttyy:"lib/images/mwater.pnglib/images/mflying.png",atk:182,def:132,nai:181,maxhp:154,
+      maxcp4:2088,
+      na:"首席天鵝"
+  ),
+  Post(
+      pic:"lib/images/p587.png",
+      ttyy:"lib/images/melectric.pnglib/images/mflying.png",atk:158,def:127,nai:146,maxhp:127,
+      maxcp4:1633,
+      na:"電飛鼠"
+  ),
+  Post(
+      pic:"lib/images/p627.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:150,def:97,nai:172,maxhp:147,
+      maxcp4:1491,
+      na:"毛頭小鷹"
+  ),
+  Post(
+      pic:"lib/images/p628.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:232,def:152,nai:225,maxhp:189,
+      maxcp4:3088,
+      na:"勇士鷹"
+  ),
+  Post(
+    pic:"lib/images/p629.png",
+    ttyy:"lib/images/mdark.pnglib/images/mflying.png",atk:105,def:139,nai:172,maxhp:147,
+    maxcp4:1271,
+    na:"禿鷹小子",
+  ),
+  Post(
+      pic:"lib/images/p630.png",
+      ttyy:"lib/images/mdark.pnglib/images/mflying.png",atk:129,def:205,nai:242,maxhp:203,
+      maxcp4:2138,
+      na:"禿鷹娜"
+  ),
+  Post(
+    pic:"lib/images/p641.png",
+    ttyy:"lib/images/mflying.png",atk:266,def:164,nai:188,maxhp:160,
+    maxcp4:3345,
+    na:"龍捲雲",
+  ),
+  Post(
+    pic:"lib/images/p642.png",
+    ttyy:"lib/images/melectric.pnglib/images/mflying.png",atk:266,def:164,nai:188,maxhp:160,
+    maxcp4:3345,
+    na:"雷電雲",
+  ),
+  Post(
+    pic:"lib/images/p645.png",
+    ttyy:"lib/images/mground.pnglib/images/mflying.png",atk:261,def:182,nai:205,maxhp:173,
+    maxcp4:3588,
+    na:"土地雲",
+  ),
+];
+final List<Post> mlghost = [
+  Post(
+      pic:"lib/images/p92.png",
+      ttyy:"lib/images/mghost.pnglib/images/mpoison.png",atk:186,def:67,nai:102,maxhp:92,
+      maxcp4:1229,
+      na:"鬼斯"
+  ),
+  Post(
+      pic:"lib/images/p93.png",
+      ttyy:"lib/images/mghost.pnglib/images/mpoison.png",atk:223,def:107,nai:128,maxhp:113,
+      maxcp4:1963,
+      na:"鬼斯通"
+  ),
+  Post(
+      pic:"lib/images/p94.png",
+      ttyy:"lib/images/mghost.pnglib/images/mpoison.png",atk:261,def:149,nai:155,maxhp:134,
+      maxcp4:2878,
+      na:"耿鬼"
+  ),
+  Post(
+      pic:"lib/images/p200.png",
+      ttyy:"lib/images/mghost.png",atk:167,def:154,nai:155,maxhp:134,
+      maxcp4:1926,
+      na:"夢妖"
+  ),
+  Post(
+      pic:"lib/images/p292.png",
+      ttyy:"lib/images/mbug.pnglib/images/mghost.png",atk:153,def:73,nai:1,maxhp:12,
+      maxcp4:393,
+      na:"脫殼忍者"
+  ),
+  Post(
+      pic:"lib/images/p302.png",
+      ttyy:"lib/images/mdark.pnglib/images/mghost.png",atk:141,def:136,nai:137,maxhp:120,
+      maxcp4:1476,
+      na:"勾魂眼"
+  ),
+  Post(
+    pic:"lib/images/p353.png",
+    ttyy:"lib/images/mghost.png",atk:138,def:65,nai:127,maxhp:112,
+    maxcp4:1018,
+    na:"怨影娃娃",
+  ),
+  Post(
+      pic:"lib/images/p354.png",
+      ttyy:"lib/images/mghost.png",atk:218,def:126,nai:162,maxhp:139,
+      maxcp4:2298,
+      na:"詛咒娃娃"
+  ),
+  Post(
+      pic:"lib/images/p355.png",
+      ttyy:"lib/images/mghost.png",atk:70,def:162,nai:85,maxhp:79,
+      maxcp4:706,
+      na:"夜巡靈"
+  ),
+  Post(
+      pic:"lib/images/p356.png",
+      ttyy:"lib/images/mghost.png",atk:124,def:234,nai:120,maxhp:106,
+      maxcp4:1591,
+      na:"彷徨夜靈"
+  ),
+  Post(
+    pic:"lib/images/p425.png",
+    ttyy:"lib/images/mghost.pnglib/images/mflying.png",atk:117,def:80,nai:207,maxhp:175,
+    maxcp4:1197,
+    na:"飄飄球",
+  ),
+  Post(
+      pic:"lib/images/p426.png",
+      ttyy:"lib/images/mghost.pnglib/images/mflying.png",atk:180,def:102,nai:312,maxhp:258,
+      maxcp4:2382,
+      na:"隨風球"
+  ),
+  Post(
+      pic:"lib/images/p429.png",
+      ttyy:"lib/images/mghost.png",atk:211,def:187,nai:155,maxhp:134,
+      maxcp4:2615,
+      na:"夢妖魔"
+  ),
+  Post(
+      pic:"lib/images/p442.png",
+      ttyy:"lib/images/mghost.pnglib/images/mdark.png",atk:169,def:199,nai:137,maxhp:120,
+      maxcp4:2072,
+      na:"花岩怪"
+  ),
+  Post(
+    pic:"lib/images/p477.png",
+    ttyy:"lib/images/mghost.png",atk:180,def:254,nai:128,maxhp:113,
+    maxcp4:2388,
+    na:"黑夜魔靈",
+  ),
+  Post(
+      pic:"lib/images/p478.png",
+      ttyy:"lib/images/mice.pnglib/images/mghost.png",atk:171,def:150,nai:172,maxhp:147,
+      maxcp4:2040,
+      na:"雪妖女"
+  ),
+  Post(
+      pic:"lib/images/p479.png",
+      ttyy:"lib/images/melectric.pnglib/images/mghost.png",atk:185,def:159,nai:137,maxhp:120,
+      maxcp4:2031,
+      na:"洛托姆"
+  ),
+  Post(
+      pic:"lib/images/p487.png",
+      ttyy:"lib/images/mghost.pnglib/images/mdragon.png",atk:187,def:225,nai:284,maxhp:236,
+      maxcp4:3379,
+      na:"騎拉帝納"
+  ),
+  Post(
+      pic:"lib/images/p562.png",
+      ttyy:"lib/images/mghost.png",atk:95,def:141,nai:116,maxhp:103,
+      maxcp4:982,
+      na:"哭哭面具"
+  ),
+  Post(
+    pic:"lib/images/p563.png",
+    ttyy:"lib/images/mghost.png",atk:163,def:237,nai:151,maxhp:131,
+    maxcp4:2273,
+    na:"死神棺",
+  ),
+  Post(
+      pic:"lib/images/p592.png",
+      ttyy:"lib/images/mwater.pnglib/images/mghost.png",atk:115,def:134,nai:146,maxhp:127,
+      maxcp4:1257,
+      na:"輕飄飄"
+  ),
+  Post(
+    pic:"lib/images/p593.png",
+    ttyy:"lib/images/mwater.pnglib/images/mghost.png",atk:159,def:178,nai:225,maxhp:189,
+    maxcp4:2338,
+    na:"胖嘟嘟",
+  ),
+  Post(
+    pic:"lib/images/p607.png",
+    ttyy:"lib/images/mghost.pnglib/images/mfire.png",atk:108,def:98,nai:137,maxhp:120,
+    maxcp4:1006,
+    na:"燭光靈",
+  ),
+  Post(
+      pic:"lib/images/p608.png",
+      ttyy:"lib/images/mghost.pnglib/images/mfire.png",atk:169,def:115,nai:155,maxhp:134,
+      maxcp4:1708,
+      na:"燈火幽靈"
+  ),
+  Post(
+    pic:"lib/images/p609.png",
+    ttyy:"lib/images/mghost.pnglib/images/mfire.png",atk:271,def:182,nai:155,maxhp:134,
+    maxcp4:3268,
+    na:"水晶燈火靈",
+  ),
+  Post(
+      pic:"lib/images/p622.png",
+      ttyy:"lib/images/mground.pnglib/images/mghost.png",atk:127,def:92,nai:153,maxhp:132,
+      maxcp4:1189,
+      na:"泥偶小人"
+  ),
+  Post(
+      pic:"lib/images/p623.png",
+      ttyy:"lib/images/mground.pnglib/images/mghost.png",atk:222,def:154,nai:205,maxhp:173,
+      maxcp4:2854,
+      na:"泥偶巨人"
+  ),
+];
+
+final List<Post> mlgrass = [
+  Post(
+    pic:"lib/images/p1.png",
+    ttyy:"lib/images/mgrass.pnglib/images/mpoison.png",atk:118,def:111,nai:128,maxhp:113,
+    maxcp4:1115,
+    na:"妙蛙種子",
+  ),
+  Post(
+    pic:"lib/images/p2.png",
+    ttyy:"lib/images/mgrass.pnglib/images/mpoison.png",atk:151,def:143,nai:155,maxhp:134,
+    maxcp4:1699,
+    na:"妙蛙草",
+  ),
+  Post(
+    pic:"lib/images/p3.png",
+    ttyy:"lib/images/mgrass.pnglib/images/mpoison.png",atk:198,def:189,nai:190,maxhp:162,
+    maxcp4:2720,
+    na:"妙蛙花",
+  ),
+  Post(
+      pic:"lib/images/p43.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mpoison.png",atk:131,def:112,nai:128,maxhp:113,
+      maxcp4:1228,
+      na:"走路草"
+  ),
+  Post(
+    pic:"lib/images/p44.png",
+    ttyy:"lib/images/mgrass.pnglib/images/mpoison.png",atk:153,def:136,nai:155,maxhp:134,
+    maxcp4:1681,
+    na:"臭臭花",
+  ),
+  Post(
+      pic:"lib/images/p45.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mpoison.png",atk:202,def:167,nai:181,maxhp:154,
+      maxcp4:2559,
+      na:"霸王花"
+  ),
+  Post(
+    pic:"lib/images/p46.png",
+    ttyy:"lib/images/mbug.pnglib/images/mgrass.png",atk:121,def:99,nai:111,maxhp:99,
+    maxcp4:1018,
+    na:"派拉斯",
+  ),
+  Post(
+      pic:"lib/images/p47.png",
+      ttyy:"lib/images/mbug.pnglib/images/mgrass.png",atk:165,def:146,nai:155,maxhp:134,
+      maxcp4:1859,
+      na:"派拉斯特"
+  ),
+  Post(
+      pic:"lib/images/p69.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mpoison.png",atk:139,def:61,nai:137,maxhp:120,
+      maxcp4:1033,
+      na:"喇叭芽"
+  ),
+  Post(
+      pic:"lib/images/p70.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mpoison.png",atk:172,def:92,nai:163,maxhp:140,
+      maxcp4:1611,
+      na:"口呆花"
+  ),
+  Post(
+      pic:"lib/images/p71.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mpoison.png",atk:207,def:135,nai:190,maxhp:162,
+      maxcp4:2431,
+      na:"大食花"
+  ),
+  Post(
+      pic:"lib/images/p102.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mpsychic.png",atk:107,def:125,nai:155,maxhp:134,
+      maxcp4:1175,
+      na:"蛋蛋"
+  ),
+  Post(
+      pic:"lib/images/p103.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mpsychic.png",atk:233,def:149,nai:216,maxhp:182,
+      maxcp4:3014,
+      na:"椰蛋樹"
+  ),
+  Post(
+      pic:"lib/images/p114.png",
+      ttyy:"lib/images/mgrass.png",atk:183,def:169,nai:163,maxhp:140,
+      maxcp4:2238,
+      na:"蔓藤怪"
+  ),
+  Post(
+      pic:"lib/images/p152.png",
+      ttyy:"lib/images/mgrass.png",atk:92,def:122,nai:128,maxhp:113,
+      maxcp4:935,
+      na:"菊草葉"
+  ),
+  Post(
+    pic:"lib/images/p153.png",
+    ttyy:"lib/images/mgrass.png",atk:122,def:155,nai:155,maxhp:134,
+    maxcp4:1454,
+    na:"月桂葉",
+  ),
+  Post(
+      pic:"lib/images/p154.png",
+      ttyy:"lib/images/mgrass.png",atk:168,def:202,nai:190,maxhp:162,
+      maxcp4:2410,
+      na:"大竺葵"
+  ),
+  Post(
+      pic:"lib/images/p182.png",
+      ttyy:"lib/images/mgrass.png",atk:169,def:186,nai:181,maxhp:154,
+      maxcp4:2281,
+      na:"美麗花"
+  ),
+  Post(
+      pic:"lib/images/p187.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mflying.png",atk:67,def:94,nai:111,maxhp:99,
+      maxcp4:600,
+      na:"毽子草"
+  ),
+  Post(
+      pic:"lib/images/p188.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mflying.png",atk:91,def:120,nai:146,maxhp:127,
+      maxcp4:976,
+      na:"毽子花"
+  ),
+  Post(
+      pic:"lib/images/p189.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mflying.png",atk:118,def:183,nai:181,maxhp:154,
+      maxcp4:1636,
+      na:"毽子棉"
+  ),
+  Post(
+      pic:"lib/images/p191.png",
+      ttyy:"lib/images/mgrass.png",atk:55,def:55,nai:102,maxhp:92,
+      maxcp4:395,
+      na:"向日種子"
+  ),
+  Post(
+      pic:"lib/images/p192.png",
+      ttyy:"lib/images/mgrass.png",atk:185,def:135,nai:181,maxhp:154,
+      maxcp4:2141,
+      na:"向日花怪"
+  ),
+  Post(
+      pic:"lib/images/p251.png",
+      ttyy:"lib/images/mpsychic.pnglib/images/mgrass.png",atk:210,def:210,nai:225,maxhp:189,
+      maxcp4:3265,
+      na:"時拉比"
+  ),
+  Post(
+      pic:"lib/images/p252.png",
+      ttyy:"lib/images/mgrass.png",atk:124,def:94,nai:120,maxhp:106,
+      maxcp4:1053,
+      na:"木守宮"
+  ),
+  Post(
+      pic:"lib/images/p253.png",
+      ttyy:"lib/images/mgrass.png",atk:172,def:120,nai:137,maxhp:120,
+      maxcp4:1673,
+      na:"森林蜥蜴"
+  ),
+  Post(
+      pic:"lib/images/p254.png",
+      ttyy:"lib/images/mgrass.png",atk:223,def:169,nai:172,maxhp:147,
+      maxcp4:2757,
+      na:"蜥蜴王"
+  ),
+  Post(
+      pic:"lib/images/p270.png",
+      ttyy:"lib/images/mwater.pnglib/images/mgrass.png",atk:71,def:77,nai:120,maxhp:106,
+      maxcp4:598,
+      na:"蓮葉童子"
+  ),
+  Post(
+      pic:"lib/images/p271.png",
+      ttyy:"lib/images/mwater.pnglib/images/mgrass.png",atk:112,def:119,nai:155,maxhp:134,
+      maxcp4:1197,
+      na:"蓮帽小童"
+  ),
+  Post(
+      pic:"lib/images/p272.png",
+      ttyy:"lib/images/mwater.pnglib/images/mgrass.png",atk:173,def:176,nai:190,maxhp:162,
+      maxcp4:2323,
+      na:"樂天河童"
+  ),
+  Post(
+      pic:"lib/images/p273.png",
+      ttyy:"lib/images/mgrass.png",atk:71,def:77,nai:120,maxhp:106,
+      maxcp4:598,
+      na:"橡實果"
+  ),
+  Post(
+      pic:"lib/images/p274.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mdark.png",atk:134,def:78,nai:172,maxhp:147,
+      maxcp4:1227,
+      na:"長鼻葉"
+  ),
+  Post(
+      pic:"lib/images/p275.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mdark.png",atk:200,def:121,nai:207,maxhp:175,
+      maxcp4:2333,
+      na:"狡猾天狗"
+  ),
+  Post(
+      pic:"lib/images/p285.png",
+      ttyy:"lib/images/mgrass.png",atk:74,def:110,nai:155,maxhp:134,
+      maxcp4:810,
+      na:"蘑蘑菇"
+  ),
+  Post(
+      pic:"lib/images/p286.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mfighting.png",atk:241,def:144,nai:155,maxhp:134,
+      maxcp4:2628,
+      na:"斗笠菇"
+  ),
+  Post(
+      pic:"lib/images/p315.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mpoison.png",atk:186,def:131,nai:137,maxhp:120,
+      maxcp4:1870,
+      na:"毒薔薇"
+  ),
+  Post(
+    pic:"lib/images/p331.png",
+    ttyy:"lib/images/mgrass.png",atk:156,def:74,nai:137,maxhp:120,
+    maxcp4:1242,
+    na:"刺球仙人掌",
+  ),
+  Post(
+      pic:"lib/images/p332.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mdark.png",atk:221,def:115,nai:172,maxhp:147,
+      maxcp4:2298,
+      na:"夢歌仙人掌"
+  ),
+  Post(
+      pic:"lib/images/p345.png",
+      ttyy:"lib/images/mrock.pnglib/images/mgrass.png",atk:105,def:150,nai:165,maxhp:142,
+      maxcp4:1291,
+      na:"觸手百合"
+  ),
+  Post(
+      pic:"lib/images/p346.png",
+      ttyy:"lib/images/mrock.pnglib/images/mgrass.png",atk:152,def:194,nai:200,maxhp:169,
+      maxcp4:2211,
+      na:"搖籃百合"
+  ),
+  Post(
+      pic:"lib/images/p357.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mflying.png",atk:136,def:163,nai:223,maxhp:188,
+      maxcp4:1941,
+      na:"熱帶龍"
+  ),
+  Post(
+      pic:"lib/images/p387.png",
+      ttyy:"lib/images/mgrass.png",atk:119,def:110,nai:146,maxhp:127,
+      maxcp4:1187,
+      na:"草苗龜"
+  ),
+  Post(
+      pic:"lib/images/p388.png",
+      ttyy:"lib/images/mgrass.png",atk:157,def:143,nai:181,maxhp:154,
+      maxcp4:1890,
+      na:"樹林龜"
+  ),
+  Post(
+    pic:"lib/images/p389.png",
+    ttyy:"lib/images/mgrass.pnglib/images/mground.png",atk:202,def:188,nai:216,maxhp:182,
+    maxcp4:2934,
+    na:"土台龜",
+  ),
+  Post(
+    pic:"lib/images/p406.png",
+    ttyy:"lib/images/mgrass.pnglib/images/mpoison.png",atk:91,def:109,nai:120,maxhp:106,
+    maxcp4:856,
+    na:"含羞苞",
+  ),
+  Post(
+      pic:"lib/images/p407.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mpoison.png",atk:243,def:185,nai:155,maxhp:134,
+      maxcp4:2971,
+      na:"羅絲雷朵"
+  ),
+  Post(
+      pic:"lib/images/p413.png",
+      ttyy:"lib/images/mbug.pnglib/images/mgrass.png",atk:141,def:180,nai:155,maxhp:134,
+      maxcp4:1773,
+      na:"結草貴婦"
+  ),
+  Post(
+      pic:"lib/images/p420.png",
+      ttyy:"lib/images/mgrass.png",atk:108,def:92,nai:128,maxhp:113,
+      maxcp4:950,
+      na:"櫻花寶"
+  ),
+  Post(
+      pic:"lib/images/p421.png",
+      ttyy:"lib/images/mgrass.png",atk:170,def:153,nai:172,maxhp:147,
+      maxcp4:2048,
+      na:"櫻花兒"
+  ),
+  Post(
+      pic:"lib/images/p455.png",
+      ttyy:"lib/images/mgrass.png",atk:187,def:136,nai:179,maxhp:153,
+      maxcp4:2159,
+      na:"尖牙籠"
+  ),
+  Post(
+      pic:"lib/images/p459.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mice.png",atk:115,def:105,nai:155,maxhp:134,
+      maxcp4:1159,
+      na:"雪笠怪"
+  ),
+  Post(
+      pic:"lib/images/p460.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mice.png",atk:178,def:158,nai:207,maxhp:175,
+      maxcp4:2362,
+      na:"暴雪王"
+  ),
+  Post(
+      pic:"lib/images/p465.png",
+      ttyy:"lib/images/mgrass.png",atk:207,def:184,nai:225,maxhp:189,
+      maxcp4:3030,
+      na:"巨蔓藤"
+  ),
+  Post(
+    pic:"lib/images/p470.png",
+    ttyy:"lib/images/mgrass.png",atk:216,def:219,nai:163,maxhp:140,
+    maxcp4:2944,
+    na:"葉伊布",
+  ),
+  Post(
+      pic:"lib/images/p492.png",
+      ttyy:"lib/images/mgrass.png",atk:210,def:210,nai:225,maxhp:189,
+      maxcp4:3265,
+      na:"謝米"
+  ),
+  Post(
+      pic:"lib/images/p495.png",
+      ttyy:"lib/images/mgrass.png",atk:88,def:107,nai:128,maxhp:113,
+      maxcp4:849,
+      na:"藤藤蛇"
+  ),
+  Post(
+      pic:"lib/images/p496.png",
+      ttyy:"lib/images/mgrass.png",atk:122,def:152,nai:155,maxhp:134,
+      maxcp4:1441,
+      na:"青藤蛇"
+  ),
+  Post(
+      pic:"lib/images/p497.png",
+      ttyy:"lib/images/mgrass.png",atk:161,def:204,nai:181,maxhp:154,
+      maxcp4:2277,
+      na:"君主蛇"
+  ),
+  Post(
+      pic:"lib/images/p511.png",
+      ttyy:"lib/images/mgrass.png",atk:104,def:94,nai:137,maxhp:120,
+      maxcp4:956,
+      na:"花椰猴"
+  ),
+  Post(
+      pic:"lib/images/p512.png",
+      ttyy:"lib/images/mgrass.png",atk:206,def:133,nai:181,maxhp:154,
+      maxcp4:2350,
+      na:"花椰猿"
+  ),
+  Post(
+      pic:"lib/images/p540.png",
+      ttyy:"lib/images/mbug.pnglib/images/mgrass.png",atk:96,def:124,nai:128,maxhp:113,
+      maxcp4:977,
+      na:"蟲寶包"
+  ),
+  Post(
+      pic:"lib/images/p541.png",
+      ttyy:"lib/images/mbug.pnglib/images/mgrass.png",atk:115,def:162,nai:146,maxhp:127,
+      maxcp4:1370,
+      na:"寶包繭"
+  ),
+  Post(
+      pic:"lib/images/p542.png",
+      ttyy:"lib/images/mbug.pnglib/images/mgrass.png",atk:205,def:165,nai:181,maxhp:154,
+      maxcp4:2580,
+      na:"保母蟲"
+  ),
+  Post(
+      pic:"lib/images/p546.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mfairy.png",atk:71,def:111,nai:120,maxhp:106,
+      maxcp4:700,
+      na:"木棉球"
+  ),
+  Post(
+      pic:"lib/images/p547.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mfairy.png",atk:164,def:176,nai:155,maxhp:134,
+      maxcp4:2014,
+      na:"風妖精"
+  ),
+  Post(
+      pic:"lib/images/p548.png",
+      ttyy:"lib/images/mgrass.png",atk:119,def:91,nai:128,maxhp:113,
+      maxcp4:1030,
+      na:"百合根娃娃"
+  ),
+  Post(
+      pic:"lib/images/p549.png",
+      ttyy:"lib/images/mgrass.png",atk:214,def:155,nai:172,maxhp:147,
+      maxcp4:2550,
+      na:"裙兒小姐"
+  ),
+  Post(
+      pic:"lib/images/p556.png",
+      ttyy:"lib/images/mgrass.png",atk:201,def:130,nai:181,maxhp:154,
+      maxcp4:2274,
+      na:"街頭沙鈴"
+  ),
+  Post(
+      pic:"lib/images/p585.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mgrass.png",atk:115,def:100,nai:155,maxhp:134,
+      maxcp4:1135,
+      na:"四季鹿"
+  ),
+  Post(
+      pic:"lib/images/p586.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mgrass.png",atk:198,def:146,nai:190,maxhp:162,
+      maxcp4:2416,
+      na:"芽吹鹿"
+  ),
+  Post(
+      pic:"lib/images/p590.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mpoison.png",atk:97,def:91,nai:170,maxhp:146,
+      maxcp4:979,
+      na:"寶貝球菇"
+  ),
+  Post(
+      pic:"lib/images/p591.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mpoison.png",atk:155,def:139,nai:249,maxhp:208,
+      maxcp4:2140,
+      na:"暴露菇"
+  ),
+  Post(
+      pic:"lib/images/p597.png",
+      ttyy:"lib/images/mgrass.pnglib/images/msteel.png",atk:82,def:155,nai:127,maxhp:112,
+      maxcp4:941,
+      na:"種子鐵球"
+  ),
+  Post(
+      pic:"lib/images/p598.png",
+      ttyy:"lib/images/mgrass.pnglib/images/msteel.png",atk:158,def:223,nai:179,maxhp:153,
+      maxcp4:2321,
+      na:"堅果啞鈴"
+  ),
+  Post(
+      pic:"lib/images/p640.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mfighting.png",atk:192,def:229,nai:209,maxhp:177,
+      maxcp4:3022,
+      na:"畢力吉翁"
+  ),
+];
+final List<Post> mlground = [
+  Post(
+      pic:"lib/images/p27.png",
+      ttyy:"lib/images/mground.png",atk:126,def:120,nai:137,maxhp:120,
+      maxcp4:1261,
+      na:"穿山鼠"
+  ),
+  Post(
+      pic:"lib/images/p28.png",
+      ttyy:"lib/images/mground.png",atk:182,def:175,nai:181,maxhp:154,
+      maxcp4:2374,
+      na:"穿山王"
+  ),
+  Post(
+      pic:"lib/images/p31.png",
+      ttyy:"lib/images/mpoison.pnglib/images/mground.png",atk:180,def:173,nai:207,maxhp:175,
+      maxcp4:2488,
+      na:"尼多后"
+  ),
+  Post(
+      pic:"lib/images/p34.png",
+      ttyy:"lib/images/mpoison.pnglib/images/mground.png",atk:204,def:156,nai:191,maxhp:162,
+      maxcp4:2567,
+      na:"尼多王"
+  ),
+  Post(
+      pic:"lib/images/p50.png",
+      ttyy:"lib/images/mground.png",atk:109,def:78,nai:67,maxhp:64,
+      maxcp4:676,
+      na:"地鼠"
+  ),
+  Post(
+      pic:"lib/images/p51.png",
+      ttyy:"lib/images/mground.png",atk:167,def:136,nai:111,maxhp:99,
+      maxcp4:1567,
+      na:"三地鼠"
+  ),
+  Post(
+      pic:"lib/images/p74.png",
+      ttyy:"lib/images/mrock.pnglib/images/mground.png",atk:132,def:132,nai:120,maxhp:106,
+      maxcp4:1293,
+      na:"小拳石"
+  ),
+  Post(
+      pic:"lib/images/p75.png",
+      ttyy:"lib/images/mrock.pnglib/images/mground.png",atk:164,def:164,nai:146,maxhp:127,
+      maxcp4:1897,
+      na:"隆隆石"
+  ),
+  Post(
+      pic:"lib/images/p76.png",
+      ttyy:"lib/images/mrock.pnglib/images/mground.png",atk:211,def:198,nai:190,maxhp:162,
+      maxcp4:2949,
+      na:"隆隆岩"
+  ),
+  Post(
+      pic:"lib/images/p95.png",
+      ttyy:"lib/images/mrock.pnglib/images/mground.png",atk:85,def:232,nai:111,maxhp:99,
+      maxcp4:1101,
+      na:"大岩蛇"
+  ),
+  Post(
+      pic:"lib/images/p104.png",
+      ttyy:"lib/images/mground.png",atk:90,def:144,nai:137,maxhp:120,
+      maxcp4:1019,
+      na:"卡拉卡拉"
+  ),
+  Post(
+      pic:"lib/images/p105.png",
+      ttyy:"lib/images/mground.png",atk:144,def:186,nai:155,maxhp:134,
+      maxcp4:1835,
+      na:"嘎啦嘎啦"
+  ),
+  Post(
+      pic:"lib/images/p111.png",
+      ttyy:"lib/images/mground.pnglib/images/mrock.png",atk:140,def:127,nai:190,maxhp:162,
+      maxcp4:1651,
+      na:"獨角犀牛"
+  ),
+  Post(
+      pic:"lib/images/p112.png",
+      ttyy:"lib/images/mground.pnglib/images/mrock.png",atk:222,def:171,nai:233,maxhp:195,
+      maxcp4:3179,
+      na:"鑽角犀獸"
+  ),
+  Post(
+      pic:"lib/images/p194.png",
+      ttyy:"lib/images/mwater.pnglib/images/mground.png",atk:75,def:66,nai:146,maxhp:127,
+      maxcp4:641,
+      na:"烏波"
+  ),
+  Post(
+      pic:"lib/images/p195.png",
+      ttyy:"lib/images/mwater.pnglib/images/mground.png",atk:152,def:143,nai:216,maxhp:182,
+      maxcp4:1992,
+      na:"沼王"
+  ),
+  Post(
+      pic:"lib/images/p207.png",
+      ttyy:"lib/images/mground.pnglib/images/mflying.png",atk:143,def:184,nai:163,maxhp:140,
+      maxcp4:1857,
+      na:"天蠍"
+  ),
+  Post(
+      pic:"lib/images/p208.png",
+      ttyy:"lib/images/msteel.pnglib/images/mground.png",atk:148,def:272,nai:181,maxhp:154,
+      maxcp4:2414,
+      na:"大鋼蛇"
+  ),
+  Post(
+      pic:"lib/images/p220.png",
+      ttyy:"lib/images/mice.pnglib/images/mground.png",atk:90,def:69,nai:137,maxhp:120,
+      maxcp4:741,
+      na:"小山豬"
+  ),
+  Post(
+      pic:"lib/images/p221.png",
+      ttyy:"lib/images/mice.pnglib/images/mground.png",atk:181,def:138,nai:225,maxhp:189,
+      maxcp4:2345,
+      na:"長毛豬"
+  ),
+  Post(
+      pic:"lib/images/p231.png",
+      ttyy:"lib/images/mground.png",atk:107,def:98,nai:207,maxhp:175,
+      maxcp4:1206,
+      na:"小小象"
+  ),
+  Post(
+      pic:"lib/images/p232.png",
+      ttyy:"lib/images/mground.png",atk:214,def:185,nai:207,maxhp:175,
+      maxcp4:3013,
+      na:"頓甲"
+  ),
+  Post(
+      pic:"lib/images/p246.png",
+      ttyy:"lib/images/mrock.pnglib/images/mground.png",atk:115,def:93,nai:137,maxhp:120,
+      maxcp4:1040,
+      na:"幼基拉斯"
+  ),
+  Post(
+      pic:"lib/images/p247.png",
+      ttyy:"lib/images/mrock.pnglib/images/mground.png",atk:155,def:133,nai:172,maxhp:147,
+      maxcp4:1766,
+      na:"沙基拉斯"
+  ),
+  Post(
+    pic:"lib/images/p259.png",
+    ttyy:"lib/images/mwater.pnglib/images/mground.png",atk:156,def:133,nai:172,maxhp:147,
+    maxcp4:1776,
+    na:"沼躍魚",
+  ),
+  Post(
+      pic:"lib/images/p260.png",
+      ttyy:"lib/images/mwater.pnglib/images/mground.png",atk:208,def:175,nai:225,maxhp:189,
+      maxcp4:2974,
+      na:"巨沼怪"
+  ),
+  Post(
+      pic:"lib/images/p290.png",
+      ttyy:"lib/images/mbug.pnglib/images/mground.png",atk:80,def:126,nai:104,maxhp:94,
+      maxcp4:768,
+      na:"土居忍士"
+  ),
+  Post(
+    pic:"lib/images/p322.png",
+    ttyy:"lib/images/mfire.pnglib/images/mground.png",atk:119,def:79,nai:155,maxhp:134,
+    maxcp4:1057,
+    na:"呆火駝",
+  ),
+  Post(
+      pic:"lib/images/p323.png",
+      ttyy:"lib/images/mfire.pnglib/images/mground.png",atk:194,def:136,nai:172,maxhp:147,
+      maxcp4:2193,
+      na:"噴火駝"
+  ),
+  Post(
+      pic:"lib/images/p328.png",
+      ttyy:"lib/images/mground.png",atk:162,def:78,nai:128,maxhp:113,
+      maxcp4:1274,
+      na:"大顎蟻"
+  ),
+  Post(
+      pic:"lib/images/p329.png",
+      ttyy:"lib/images/mground.pnglib/images/mdragon.png",atk:134,def:99,nai:137,maxhp:120,
+      maxcp4:1225,
+      na:"超音波幼蟲"
+  ),
+  Post(
+      pic:"lib/images/p330.png",
+      ttyy:"lib/images/mground.pnglib/images/mdragon.png",atk:205,def:168,nai:190,maxhp:162,
+      maxcp4:2661,
+      na:"沙漠蜻蜓"
+  ),
+  Post(
+      pic:"lib/images/p339.png",
+      ttyy:"lib/images/mwater.pnglib/images/mground.png",atk:93,def:82,nai:137,maxhp:120,
+      maxcp4:819,
+      na:"泥泥鰍"
+  ),
+  Post(
+      pic:"lib/images/p340.png",
+      ttyy:"lib/images/mwater.pnglib/images/mground.png",atk:151,def:141,nai:242,maxhp:203,
+      maxcp4:2075,
+      na:"鯰魚王"
+  ),
+  Post(
+      pic:"lib/images/p343.png",
+      ttyy:"lib/images/mground.pnglib/images/mpsychic.png",atk:77,def:124,nai:120,maxhp:106,
+      maxcp4:787,
+      na:"天秤偶"
+  ),
+  Post(
+      pic:"lib/images/p344.png",
+      ttyy:"lib/images/mground.pnglib/images/mpsychic.png",atk:140,def:229,nai:155,maxhp:134,
+      maxcp4:1971,
+      na:"念力土偶"
+  ),
+  Post(
+      pic:"lib/images/p383.png",
+      ttyy:"lib/images/mground.png",atk:270,def:228,nai:205,maxhp:173,
+      maxcp4:4115,
+      na:"固拉多"
+  ),
+  Post(
+    pic:"lib/images/p389.png",
+    ttyy:"lib/images/mgrass.pnglib/images/mground.png",atk:202,def:188,nai:216,maxhp:182,
+    maxcp4:2934,
+    na:"土台龜",
+  ),
+  Post(
+      pic:"lib/images/p423.png",
+      ttyy:"lib/images/mwater.pnglib/images/mground.png",atk:169,def:143,nai:244,maxhp:204,
+      maxcp4:2324,
+      na:"海兔獸"
+  ),
+  Post(
+      pic:"lib/images/p443.png",
+      ttyy:"lib/images/mdragon.pnglib/images/mground.png",atk:124,def:84,nai:151,maxhp:131,
+      maxcp4:1112,
+      na:"圓陸鯊"
+  ),
+  Post(
+      pic:"lib/images/p444.png",
+      ttyy:"lib/images/mdragon.pnglib/images/mground.png",atk:172,def:125,nai:169,maxhp:145,
+      maxcp4:1874,
+      na:"尖牙陸鯊"
+  ),
+  Post(
+      pic:"lib/images/p445.png",
+      ttyy:"lib/images/mdragon.pnglib/images/mground.png",atk:261,def:193,nai:239,maxhp:200,
+      maxcp4:3962,
+      na:"烈咬陸鯊"
+  ),
+  Post(
+      pic:"lib/images/p449.png",
+      ttyy:"lib/images/mground.png",atk:124,def:118,nai:169,maxhp:145,
+      maxcp4:1358,
+      na:"沙河馬"
+  ),
+  Post(
+      pic:"lib/images/p450.png",
+      ttyy:"lib/images/mground.png",atk:201,def:191,nai:239,maxhp:200,
+      maxcp4:3085,
+      na:"河馬獸"
+  ),
+  Post(
+      pic:"lib/images/p464.png",
+      ttyy:"lib/images/mground.pnglib/images/mrock.png",atk:241,def:190,nai:251,maxhp:210,
+      maxcp4:3733,
+      na:"超甲狂犀"
+  ),
+  Post(
+      pic:"lib/images/p472.png",
+      ttyy:"lib/images/mground.pnglib/images/mflying.png",atk:185,def:222,nai:181,maxhp:154,
+      maxcp4:2692,
+      na:"天蠍王"
+  ),
+  Post(
+      pic:"lib/images/p473.png",
+      ttyy:"lib/images/mice.pnglib/images/mground.png",atk:247,def:146,nai:242,maxhp:203,
+      maxcp4:3328,
+      na:"象牙豬"
+  ),
+  Post(
+      pic:"lib/images/p529.png",
+      ttyy:"lib/images/mground.png",atk:154,def:85,nai:155,maxhp:134,
+      maxcp4:1376,
+      na:"螺釘地鼠"
+  ),
+  Post(
+      pic:"lib/images/p530.png",
+      ttyy:"lib/images/mground.pnglib/images/msteel.png",atk:255,def:129,nai:242,maxhp:203,
+      maxcp4:3244,
+      na:"龍頭地鼠"
+  ),
+  Post(
+      pic:"lib/images/p536.png",
+      ttyy:"lib/images/mwater.pnglib/images/mground.png",atk:128,def:109,nai:181,maxhp:154,
+      maxcp4:1392,
+      na:"藍蟾蜍"
+  ),
+  Post(
+      pic:"lib/images/p537.png",
+      ttyy:"lib/images/mwater.pnglib/images/mground.png",atk:188,def:150,nai:233,maxhp:195,
+      maxcp4:2564,
+      na:"蟾蜍王"
+  ),
+  Post(
+      pic:"lib/images/p551.png",
+      ttyy:"lib/images/mground.pnglib/images/mdark.png",atk:132,def:69,nai:137,maxhp:120,
+      maxcp4:1037,
+      na:"黑眼鱷"
+  ),
+  Post(
+      pic:"lib/images/p552.png",
+      ttyy:"lib/images/mground.pnglib/images/mdark.png",atk:155,def:90,nai:155,maxhp:134,
+      maxcp4:1418,
+      na:"混混鱷"
+  ),
+  Post(
+      pic:"lib/images/p553.png",
+      ttyy:"lib/images/mground.pnglib/images/mdark.png",atk:229,def:158,nai:216,maxhp:182,
+      maxcp4:3046,
+      na:"流氓鱷"
+  ),
+  Post(
+      pic:"lib/images/p618.png",
+      ttyy:"lib/images/mground.pnglib/images/melectric.png",atk:144,def:171,nai:240,maxhp:201,
+      maxcp4:2162,
+      na:"泥巴魚"
+  ),
+  Post(
+      pic:"lib/images/p622.png",
+      ttyy:"lib/images/mground.pnglib/images/mghost.png",atk:127,def:92,nai:153,maxhp:132,
+      maxcp4:1189,
+      na:"泥偶小人"
+  ),
+  Post(
+      pic:"lib/images/p623.png",
+      ttyy:"lib/images/mground.pnglib/images/mghost.png",atk:222,def:154,nai:205,maxhp:173,
+      maxcp4:2854,
+      na:"泥偶巨人"
+  ),
+  Post(
+    pic:"lib/images/p645.png",
+    ttyy:"lib/images/mground.pnglib/images/mflying.png",atk:261,def:182,nai:205,maxhp:173,
+    maxcp4:3588,
+    na:"土地雲",
+  ),
+];
+final List<Post> mlice = [
+  Post(
+      pic:"lib/images/p87.png",
+      ttyy:"lib/images/mwater.pnglib/images/mice.png",atk:139,def:177,nai:207,maxhp:175,
+      maxcp4:1985,
+      na:"白海獅"
+  ),
+  Post(
+      pic:"lib/images/p91.png",
+      ttyy:"lib/images/mwater.pnglib/images/mice.png",atk:186,def:256,nai:137,maxhp:120,
+      maxcp4:2547,
+      na:"刺甲貝"
+  ),
+  Post(
+      pic:"lib/images/p124.png",
+      ttyy:"lib/images/mice.pnglib/images/mpsychic.png",atk:223,def:151,nai:163,maxhp:140,
+      maxcp4:2555,
+      na:"迷唇姐"
+  ),
+  Post(
+      pic:"lib/images/p131.png",
+      ttyy:"lib/images/mwater.pnglib/images/mice.png",atk:165,def:174,nai:277,maxhp:230,
+      maxcp4:2641,
+      na:"拉普拉斯"
+  ),
+  Post(
+      pic:"lib/images/p144.png",
+      ttyy:"lib/images/mice.pnglib/images/mflying.png",atk:192,def:236,nai:207,maxhp:175,
+      maxcp4:3051,
+      na:"急凍鳥"
+  ),
+  Post(
+      pic:"lib/images/p215.png",
+      ttyy:"lib/images/mdark.pnglib/images/mice.png",atk:189,def:146,nai:146,maxhp:127,
+      maxcp4:2051,
+      na:"狃拉"
+  ),
+  Post(
+      pic:"lib/images/p220.png",
+      ttyy:"lib/images/mice.pnglib/images/mground.png",atk:90,def:69,nai:137,maxhp:120,
+      maxcp4:741,
+      na:"小山豬"
+  ),
+  Post(
+      pic:"lib/images/p221.png",
+      ttyy:"lib/images/mice.pnglib/images/mground.png",atk:181,def:138,nai:225,maxhp:189,
+      maxcp4:2345,
+      na:"長毛豬"
+  ),
+  Post(
+      pic:"lib/images/p225.png",
+      ttyy:"lib/images/mice.pnglib/images/mflying.png",atk:128,def:90,nai:128,maxhp:113,
+      maxcp4:1094,
+      na:"信使鳥"
+  ),
+  Post(
+    pic:"lib/images/p238.png",
+    ttyy:"lib/images/mice.pnglib/images/mpsychic.png",atk:153,def:91,nai:128,maxhp:113,
+    maxcp4:1291,
+    na:"迷唇娃",
+  ),
+  Post(
+      pic:"lib/images/p361.png",
+      ttyy:"lib/images/mice.png",atk:95,def:95,nai:137,maxhp:120,
+      maxcp4:888,
+      na:"雪童子"
+  ),
+  Post(
+      pic:"lib/images/p362.png",
+      ttyy:"lib/images/mice.png",atk:162,def:162,nai:190,maxhp:162,
+      maxcp4:2105,
+      na:"冰鬼護"
+  ),
+  Post(
+      pic:"lib/images/p363.png",
+      ttyy:"lib/images/mice.pnglib/images/mwater.png",atk:95,def:90,nai:172,maxhp:147,
+      maxcp4:962,
+      na:"海豹球"
+  ),
+  Post(
+      pic:"lib/images/p364.png",
+      ttyy:"lib/images/mice.pnglib/images/mwater.png",atk:137,def:132,nai:207,maxhp:175,
+      maxcp4:1714,
+      na:"海魔獅"
+  ),
+  Post(
+      pic:"lib/images/p365.png",
+      ttyy:"lib/images/mice.pnglib/images/mwater.png",atk:182,def:176,nai:242,maxhp:203,
+      maxcp4:2726,
+      na:"帝牙海獅"
+  ),
+  Post(
+    pic:"lib/images/p378.png",
+    ttyy:"lib/images/mice.png",atk:179,def:309,nai:190,maxhp:162,
+    maxcp4:3122,
+    na:"雷吉艾斯",
+  ),
+  Post(
+      pic:"lib/images/p459.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mice.png",atk:115,def:105,nai:155,maxhp:134,
+      maxcp4:1159,
+      na:"雪笠怪"
+  ),
+  Post(
+      pic:"lib/images/p460.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mice.png",atk:178,def:158,nai:207,maxhp:175,
+      maxcp4:2362,
+      na:"暴雪王"
+  ),
+  Post(
+      pic:"lib/images/p461.png",
+      ttyy:"lib/images/mdark.pnglib/images/mice.png",atk:243,def:171,nai:172,maxhp:147,
+      maxcp4:3005,
+      na:"瑪狃拉"
+  ),
+  Post(
+    pic:"lib/images/p471.png",
+    ttyy:"lib/images/mice.png",atk:238,def:205,nai:163,maxhp:140,
+    maxcp4:3126,
+    na:"冰伊布",
+  ),
+  Post(
+      pic:"lib/images/p473.png",
+      ttyy:"lib/images/mice.pnglib/images/mground.png",atk:247,def:146,nai:242,maxhp:203,
+      maxcp4:3328,
+      na:"象牙豬"
+  ),
+  Post(
+      pic:"lib/images/p478.png",
+      ttyy:"lib/images/mice.pnglib/images/mghost.png",atk:171,def:150,nai:172,maxhp:147,
+      maxcp4:2040,
+      na:"雪妖女"
+  ),
+  Post(
+      pic:"lib/images/p582.png",
+      ttyy:"lib/images/mice.png",atk:118,def:106,nai:113,maxhp:101,
+      maxcp4:1033,
+      na:"迷你冰"
+  ),
+  Post(
+      pic:"lib/images/p583.png",
+      ttyy:"lib/images/mice.png",atk:151,def:138,nai:139,maxhp:121,
+      maxcp4:1591,
+      na:"多多冰"
+  ),
+  Post(
+      pic:"lib/images/p584.png",
+      ttyy:"lib/images/mice.png",atk:218,def:184,nai:174,maxhp:149,
+      maxcp4:2822,
+      na:"雙倍多多冰"
+  ),
+  Post(
+    pic:"lib/images/p613.png",
+    ttyy:"lib/images/mice.png",atk:128,def:74,nai:146,maxhp:127,
+    maxcp4:1069,
+    na:"噴嚏熊",
+  ),
+  Post(
+      pic:"lib/images/p614.png",
+      ttyy:"lib/images/mice.png",atk:233,def:152,nai:216,maxhp:182,
+      maxcp4:3042,
+      na:"凍原熊"
+  ),
+  Post(
+      pic:"lib/images/p615.png",
+      ttyy:"lib/images/mice.png",atk:190,def:218,nai:190,maxhp:162,
+      maxcp4:2798,
+      na:"幾何雪花"
+  ),
+  Post(
+    pic:"lib/images/p646.png",
+    ttyy:"lib/images/mdragon.pnglib/images/mice.png",atk:246,def:170,nai:245,maxhp:205,
+    maxcp4:3575,
+    na:"酋雷姆",
+  ),
+];
+final List<Post> mlnormal = [
+  Post(
+      pic:"lib/images/p16.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:85,def:73,nai:120,maxhp:106,
+      maxcp4:680,
+      na:"波波"
+  ),
+  Post(
+      pic:"lib/images/p17.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:117,def:105,nai:160,maxhp:138,
+      maxcp4:1194,
+      na:"比比鳥"
+  ),
+  Post(
+      pic:"lib/images/p18.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:166,def:154,nai:195,maxhp:165,
+      maxcp4:2129,
+      na:"大比鳥"
+  ),
+  Post(
+      pic:"lib/images/p19.png",
+      ttyy:"lib/images/mnormal.png",atk:103,def:70,nai:102,maxhp:92,
+      maxcp4:734,
+      na:"小拉達"
+  ),
+  Post(
+      pic:"lib/images/p20.png",
+      ttyy:"lib/images/mnormal.png",atk:161,def:139,nai:146,maxhp:127,
+      maxcp4:1730,
+      na:"拉達"
+  ),
+  Post(
+      pic:"lib/images/p21.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:112,def:60,nai:120,maxhp:106,
+      maxcp4:798,
+      na:"烈雀"
+  ),
+  Post(
+      pic:"lib/images/p22.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:182,def:133,nai:163,maxhp:140,
+      maxcp4:1997,
+      na:"大嘴雀"
+  ),
+  Post(
+      pic:"lib/images/p39.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mfairy.png",atk:80,def:41,nai:251,maxhp:210,
+      maxcp4:724,
+      na:"胖丁"
+  ),
+  Post(
+      pic:"lib/images/p40.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mfairy.png",atk:156,def:90,nai:295,maxhp:244,
+      maxcp4:1926,
+      na:"胖可丁"
+  ),
+  Post(
+      pic:"lib/images/p52.png",
+      ttyy:"lib/images/mnormal.png",atk:92,def:78,nai:120,maxhp:106,
+      maxcp4:748,
+      na:"喵喵"
+  ),
+  Post(
+      pic:"lib/images/p53.png",
+      ttyy:"lib/images/mnormal.png",atk:150,def:136,nai:163,maxhp:140,
+      maxcp4:1689,
+      na:"貓老大"
+  ),
+  Post(
+      pic:"lib/images/p83.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:124,def:115,nai:141,maxhp:123,
+      maxcp4:1236,
+      na:"大蔥鴨"
+  ),
+  Post(
+      pic:"lib/images/p84.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:158,def:83,nai:111,maxhp:99,
+      maxcp4:1200,
+      na:"嘟嘟"
+  ),
+  Post(
+      pic:"lib/images/p85.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:218,def:140,nai:155,maxhp:134,
+      maxcp4:2362,
+      na:"嘟嘟利"
+  ),
+  Post(
+      pic:"lib/images/p108.png",
+      ttyy:"lib/images/mnormal.png",atk:108,def:137,nai:207,maxhp:175,
+      maxcp4:1411,
+      na:"大舌頭"
+  ),
+  Post(
+      pic:"lib/images/p113.png",
+      ttyy:"lib/images/mnormal.png",atk:60,def:128,nai:487,maxhp:396,
+      maxcp4:1255,
+      na:"吉利蛋"
+  ),
+  Post(
+      pic:"lib/images/p115.png",
+      ttyy:"lib/images/mnormal.png",atk:181,def:165,nai:233,maxhp:195,
+      maxcp4:2586,
+      na:"袋獸"
+  ),
+  Post(
+      pic:"lib/images/p128.png",
+      ttyy:"lib/images/mnormal.png",atk:198,def:183,nai:181,maxhp:154,
+      maxcp4:2620,
+      na:"肯泰羅"
+  ),
+  Post(
+      pic:"lib/images/p132.png",
+      ttyy:"lib/images/mnormal.png",atk:91,def:91,nai:134,maxhp:117,
+      maxcp4:832,
+      na:"百變怪"
+  ),
+  Post(
+      pic:"lib/images/p133.png",
+      ttyy:"lib/images/mnormal.png",atk:104,def:114,nai:146,maxhp:127,
+      maxcp4:1071,
+      na:"伊布"
+  ),
+  Post(
+      pic:"lib/images/p137.png",
+      ttyy:"lib/images/mnormal.png",atk:153,def:136,nai:163,maxhp:140,
+      maxcp4:1720,
+      na:"多邊獸"
+  ),
+  Post(
+      pic:"lib/images/p143.png",
+      ttyy:"lib/images/mnormal.png",atk:190,def:169,nai:330,maxhp:272,
+      maxcp4:3225,
+      na:"卡比獸"
+  ),
+  Post(
+      pic:"lib/images/p161.png",
+      ttyy:"lib/images/mnormal.png",atk:79,def:73,nai:111,maxhp:99,
+      maxcp4:618,
+      na:"尾立"
+  ),
+  Post(
+      pic:"lib/images/p162.png",
+      ttyy:"lib/images/mnormal.png",atk:148,def:125,nai:198,maxhp:168,
+      maxcp4:1758,
+      na:"大尾立"
+  ),
+  Post(
+      pic:"lib/images/p163.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:67,def:88,nai:155,maxhp:134,
+      maxcp4:677,
+      na:"咕咕"
+  ),
+  Post(
+      pic:"lib/images/p164.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:145,def:156,nai:225,maxhp:189,
+      maxcp4:2024,
+      na:"貓頭夜鷹"
+  ),
+  Post(
+      pic:"lib/images/p174.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mfairy.png",atk:69,def:32,nai:207,maxhp:175,
+      maxcp4:535,
+      na:"寶寶丁"
+  ),
+  Post(
+      pic:"lib/images/p190.png",
+      ttyy:"lib/images/mnormal.png",atk:136,def:112,nai:146,maxhp:127,
+      maxcp4:1348,
+      na:"長尾怪手"
+  ),
+  Post(
+      pic:"lib/images/p203.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mpsychic.png",atk:182,def:133,nai:172,maxhp:147,
+      maxcp4:2046,
+      na:"麒麟奇"
+  ),
+  Post(
+    pic:"lib/images/p206.png",
+    ttyy:"lib/images/mnormal.png",atk:131,def:128,nai:225,maxhp:189,
+    maxcp4:1689,
+    na:"土龍弟弟",
+  ),
+  Post(
+    pic:"lib/images/p216.png",
+    ttyy:"lib/images/mnormal.png",atk:142,def:93,nai:155,maxhp:134,
+    maxcp4:1328,
+    na:"熊寶寶",
+  ),
+  Post(
+      pic:"lib/images/p217.png",
+      ttyy:"lib/images/mnormal.png",atk:236,def:144,nai:207,maxhp:175,
+      maxcp4:2945,
+      na:"圈圈熊"
+  ),
+  Post(
+      pic:"lib/images/p233.png",
+      ttyy:"lib/images/mnormal.png",atk:198,def:180,nai:198,maxhp:168,
+      maxcp4:2711,
+      na:"多邊獸Ⅱ"
+  ),
+  Post(
+      pic:"lib/images/p234.png",
+      ttyy:"lib/images/mnormal.png",atk:192,def:131,nai:177,maxhp:151,
+      maxcp4:2164,
+      na:"驚角鹿"
+  ),
+  Post(
+      pic:"lib/images/p235.png",
+      ttyy:"lib/images/mnormal.png",atk:40,def:83,nai:146,maxhp:127,
+      maxcp4:431,
+      na:"圖圖犬"
+  ),
+  Post(
+      pic:"lib/images/p241.png",
+      ttyy:"lib/images/mnormal.png",atk:157,def:193,nai:216,maxhp:182,
+      maxcp4:2354,
+      na:"大奶罐"
+  ),
+  Post(
+    pic:"lib/images/p242.png",
+    ttyy:"lib/images/mnormal.png",atk:129,def:169,nai:496,maxhp:403,
+    maxcp4:2757,
+    na:"幸福蛋",
+  ),
+  Post(
+      pic:"lib/images/p263.png",
+      ttyy:"lib/images/mnormal.png",atk:58,def:80,nai:116,maxhp:103,
+      maxcp4:508,
+      na:"蛇紋熊"
+  ),
+  Post(
+    pic:"lib/images/p264.png",
+    ttyy:"lib/images/mnormal.png",atk:142,def:128,nai:186,maxhp:158,
+    maxcp4:1662,
+    na:"直衝熊",
+  ),
+  Post(
+      pic:"lib/images/p276.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:106,def:61,nai:120,maxhp:106,
+      maxcp4:765,
+      na:"傲骨燕"
+  ),
+  Post(
+      pic:"lib/images/p277.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:185,def:124,nai:155,maxhp:134,
+      maxcp4:1920,
+      na:"大王燕"
+  ),
+  Post(
+      pic:"lib/images/p287.png",
+      ttyy:"lib/images/mnormal.png",atk:104,def:92,nai:155,maxhp:134,
+      maxcp4:1002,
+      na:"懶人獺"
+  ),
+  Post(
+      pic:"lib/images/p288.png",
+      ttyy:"lib/images/mnormal.png",atk:159,def:145,nai:190,maxhp:162,
+      maxcp4:1968,
+      na:"過動猿"
+  ),
+  Post(
+      pic:"lib/images/p289.png",
+      ttyy:"lib/images/mnormal.png",atk:290,def:166,nai:284,maxhp:236,
+      maxcp4:4431,
+      na:"請假王"
+  ),
+  Post(
+      pic:"lib/images/p293.png",
+      ttyy:"lib/images/mnormal.png",atk:92,def:42,nai:162,maxhp:139,
+      maxcp4:671,
+      na:"咕妞妞"
+  ),
+  Post(
+      pic:"lib/images/p294.png",
+      ttyy:"lib/images/mnormal.png",atk:134,def:81,nai:197,maxhp:167,
+      maxcp4:1327,
+      na:"吼爆彈"
+  ),
+  Post(
+      pic:"lib/images/p295.png",
+      ttyy:"lib/images/mnormal.png",atk:179,def:137,nai:232,maxhp:195,
+      maxcp4:2347,
+      na:"爆音怪"
+  ),
+  Post(
+      pic:"lib/images/p298.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mfairy.png",atk:36,def:71,nai:137,maxhp:120,
+      maxcp4:364,
+      na:"露力麗"
+  ),
+  Post(
+      pic:"lib/images/p300.png",
+      ttyy:"lib/images/mnormal.png",atk:84,def:79,nai:137,maxhp:120,
+      maxcp4:739,
+      na:"向尾喵"
+  ),
+  Post(
+    pic:"lib/images/p301.png",
+    ttyy:"lib/images/mnormal.png",atk:132,def:127,nai:172,maxhp:147,
+    maxcp4:1496,
+    na:"優雅貓",
+  ),
+  Post(
+      pic:"lib/images/p327.png",
+      ttyy:"lib/images/mnormal.png",atk:116,def:116,nai:155,maxhp:134,
+      maxcp4:1220,
+      na:"晃晃斑"
+  ),
+  Post(
+    pic:"lib/images/p333.png",
+    ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:76,def:132,nai:128,maxhp:113,
+    maxcp4:824,
+    na:"青綿鳥",
+  ),
+  Post(
+      pic:"lib/images/p335.png",
+      ttyy:"lib/images/mnormal.png",atk:222,def:124,nai:177,maxhp:151,
+      maxcp4:2418,
+      na:"貓鼬斬"
+  ),
+  Post(
+      pic:"lib/images/p351.png",
+      ttyy:"lib/images/mnormal.png",atk:139,def:139,nai:172,maxhp:147,
+      maxcp4:1632,
+      na:"飄浮泡泡"
+  ),
+  Post(
+      pic:"lib/images/p352.png",
+      ttyy:"lib/images/mnormal.png",atk:161,def:189,nai:155,maxhp:134,
+      maxcp4:2047,
+      na:"變隱龍"
+  ),
+  Post(
+      pic:"lib/images/p396.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:101,def:58,nai:120,maxhp:106,
+      maxcp4:719,
+      na:"姆克兒"
+  ),
+  Post(
+      pic:"lib/images/p397.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:142,def:94,nai:146,maxhp:127,
+      maxcp4:1299,
+      na:"姆克鳥"
+  ),
+  Post(
+      pic:"lib/images/p398.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:234,def:140,nai:198,maxhp:168,
+      maxcp4:2825,
+      na:"姆克鷹"
+  ),
+  Post(
+      pic:"lib/images/p399.png",
+      ttyy:"lib/images/mnormal.png",atk:80,def:73,nai:153,maxhp:132,
+      maxcp4:721,
+      na:"大牙狸"
+  ),
+  Post(
+      pic:"lib/images/p400.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mwater.png",atk:162,def:119,nai:188,maxhp:160,
+      maxcp4:1823,
+      na:"大尾狸"
+  ),
+  Post(
+      pic:"lib/images/p424.png",
+      ttyy:"lib/images/mnormal.png",atk:205,def:143,nai:181,maxhp:154,
+      maxcp4:2418,
+      na:"雙尾怪手"
+  ),
+  Post(
+      pic:"lib/images/p427.png",
+      ttyy:"lib/images/mnormal.png",atk:130,def:105,nai:146,maxhp:127,
+      maxcp4:1258,
+      na:"捲捲耳"
+  ),
+  Post(
+      pic:"lib/images/p428.png",
+      ttyy:"lib/images/mnormal.png",atk:156,def:194,nai:163,maxhp:140,
+      maxcp4:2059,
+      na:"長耳兔"
+  ),
+  Post(
+      pic:"lib/images/p431.png",
+      ttyy:"lib/images/mnormal.png",atk:109,def:82,nai:135,maxhp:118,
+      maxcp4:934,
+      na:"魅力喵"
+  ),
+  Post(
+      pic:"lib/images/p432.png",
+      ttyy:"lib/images/mnormal.png",atk:172,def:133,nai:174,maxhp:149,
+      maxcp4:1953,
+      na:"東施喵"
+  ),
+  Post(
+      pic:"lib/images/p440.png",
+      ttyy:"lib/images/mnormal.png",atk:25,def:77,nai:225,maxhp:189,
+      maxcp4:371,
+      na:"小福蛋"
+  ),
+  Post(
+      pic:"lib/images/p441.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:183,def:91,nai:183,maxhp:156,
+      maxcp4:1791,
+      na:"聒噪鳥"
+  ),
+  Post(
+      pic:"lib/images/p446.png",
+      ttyy:"lib/images/mnormal.png",atk:137,def:117,nai:286,maxhp:237,
+      maxcp4:1892,
+      na:"小卡比獸"
+  ),
+  Post(
+      pic:"lib/images/p463.png",
+      ttyy:"lib/images/mnormal.png",atk:161,def:181,nai:242,maxhp:203,
+      maxcp4:2467,
+      na:"大舌舔"
+  ),
+  Post(
+      pic:"lib/images/p474.png",
+      ttyy:"lib/images/mnormal.png",atk:264,def:150,nai:198,maxhp:168,
+      maxcp4:3266,
+      na:"多邊獸Ｚ"
+  ),
+  Post(
+      pic:"lib/images/p486.png",
+      ttyy:"lib/images/mnormal.png",atk:287,def:210,nai:221,maxhp:186,
+      maxcp4:4346,
+      na:"雷吉奇卡斯"
+  ),
+  Post(
+      pic:"lib/images/p493.png",
+      ttyy:"lib/images/mnormal.png",atk:238,def:238,nai:237,maxhp:199,
+      maxcp4:3989,
+      na:"阿爾宙斯"
+  ),
+  Post(
+      pic:"lib/images/p504.png",
+      ttyy:"lib/images/mnormal.png",atk:98,def:73,nai:128,maxhp:113,
+      maxcp4:791,
+      na:"探探鼠"
+  ),
+  Post(
+      pic:"lib/images/p505.png",
+      ttyy:"lib/images/mnormal.png",atk:165,def:139,nai:155,maxhp:134,
+      maxcp4:1819,
+      na:"步哨鼠"
+  ),
+  Post(
+      pic:"lib/images/p506.png",
+      ttyy:"lib/images/mnormal.png",atk:107,def:86,nai:128,maxhp:113,
+      maxcp4:915,
+      na:"小約克"
+  ),
+  Post(
+      pic:"lib/images/p507.png",
+      ttyy:"lib/images/mnormal.png",atk:145,def:126,nai:163,maxhp:140,
+      maxcp4:1583,
+      na:"哈約克"
+  ),
+  Post(
+      pic:"lib/images/p508.png",
+      ttyy:"lib/images/mnormal.png",atk:206,def:182,nai:198,maxhp:168,
+      maxcp4:2827,
+      na:"長毛狗"
+  ),
+  Post(
+      pic:"lib/images/p519.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:98,def:80,nai:137,maxhp:120,
+      maxcp4:848,
+      na:"豆豆鴿"
+  ),
+  Post(
+    pic:"lib/images/p520.png",
+    ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:144,def:107,nai:158,maxhp:136,
+    maxcp4:1442,
+    na:"波波鴿",
+  ),
+  Post(
+      pic:"lib/images/p521.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:226,def:146,nai:190,maxhp:162,
+      maxcp4:2734,
+      na:"轟隆雉雞"
+  ),
+  Post(
+    pic:"lib/images/p531.png",
+    ttyy:"lib/images/mnormal.png",atk:114,def:163,nai:230,maxhp:193,
+    maxcp4:1682,
+    na:"差不多娃娃",
+  ),
+  Post(
+      pic:"lib/images/p572.png",
+      ttyy:"lib/images/mnormal.png",atk:98,def:80,nai:146,maxhp:127,
+      maxcp4:872,
+      na:"泡沫栗鼠"
+  ),
+  Post(
+      pic:"lib/images/p573.png",
+      ttyy:"lib/images/mnormal.png",atk:198,def:130,nai:181,maxhp:154,
+      maxcp4:2242,
+      na:"奇諾栗鼠"
+  ),
+  Post(
+      pic:"lib/images/p585.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mgrass.png",atk:115,def:100,nai:155,maxhp:134,
+      maxcp4:1135,
+      na:"四季鹿"
+  ),
+  Post(
+      pic:"lib/images/p586.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mgrass.png",atk:198,def:146,nai:190,maxhp:162,
+      maxcp4:2416,
+      na:"芽吹鹿"
+  ),
+  Post(
+      pic:"lib/images/p626.png",
+      ttyy:"lib/images/mnormal.png",atk:195,def:182,nai:216,maxhp:182,
+      maxcp4:2797,
+      na:"爆爆頭水牛"
+  ),
+  Post(
+      pic:"lib/images/p627.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:150,def:97,nai:172,maxhp:147,
+      maxcp4:1491,
+      na:"毛頭小鷹"
+  ),
+  Post(
+      pic:"lib/images/p628.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mflying.png",atk:232,def:152,nai:225,maxhp:189,
+      maxcp4:3088,
+      na:"勇士鷹"
+  ),
+  Post(
+    pic:"lib/images/p648.png",
+    ttyy:"lib/images/mnormal.pnglib/images/mpsychic.png",atk:250,def:225,nai:225,maxhp:189,
+    maxcp4:3972,
+    na:"美洛耶塔",
+  ),
+];
+final List<Post> mlpoison = [
+  Post(
+    pic:"lib/images/p1.png",
+    ttyy:"lib/images/mgrass.pnglib/images/mpoison.png",atk:118,def:111,nai:128,maxhp:113,
+    maxcp4:1115,
+    na:"妙蛙種子",
+  ),
+  Post(
+    pic:"lib/images/p2.png",
+    ttyy:"lib/images/mgrass.pnglib/images/mpoison.png",atk:151,def:143,nai:155,maxhp:134,
+    maxcp4:1699,
+    na:"妙蛙草",
+  ),
+  Post(
+    pic:"lib/images/p3.png",
+    ttyy:"lib/images/mgrass.pnglib/images/mpoison.png",atk:198,def:189,nai:190,maxhp:162,
+    maxcp4:2720,
+    na:"妙蛙花",
+  ),
+  Post(
+      pic:"lib/images/p13.png",
+      ttyy:"lib/images/mbug.pnglib/images/mpoison.png",atk:63,def:50,nai:120,maxhp:106,
+      maxcp4:456,
+      na:"獨角蟲"
+  ),
+  Post(
+      pic:"lib/images/p14.png",
+      ttyy:"lib/images/mbug.pnglib/images/mpoison.png",atk:46,def:75,nai:128,maxhp:113,
+      maxcp4:432,
+      na:"鐵殼蛹"
+  ),
+  Post(
+      pic:"lib/images/p15.png",
+      ttyy:"lib/images/mbug.pnglib/images/mpoison.png",atk:169,def:130,nai:163,maxhp:140,
+      maxcp4:1846,
+      na:"大針蜂"
+  ),
+  Post(
+      pic:"lib/images/p23.png",
+      ttyy:"lib/images/mpoison.png",atk:110,def:97,nai:111,maxhp:99,
+      maxcp4:927,
+      na:"阿柏蛇"
+  ),
+  Post(
+    pic:"lib/images/p24.png",
+    ttyy:"lib/images/mpoison.png",atk:167,def:153,nai:155,maxhp:134,
+    maxcp4:1921,
+    na:"阿柏怪",
+  ),
+  Post(
+      pic:"lib/images/p29.png",
+      ttyy:"lib/images/mpoison.png",atk:86,def:89,nai:146,maxhp:127,
+      maxcp4:816,
+      na:"尼多蘭"
+  ),
+  Post(
+    pic:"lib/images/p30.png",
+    ttyy:"lib/images/mpoison.png",atk:117,def:120,nai:172,maxhp:147,
+    maxcp4:1309,
+    na:"尼多娜",
+  ),
+  Post(
+      pic:"lib/images/p31.png",
+      ttyy:"lib/images/mpoison.pnglib/images/mground.png",atk:180,def:173,nai:207,maxhp:175,
+      maxcp4:2488,
+      na:"尼多后"
+  ),
+  Post(
+      pic:"lib/images/p32.png",
+      ttyy:"lib/images/mpoison.png",atk:105,def:76,nai:130,maxhp:114,
+      maxcp4:860,
+      na:"尼多朗"
+  ),
+  Post(
+      pic:"lib/images/p33.png",
+      ttyy:"lib/images/mpoison.png",atk:137,def:111,nai:156,maxhp:135,
+      maxcp4:1393,
+      na:"尼多力諾"
+  ),
+  Post(
+      pic:"lib/images/p34.png",
+      ttyy:"lib/images/mpoison.pnglib/images/mground.png",atk:204,def:156,nai:191,maxhp:162,
+      maxcp4:2567,
+      na:"尼多王"
+  ),
+  Post(
+      pic:"lib/images/p41.png",
+      ttyy:"lib/images/mpoison.pnglib/images/mflying.png",atk:83,def:73,nai:120,maxhp:106,
+      maxcp4:667,
+      na:"超音蝠"
+  ),
+  Post(
+      pic:"lib/images/p42.png",
+      ttyy:"lib/images/mpoison.pnglib/images/mflying.png",atk:161,def:150,nai:181,maxhp:154,
+      maxcp4:1976,
+      na:"大嘴蝠"
+  ),
+  Post(
+      pic:"lib/images/p43.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mpoison.png",atk:131,def:112,nai:128,maxhp:113,
+      maxcp4:1228,
+      na:"走路草"
+  ),
+  Post(
+    pic:"lib/images/p44.png",
+    ttyy:"lib/images/mgrass.pnglib/images/mpoison.png",atk:153,def:136,nai:155,maxhp:134,
+    maxcp4:1681,
+    na:"臭臭花",
+  ),
+  Post(
+      pic:"lib/images/p45.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mpoison.png",atk:202,def:167,nai:181,maxhp:154,
+      maxcp4:2559,
+      na:"霸王花"
+  ),
+  Post(
+      pic:"lib/images/p48.png",
+      ttyy:"lib/images/mbug.pnglib/images/mpoison.png",atk:100,def:100,nai:155,maxhp:134,
+      maxcp4:1004,
+      na:"毛球"
+  ),
+  Post(
+    pic:"lib/images/p49.png",
+    ttyy:"lib/images/mbug.pnglib/images/mpoison.png",atk:179,def:143,nai:172,maxhp:147,
+    maxcp4:2082,
+    na:"摩魯蛾",
+  ),
+  Post(
+      pic:"lib/images/p69.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mpoison.png",atk:139,def:61,nai:137,maxhp:120,
+      maxcp4:1033,
+      na:"喇叭芽"
+  ),
+  Post(
+      pic:"lib/images/p70.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mpoison.png",atk:172,def:92,nai:163,maxhp:140,
+      maxcp4:1611,
+      na:"口呆花"
+  ),
+  Post(
+      pic:"lib/images/p71.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mpoison.png",atk:207,def:135,nai:190,maxhp:162,
+      maxcp4:2431,
+      na:"大食花"
+  ),
+  Post(
+      pic:"lib/images/p72.png",
+      ttyy:"lib/images/mwater.pnglib/images/mpoison.png",atk:97,def:149,nai:120,maxhp:106,
+      maxcp4:1040,
+      na:"瑪瑙水母"
+  ),
+  Post(
+      pic:"lib/images/p73.png",
+      ttyy:"lib/images/mwater.pnglib/images/mpoison.png",atk:166,def:209,nai:190,maxhp:162,
+      maxcp4:2422,
+      na:"毒刺水母"
+  ),
+  Post(
+      pic:"lib/images/p88.png",
+      ttyy:"lib/images/mpoison.png",atk:135,def:90,nai:190,maxhp:162,
+      maxcp4:1374,
+      na:"臭泥"
+  ),
+  Post(
+      pic:"lib/images/p89.png",
+      ttyy:"lib/images/mpoison.png",atk:190,def:172,nai:233,maxhp:195,
+      maxcp4:2757,
+      na:"臭臭泥"
+  ),
+  Post(
+      pic:"lib/images/p92.png",
+      ttyy:"lib/images/mghost.pnglib/images/mpoison.png",atk:186,def:67,nai:102,maxhp:92,
+      maxcp4:1229,
+      na:"鬼斯"
+  ),
+  Post(
+      pic:"lib/images/p93.png",
+      ttyy:"lib/images/mghost.pnglib/images/mpoison.png",atk:223,def:107,nai:128,maxhp:113,
+      maxcp4:1963,
+      na:"鬼斯通"
+  ),
+  Post(
+      pic:"lib/images/p94.png",
+      ttyy:"lib/images/mghost.pnglib/images/mpoison.png",atk:261,def:149,nai:155,maxhp:134,
+      maxcp4:2878,
+      na:"耿鬼"
+  ),
+  Post(
+      pic:"lib/images/p109.png",
+      ttyy:"lib/images/mpoison.png",atk:119,def:141,nai:120,maxhp:106,
+      maxcp4:1214,
+      na:"瓦斯彈"
+  ),
+  Post(
+      pic:"lib/images/p110.png",
+      ttyy:"lib/images/mpoison.png",atk:174,def:197,nai:163,maxhp:140,
+      maxcp4:2293,
+      na:"雙彈瓦斯"
+  ),
+  Post(
+      pic:"lib/images/p167.png",
+      ttyy:"lib/images/mbug.pnglib/images/mpoison.png",atk:105,def:73,nai:120,maxhp:106,
+      maxcp4:816,
+      na:"圓絲蛛"
+  ),
+  Post(
+      pic:"lib/images/p168.png",
+      ttyy:"lib/images/mbug.pnglib/images/mpoison.png",atk:161,def:124,nai:172,maxhp:147,
+      maxcp4:1772,
+      na:"阿利多斯"
+  ),
+  Post(
+      pic:"lib/images/p169.png",
+      ttyy:"lib/images/mpoison.pnglib/images/mflying.png",atk:194,def:178,nai:198,maxhp:168,
+      maxcp4:2646,
+      na:"叉字蝠"
+  ),
+  Post(
+      pic:"lib/images/p211.png",
+      ttyy:"lib/images/mwater.pnglib/images/mpoison.png",atk:184,def:138,nai:163,maxhp:140,
+      maxcp4:2051,
+      na:"千針魚"
+  ),
+  Post(
+      pic:"lib/images/p269.png",
+      ttyy:"lib/images/mbug.pnglib/images/mpoison.png",atk:98,def:162,nai:155,maxhp:134,
+      maxcp4:1224,
+      na:"毒粉蛾"
+  ),
+  Post(
+      pic:"lib/images/p315.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mpoison.png",atk:186,def:131,nai:137,maxhp:120,
+      maxcp4:1870,
+      na:"毒薔薇"
+  ),
+  Post(
+      pic:"lib/images/p316.png",
+      ttyy:"lib/images/mpoison.png",atk:80,def:99,nai:172,maxhp:147,
+      maxcp4:866,
+      na:"溶食獸"
+  ),
+  Post(
+      pic:"lib/images/p317.png",
+      ttyy:"lib/images/mpoison.png",atk:140,def:159,nai:225,maxhp:189,
+      maxcp4:1978,
+      na:"吞食獸"
+  ),
+  Post(
+    pic:"lib/images/p336.png",
+    ttyy:"lib/images/mpoison.png",atk:196,def:118,nai:177,maxhp:151,
+    maxcp4:2105,
+    na:"飯匙蛇",
+  ),
+  Post(
+    pic:"lib/images/p406.png",
+    ttyy:"lib/images/mgrass.pnglib/images/mpoison.png",atk:91,def:109,nai:120,maxhp:106,
+    maxcp4:856,
+    na:"含羞苞",
+  ),
+  Post(
+      pic:"lib/images/p407.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mpoison.png",atk:243,def:185,nai:155,maxhp:134,
+      maxcp4:2971,
+      na:"羅絲雷朵"
+  ),
+  Post(
+      pic:"lib/images/p434.png",
+      ttyy:"lib/images/mpoison.pnglib/images/mdark.png",atk:121,def:90,nai:160,maxhp:138,
+      maxcp4:1151,
+      na:"臭鼬噗"
+  ),
+  Post(
+      pic:"lib/images/p435.png",
+      ttyy:"lib/images/mpoison.pnglib/images/mdark.png",atk:184,def:132,nai:230,maxhp:193,
+      maxcp4:2358,
+      na:"坦克臭鼬"
+  ),
+  Post(
+    pic:"lib/images/p451.png",
+    ttyy:"lib/images/mpoison.pnglib/images/mbug.png",atk:93,def:151,nai:120,maxhp:106,
+    maxcp4:1009,
+    na:"鉗尾蠍",
+  ),
+  Post(
+      pic:"lib/images/p452.png",
+      ttyy:"lib/images/mpoison.pnglib/images/mdark.png",atk:180,def:202,nai:172,maxhp:147,
+      maxcp4:2453,
+      na:"龍王蠍"
+  ),
+  Post(
+      pic:"lib/images/p453.png",
+      ttyy:"lib/images/mpoison.pnglib/images/mfighting.png",atk:116,def:76,nai:134,maxhp:117,
+      maxcp4:952,
+      na:"不良蛙"
+  ),
+  Post(
+      pic:"lib/images/p454.png",
+      ttyy:"lib/images/mpoison.pnglib/images/mfighting.png",atk:211,def:133,nai:195,maxhp:165,
+      maxcp4:2488,
+      na:"毒骷蛙"
+  ),
+  Post(
+    pic:"lib/images/p543.png",
+    ttyy:"lib/images/mbug.pnglib/images/mpoison.png",atk:83,def:99,nai:102,maxhp:92,
+    maxcp4:706,
+    na:"百足蜈蚣",
+  ),
+  Post(
+      pic:"lib/images/p544.png",
+      ttyy:"lib/images/mbug.pnglib/images/mpoison.png",atk:100,def:173,nai:120,maxhp:106,
+      maxcp4:1144,
+      na:"車輪毬"
+  ),
+  Post(
+      pic:"lib/images/p545.png",
+      ttyy:"lib/images/mbug.pnglib/images/mpoison.png",atk:203,def:175,nai:155,maxhp:134,
+      maxcp4:2447,
+      na:"蜈蚣王"
+  ),
+  Post(
+      pic:"lib/images/p568.png",
+      ttyy:"lib/images/mpoison.png",atk:96,def:122,nai:137,maxhp:120,
+      maxcp4:1000,
+      na:"破破袋"
+  ),
+  Post(
+    pic:"lib/images/p569.png",
+    ttyy:"lib/images/mpoison.png",atk:181,def:164,nai:190,maxhp:162,
+    maxcp4:2345,
+    na:"灰塵山",
+  ),
+  Post(
+      pic:"lib/images/p590.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mpoison.png",atk:97,def:91,nai:170,maxhp:146,
+      maxcp4:979,
+      na:"寶貝球菇"
+  ),
+  Post(
+      pic:"lib/images/p591.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mpoison.png",atk:155,def:139,nai:249,maxhp:208,
+      maxcp4:2140,
+      na:"暴露菇"
+  ),
+];
+final List<Post> mlpsychic = [
+  Post(
+      pic:"lib/images/p63.png",
+      ttyy:"lib/images/mpsychic.png",atk:195,def:82,nai:93,maxhp:85,
+      maxcp4:1342,
+      na:"凱西"
+  ),
+  Post(
+      pic:"lib/images/p64.png",
+      ttyy:"lib/images/mpsychic.png",atk:232,def:117,nai:120,maxhp:106,
+      maxcp4:2059,
+      na:"勇基拉"
+  ),
+  Post(
+    pic:"lib/images/p65.png",
+    ttyy:"lib/images/mpsychic.png",atk:271,def:167,nai:146,maxhp:127,
+    maxcp4:3057,
+    na:"胡地",
+  ),
+  Post(
+      pic:"lib/images/p79.png",
+      ttyy:"lib/images/mwater.pnglib/images/mpsychic.png",atk:109,def:98,nai:207,maxhp:175,
+      maxcp4:1226,
+      na:"呆呆獸"
+  ),
+  Post(
+      pic:"lib/images/p80.png",
+      ttyy:"lib/images/mwater.pnglib/images/mpsychic.png",atk:177,def:180,nai:216,maxhp:182,
+      maxcp4:2545,
+      na:"呆殼獸"
+  ),
+  Post(
+      pic:"lib/images/p96.png",
+      ttyy:"lib/images/mpsychic.png",atk:89,def:136,nai:155,maxhp:134,
+      maxcp4:1040,
+      na:"催眠貘"
+  ),
+  Post(
+      pic:"lib/images/p97.png",
+      ttyy:"lib/images/mpsychic.png",atk:144,def:193,nai:198,maxhp:168,
+      maxcp4:2090,
+      na:"引夢貘人"
+  ),
+  Post(
+      pic:"lib/images/p102.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mpsychic.png",atk:107,def:125,nai:155,maxhp:134,
+      maxcp4:1175,
+      na:"蛋蛋"
+  ),
+  Post(
+      pic:"lib/images/p103.png",
+      ttyy:"lib/images/mgrass.pnglib/images/mpsychic.png",atk:233,def:149,nai:216,maxhp:182,
+      maxcp4:3014,
+      na:"椰蛋樹"
+  ),
+  Post(
+      pic:"lib/images/p121.png",
+      ttyy:"lib/images/mwater.pnglib/images/mpsychic.png",atk:210,def:184,nai:155,maxhp:134,
+      maxcp4:2584,
+      na:"寶石海星"
+  ),
+  Post(
+      pic:"lib/images/p122.png",
+      ttyy:"lib/images/mpsychic.pnglib/images/mfairy.png",atk:192,def:205,nai:120,maxhp:106,
+      maxcp4:2228,
+      na:"魔牆人偶"
+  ),
+  Post(
+      pic:"lib/images/p124.png",
+      ttyy:"lib/images/mice.pnglib/images/mpsychic.png",atk:223,def:151,nai:163,maxhp:140,
+      maxcp4:2555,
+      na:"迷唇姐"
+  ),
+  Post(
+      pic:"lib/images/p150.png",
+      ttyy:"lib/images/mpsychic.png",atk:300,def:182,nai:214,maxhp:180,
+      maxcp4:4178,
+      na:"超夢"
+  ),
+  Post(
+      pic:"lib/images/p151.png",
+      ttyy:"lib/images/mpsychic.png",atk:210,def:210,nai:225,maxhp:187,
+      maxcp4:3265,
+      na:"夢幻"
+  ),
+  Post(
+      pic:"lib/images/p177.png",
+      ttyy:"lib/images/mpsychic.pnglib/images/mflying.png",atk:134,def:89,nai:120,maxhp:106,
+      maxcp4:1102,
+      na:"天然雀"
+  ),
+  Post(
+      pic:"lib/images/p178.png",
+      ttyy:"lib/images/mpsychic.pnglib/images/mflying.png",atk:192,def:146,nai:163,maxhp:140,
+      maxcp4:2188,
+      na:"天然鳥"
+  ),
+  Post(
+      pic:"lib/images/p196.png",
+      ttyy:"lib/images/mpsychic.png",atk:261,def:175,nai:163,maxhp:140,
+      maxcp4:3170,
+      na:"太陽伊布"
+  ),
+  Post(
+      pic:"lib/images/p199.png",
+      ttyy:"lib/images/mwater.pnglib/images/mpsychic.png",atk:177,def:180,nai:216,maxhp:182,
+      maxcp4:2545,
+      na:"呆呆王"
+  ),
+  Post(
+      pic:"lib/images/p201.png",
+      ttyy:"lib/images/mpsychic.png",atk:136,def:91,nai:134,maxhp:117,
+      maxcp4:1185,
+      na:"未知圖騰"
+  ),
+  Post(
+      pic:"lib/images/p202.png",
+      ttyy:"lib/images/mpsychic.png",atk:60,def:106,nai:382,maxhp:313,
+      maxcp4:1026,
+      na:"果然翁"
+  ),
+  Post(
+      pic:"lib/images/p203.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mpsychic.png",atk:182,def:133,nai:172,maxhp:147,
+      maxcp4:2046,
+      na:"麒麟奇"
+  ),
+  Post(
+    pic:"lib/images/p238.png",
+    ttyy:"lib/images/mice.pnglib/images/mpsychic.png",atk:153,def:91,nai:128,maxhp:113,
+    maxcp4:1291,
+    na:"迷唇娃",
+  ),
+  Post(
+      pic:"lib/images/p249.png",
+      ttyy:"lib/images/mpsychic.pnglib/images/mflying.png",atk:193,def:310,nai:235,maxhp:197,
+      maxcp4:3703,
+      na:"洛奇亞"
+  ),
+  Post(
+      pic:"lib/images/p251.png",
+      ttyy:"lib/images/mpsychic.pnglib/images/mgrass.png",atk:210,def:210,nai:225,maxhp:189,
+      maxcp4:3265,
+      na:"時拉比"
+  ),
+  Post(
+      pic:"lib/images/p280.png",
+      ttyy:"lib/images/mpsychic.pnglib/images/mfairy.png",atk:79,def:59,nai:99,maxhp:90,
+      maxcp4:539,
+      na:"拉魯拉絲"
+  ),
+  Post(
+      pic:"lib/images/p281.png",
+      ttyy:"lib/images/mpsychic.pnglib/images/mfairy.png",atk:117,def:90,nai:116,maxhp:103,
+      maxcp4:966,
+      na:"奇魯莉安"
+  ),
+  Post(
+      pic:"lib/images/p282.png",
+      ttyy:"lib/images/mpsychic.pnglib/images/mfairy.png",atk:237,def:195,nai:169,maxhp:145,
+      maxcp4:3093,
+      na:"沙奈朵"
+  ),
+  Post(
+    pic:"lib/images/p307.png",
+    ttyy:"lib/images/mfighting.pnglib/images/mpsychic.png",atk:78,def:107,nai:102,maxhp:92,
+    maxcp4:693,
+    na:"瑪沙那",
+  ),
+  Post(
+      pic:"lib/images/p308.png",
+      ttyy:"lib/images/mfighting.pnglib/images/mpsychic.png",atk:121,def:152,nai:155,maxhp:134,
+      maxcp4:1431,
+      na:"恰雷姆"
+  ),
+  Post(
+      pic:"lib/images/p325.png",
+      ttyy:"lib/images/mpsychic.png",atk:125,def:122,nai:155,maxhp:134,
+      maxcp4:1334,
+      na:"跳跳豬"
+  ),
+  Post(
+      pic:"lib/images/p326.png",
+      ttyy:"lib/images/mpsychic.png",atk:171,def:188,nai:190,maxhp:162,
+      maxcp4:2369,
+      na:"噗噗豬"
+  ),
+  Post(
+      pic:"lib/images/p337.png",
+      ttyy:"lib/images/mrock.pnglib/images/mpsychic.png",atk:178,def:153,nai:207,maxhp:175,
+      maxcp4:2327,
+      na:"月石"
+  ),
+  Post(
+      pic:"lib/images/p338.png",
+      ttyy:"lib/images/mrock.pnglib/images/mpsychic.png",atk:178,def:153,nai:207,maxhp:175,
+      maxcp4:2327,
+      na:"太陽岩"
+  ),
+  Post(
+      pic:"lib/images/p343.png",
+      ttyy:"lib/images/mground.pnglib/images/mpsychic.png",atk:77,def:124,nai:120,maxhp:106,
+      maxcp4:787,
+      na:"天秤偶"
+  ),
+  Post(
+      pic:"lib/images/p344.png",
+      ttyy:"lib/images/mground.pnglib/images/mpsychic.png",atk:140,def:229,nai:155,maxhp:134,
+      maxcp4:1971,
+      na:"念力土偶"
+  ),
+  Post(
+      pic:"lib/images/p358.png",
+      ttyy:"lib/images/mpsychic.png",atk:175,def:170,nai:181,maxhp:154,
+      maxcp4:2259,
+      na:"風鈴鈴"
+  ),
+  Post(
+      pic:"lib/images/p360.png",
+      ttyy:"lib/images/mpsychic.png",atk:41,def:86,nai:216,maxhp:182,
+      maxcp4:534,
+      na:"小果然"
+  ),
+  Post(
+      pic:"lib/images/p374.png",
+      ttyy:"lib/images/msteel.pnglib/images/mpsychic.png",atk:96,def:132,nai:120,maxhp:106,
+      maxcp4:976,
+      na:"鐵啞鈴"
+  ),
+  Post(
+      pic:"lib/images/p375.png",
+      ttyy:"lib/images/msteel.pnglib/images/mpsychic.png",atk:138,def:176,nai:155,maxhp:134,
+      maxcp4:1721,
+      na:"金屬怪"
+  ),
+  Post(
+      pic:"lib/images/p376.png",
+      ttyy:"lib/images/msteel.pnglib/images/mpsychic.png",atk:257,def:228,nai:190,maxhp:162,
+      maxcp4:3791,
+      na:"巨金怪"
+  ),
+  Post(
+      pic:"lib/images/p380.png",
+      ttyy:"lib/images/mdragon.pnglib/images/mpsychic.png",atk:228,def:246,nai:190,maxhp:162,
+      maxcp4:3510,
+      na:"拉帝亞斯"
+  ),
+  Post(
+    pic:"lib/images/p381.png",
+    ttyy:"lib/images/mdragon.pnglib/images/mpsychic.png",atk:268,def:212,nai:190,maxhp:162,
+    maxcp4:3812,
+    na:"拉帝歐斯",
+  ),
+  Post(
+      pic:"lib/images/p385.png",
+      ttyy:"lib/images/msteel.pnglib/images/mpsychic.png",atk:210,def:210,nai:225,maxhp:189,
+      maxcp4:3265,
+      na:"基拉祈"
+  ),
+  Post(
+      pic:"lib/images/p386.png",
+      ttyy:"lib/images/mpsychic.png",atk:345,def:115,nai:137,maxhp:120,
+      maxcp4:3160,
+      na:"代歐奇希斯"
+  ),
+  Post(
+    pic:"lib/images/p433.png",
+    ttyy:"lib/images/mpsychic.png",atk:114,def:94,nai:128,maxhp:113,
+    maxcp4:1005,
+    na:"鈴鐺響",
+  ),
+  Post(
+      pic:"lib/images/p436.png",
+      ttyy:"lib/images/msteel.pnglib/images/mpsychic.png",atk:43,def:154,nai:149,maxhp:129,
+      maxcp4:603,
+      na:"銅鏡怪"
+  ),
+  Post(
+      pic:"lib/images/p437.png",
+      ttyy:"lib/images/msteel.pnglib/images/mpsychic.png",atk:161,def:213,nai:167,maxhp:143,
+      maxcp4:2239,
+      na:"青銅鐘"
+  ),
+  Post(
+      pic:"lib/images/p439.png",
+      ttyy:"lib/images/mpsychic.pnglib/images/mfairy.png",atk:125,def:142,nai:85,maxhp:79,
+      maxcp4:1095,
+      na:"魔尼尼"
+  ),
+  Post(
+      pic:"lib/images/p475.png",
+      ttyy:"lib/images/mpsychic.pnglib/images/mfighting.png",atk:237,def:195,nai:169,maxhp:145,
+      maxcp4:3093,
+      na:"艾路雷朵"
+  ),
+  Post(
+      pic:"lib/images/p480.png",
+      ttyy:"lib/images/mpsychic.png",atk:156,def:270,nai:181,maxhp:154,
+      maxcp4:2524,
+      na:"由克希"
+  ),
+  Post(
+      pic:"lib/images/p481.png",
+      ttyy:"lib/images/mpsychic.png",atk:212,def:212,nai:190,maxhp:162,
+      maxcp4:3058,
+      na:"艾姆利多"
+  ),
+  Post(
+      pic:"lib/images/p482.png",
+      ttyy:"lib/images/mpsychic.png",atk:270,def:151,nai:181,maxhp:154,
+      maxcp4:3210,
+      na:"亞克諾姆"
+  ),
+  Post(
+      pic:"lib/images/p488.png",
+      ttyy:"lib/images/mpsychic.png",atk:152,def:258,nai:260,maxhp:217,
+      maxcp4:2857,
+      na:"克雷色利亞"
+  ),
+  Post(
+      pic:"lib/images/p494.png",
+      ttyy:"lib/images/mpsychic.pnglib/images/mfire.png",atk:210,def:210,nai:225,maxhp:189,
+      maxcp4:3265,
+      na:"比克提尼"
+  ),
+  Post(
+      pic:"lib/images/p517.png",
+      ttyy:"lib/images/mpsychic.png",atk:111,def:92,nai:183,maxhp:156,
+      maxcp4:1145,
+      na:"食夢夢"
+  ),
+  Post(
+      pic:"lib/images/p518.png",
+      ttyy:"lib/images/mpsychic.png",atk:183,def:166,nai:253,maxhp:211,
+      maxcp4:2723,
+      na:"夢夢蝕"
+  ),
+  Post(
+      pic:"lib/images/p527.png",
+      ttyy:"lib/images/mpsychic.pnglib/images/mflying.png",atk:107,def:85,nai:163,maxhp:140,
+      maxcp4:1016,
+      na:"滾滾蝙蝠"
+  ),
+  Post(
+      pic:"lib/images/p528.png",
+      ttyy:"lib/images/mpsychic.pnglib/images/mflying.png",atk:161,def:119,nai:167,maxhp:143,
+      maxcp4:1716,
+      na:"心蝙蝠"
+  ),
+  Post(
+      pic:"lib/images/p561.png",
+      ttyy:"lib/images/mpsychic.pnglib/images/mflying.png",atk:204,def:167,nai:176,maxhp:150,
+      maxcp4:2550,
+      na:"象徵鳥"
+  ),
+  Post(
+      pic:"lib/images/p574.png",
+      ttyy:"lib/images/mpsychic.png",atk:98,def:112,nai:128,maxhp:113,
+      maxcp4:951,
+      na:"哥德寶寶"
+  ),
+  Post(
+      pic:"lib/images/p575.png",
+      ttyy:"lib/images/mpsychic.png",atk:137,def:153,nai:155,maxhp:134,
+      maxcp4:1604,
+      na:"哥德小童"
+  ),
+  Post(
+      pic:"lib/images/p576.png",
+      ttyy:"lib/images/mpsychic.png",atk:176,def:205,nai:172,maxhp:147,
+      maxcp4:2419,
+      na:"哥德小姐"
+  ),
+  Post(
+      pic:"lib/images/p577.png",
+      ttyy:"lib/images/mpsychic.png",atk:170,def:83,nai:128,maxhp:113,
+      maxcp4:1367,
+      na:"單卵細胞球"
+  ),
+  Post(
+    pic:"lib/images/p578.png",
+    ttyy:"lib/images/mpsychic.png",atk:208,def:103,nai:163,maxhp:140,
+    maxcp4:2018,
+    na:"雙卵細胞球",
+  ),
+  Post(
+      pic:"lib/images/p579.png",
+      ttyy:"lib/images/mpsychic.png",atk:214,def:148,nai:242,maxhp:203,
+      maxcp4:2927,
+      na:"人造細胞卵"
+  ),
+  Post(
+      pic:"lib/images/p605.png",
+      ttyy:"lib/images/mpsychic.png",atk:148,def:100,nai:146,maxhp:127,
+      maxcp4:1385,
+      na:"小灰怪"
+  ),
+  Post(
+      pic:"lib/images/p606.png",
+      ttyy:"lib/images/mpsychic.png",atk:221,def:163,nai:181,maxhp:154,
+      maxcp4:2753,
+      na:"大宇怪"
+  ),
+  Post(
+    pic:"lib/images/p648.png",
+    ttyy:"lib/images/mnormal.pnglib/images/mpsychic.png",atk:250,def:225,nai:225,maxhp:189,
+    maxcp4:3972,
+    na:"美洛耶塔",
+  ),
+];
+final List<Post> mlrock = [
+  Post(
+      pic:"lib/images/p74.png",
+      ttyy:"lib/images/mrock.pnglib/images/mground.png",atk:132,def:132,nai:120,maxhp:106,
+      maxcp4:1293,
+      na:"小拳石"
+  ),
+  Post(
+      pic:"lib/images/p75.png",
+      ttyy:"lib/images/mrock.pnglib/images/mground.png",atk:164,def:164,nai:146,maxhp:127,
+      maxcp4:1897,
+      na:"隆隆石"
+  ),
+  Post(
+      pic:"lib/images/p76.png",
+      ttyy:"lib/images/mrock.pnglib/images/mground.png",atk:211,def:198,nai:190,maxhp:162,
+      maxcp4:2949,
+      na:"隆隆岩"
+  ),
+  Post(
+      pic:"lib/images/p95.png",
+      ttyy:"lib/images/mrock.pnglib/images/mground.png",atk:85,def:232,nai:111,maxhp:99,
+      maxcp4:1101,
+      na:"大岩蛇"
+  ),
+  Post(
+      pic:"lib/images/p111.png",
+      ttyy:"lib/images/mground.pnglib/images/mrock.png",atk:140,def:127,nai:190,maxhp:162,
+      maxcp4:1651,
+      na:"獨角犀牛"
+  ),
+  Post(
+      pic:"lib/images/p112.png",
+      ttyy:"lib/images/mground.pnglib/images/mrock.png",atk:222,def:171,nai:233,maxhp:195,
+      maxcp4:3179,
+      na:"鑽角犀獸"
+  ),
+  Post(
+      pic:"lib/images/p138.png",
+      ttyy:"lib/images/mrock.pnglib/images/mwater.png",atk:155,def:153,nai:111,maxhp:99,
+      maxcp4:1544,
+      na:"菊石獸"
+  ),
+  Post(
+      pic:"lib/images/p139.png",
+      ttyy:"lib/images/mrock.pnglib/images/mwater.png",atk:207,def:201,nai:172,maxhp:147,
+      maxcp4:2786,
+      na:"多刺菊石獸"
+  ),
+  Post(
+      pic:"lib/images/p140.png",
+      ttyy:"lib/images/mrock.pnglib/images/mwater.png",atk:148,def:140,nai:102,maxhp:92,
+      maxcp4:1370,
+      na:"化石盔"
+  ),
+  Post(
+      pic:"lib/images/p141.png",
+      ttyy:"lib/images/mrock.pnglib/images/mwater.png",atk:220,def:186,nai:155,maxhp:134,
+      maxcp4:2713,
+      na:"鐮刀盔"
+  ),
+  Post(
+      pic:"lib/images/p142.png",
+      ttyy:"lib/images/mrock.pnglib/images/mflying.png",atk:221,def:159,nai:190,maxhp:162,
+      maxcp4:2783,
+      na:"化石翼龍"
+  ),
+  Post(
+      pic:"lib/images/p185.png",
+      ttyy:"lib/images/mrock.png",atk:167,def:176,nai:172,maxhp:147,
+      maxcp4:2148,
+      na:"樹才怪"
+  ),
+  Post(
+      pic:"lib/images/p213.png",
+      ttyy:"lib/images/mbug.pnglib/images/mrock.png",atk:17,def:396,nai:85,maxhp:79,
+      maxcp4:405,
+      na:"壺壺"
+  ),
+  Post(
+      pic:"lib/images/p219.png",
+      ttyy:"lib/images/mfire.pnglib/images/mrock.png",atk:139,def:191,nai:137,maxhp:120,
+      maxcp4:1702,
+      na:"熔岩蝸牛"
+  ),
+  Post(
+    pic:"lib/images/p222.png",
+    ttyy:"lib/images/mwater.pnglib/images/mrock.png",atk:118,def:156,nai:146,maxhp:127,
+    maxcp4:1378,
+    na:"太陽珊瑚",
+  ),
+  Post(
+      pic:"lib/images/p246.png",
+      ttyy:"lib/images/mrock.pnglib/images/mground.png",atk:115,def:93,nai:137,maxhp:120,
+      maxcp4:1040,
+      na:"幼基拉斯"
+  ),
+  Post(
+      pic:"lib/images/p247.png",
+      ttyy:"lib/images/mrock.pnglib/images/mground.png",atk:155,def:133,nai:172,maxhp:147,
+      maxcp4:1766,
+      na:"沙基拉斯"
+  ),
+  Post(
+      pic:"lib/images/p248.png",
+      ttyy:"lib/images/mrock.pnglib/images/mdark.png",atk:251,def:207,nai:225,maxhp:189,
+      maxcp4:3834,
+      na:"班基拉斯"
+  ),
+  Post(
+      pic:"lib/images/p299.png",
+      ttyy:"lib/images/mrock.png",atk:82,def:215,nai:102,maxhp:92,
+      maxcp4:993,
+      na:"朝北鼻"
+  ),
+  Post(
+    pic:"lib/images/p304.png",
+    ttyy:"lib/images/msteel.pnglib/images/mrock.png",atk:121,def:141,nai:137,maxhp:120,
+    maxcp4:1307,
+    na:"可可多拉",
+  ),
+  Post(
+      pic:"lib/images/p305.png",
+      ttyy:"lib/images/msteel.pnglib/images/mrock.png",atk:158,def:198,nai:155,maxhp:134,
+      maxcp4:2056,
+      na:"可多拉"
+  ),
+  Post(
+      pic:"lib/images/p306.png",
+      ttyy:"lib/images/msteel.pnglib/images/mrock.png",atk:198,def:257,nai:172,maxhp:147,
+      maxcp4:3000,
+      na:"波士可多拉"
+  ),
+  Post(
+      pic:"lib/images/p337.png",
+      ttyy:"lib/images/mrock.pnglib/images/mpsychic.png",atk:178,def:153,nai:207,maxhp:175,
+      maxcp4:2327,
+      na:"月石"
+  ),
+  Post(
+      pic:"lib/images/p338.png",
+      ttyy:"lib/images/mrock.pnglib/images/mpsychic.png",atk:178,def:153,nai:207,maxhp:175,
+      maxcp4:2327,
+      na:"太陽岩"
+  ),
+  Post(
+      pic:"lib/images/p345.png",
+      ttyy:"lib/images/mrock.pnglib/images/mgrass.png",atk:105,def:150,nai:165,maxhp:142,
+      maxcp4:1291,
+      na:"觸手百合"
+  ),
+  Post(
+      pic:"lib/images/p346.png",
+      ttyy:"lib/images/mrock.pnglib/images/mgrass.png",atk:152,def:194,nai:200,maxhp:169,
+      maxcp4:2211,
+      na:"搖籃百合"
+  ),
+  Post(
+      pic:"lib/images/p347.png",
+      ttyy:"lib/images/mrock.pnglib/images/mbug.png",atk:176,def:100,nai:128,maxhp:113,
+      maxcp4:1529,
+      na:"太古羽蟲"
+  ),
+  Post(
+      pic:"lib/images/p348.png",
+      ttyy:"lib/images/mrock.pnglib/images/mbug.png",atk:222,def:174,nai:181,maxhp:154,
+      maxcp4:2848,
+      na:"太古盔甲"
+  ),
+  Post(
+      pic:"lib/images/p369.png",
+      ttyy:"lib/images/mwater.pnglib/images/mrock.png",atk:162,def:203,nai:225,maxhp:189,
+      maxcp4:2528,
+      na:"古空棘魚"
+  ),
+  Post(
+      pic:"lib/images/p377.png",
+      ttyy:"lib/images/mrock.png",atk:179,def:309,nai:190,maxhp:162,
+      maxcp4:3122,
+      na:"雷吉洛克"
+  ),
+  Post(
+    pic:"lib/images/p408.png",
+    ttyy:"lib/images/mrock.png",atk:218,def:71,nai:167,maxhp:143,
+    maxcp4:1820,
+    na:"頭蓋龍",
+  ),
+  Post(
+      pic:"lib/images/p409.png",
+      ttyy:"lib/images/mrock.png",atk:295,def:109,nai:219,maxhp:184,
+      maxcp4:3298,
+      na:"戰槌龍"
+  ),
+  Post(
+      pic:"lib/images/p410.png",
+      ttyy:"lib/images/mrock.pnglib/images/msteel.png",atk:76,def:195,nai:102,maxhp:92,
+      maxcp4:890,
+      na:"盾甲龍"
+  ),
+  Post(
+      pic:"lib/images/p411.png",
+      ttyy:"lib/images/mrock.pnglib/images/msteel.png",atk:94,def:286,nai:155,maxhp:134,
+      maxcp4:1539,
+      na:"護城龍"
+  ),
+  Post(
+      pic:"lib/images/p438.png",
+      ttyy:"lib/images/mrock.png",atk:124,def:133,nai:137,maxhp:120,
+      maxcp4:1302,
+      na:"盆才怪"
+  ),
+  Post(
+      pic:"lib/images/p464.png",
+      ttyy:"lib/images/mground.pnglib/images/mrock.png",atk:241,def:190,nai:251,maxhp:210,
+      maxcp4:3733,
+      na:"超甲狂犀"
+  ),
+  Post(
+      pic:"lib/images/p476.png",
+      ttyy:"lib/images/mrock.pnglib/images/msteel.png",atk:135,def:275,nai:155,maxhp:134,
+      maxcp4:2080,
+      na:"大朝北鼻"
+  ),
+  Post(
+      pic:"lib/images/p524.png",
+      ttyy:"lib/images/mrock.png",atk:121,def:110,nai:146,maxhp:127,
+      maxcp4:1205,
+      na:"石丸子"
+  ),
+  Post(
+      pic:"lib/images/p525.png",
+      ttyy:"lib/images/mrock.png",atk:174,def:143,nai:172,maxhp:147,
+      maxcp4:2029,
+      na:"地幔岩"
+  ),
+  Post(
+      pic:"lib/images/p526.png",
+      ttyy:"lib/images/mrock.png",atk:226,def:201,nai:198,maxhp:168,
+      maxcp4:3228,
+      na:"龐岩怪"
+  ),
+  Post(
+      pic:"lib/images/p557.png",
+      ttyy:"lib/images/mbug.pnglib/images/mrock.png",atk:118,def:128,nai:137,maxhp:120,
+      maxcp4:1224,
+      na:"石居蟹"
+  ),
+  Post(
+      pic:"lib/images/p558.png",
+      ttyy:"lib/images/mbug.pnglib/images/mrock.png",atk:188,def:200,nai:172,maxhp:147,
+      maxcp4:2542,
+      na:"岩殿居蟹"
+  ),
+  Post(
+      pic:"lib/images/p564.png",
+      ttyy:"lib/images/mwater.pnglib/images/mrock.png",atk:134,def:146,nai:144,maxhp:125,
+      maxcp4:1488,
+      na:"原蓋海龜"
+  ),
+  Post(
+      pic:"lib/images/p565.png",
+      ttyy:"lib/images/mwater.pnglib/images/mrock.png",atk:192,def:197,nai:179,maxhp:153,
+      maxcp4:2621,
+      na:"肋骨海龜"
+  ),
+  Post(
+      pic:"lib/images/p566.png",
+      ttyy:"lib/images/mrock.pnglib/images/mflying.png",atk:213,def:89,nai:146,maxhp:127,
+      maxcp4:1842,
+      na:"始祖小鳥"
+  ),
+  Post(
+      pic:"lib/images/p567.png",
+      ttyy:"lib/images/mrock.pnglib/images/mflying.png",atk:292,def:139,nai:181,maxhp:154,
+      maxcp4:3331,
+      na:"始祖大鳥"
+  ),
+  Post(
+      pic:"lib/images/p639.png",
+      ttyy:"lib/images/mrock.pnglib/images/mfighting.png",atk:260,def:192,nai:209,maxhp:177,
+      maxcp4:3698,
+      na:"代拉基翁"
+  ),
+];
+final List<Post> mlsteel = [
+  Post(
+    pic:"lib/images/p81.png",
+    ttyy:"lib/images/melectric.pnglib/images/msteel.png",atk:165,def:121,nai:93,maxhp:85,
+    maxcp4:1362,
+    na:"小磁怪",
+  ),
+  Post(
+      pic:"lib/images/p82.png",
+      ttyy:"lib/images/melectric.pnglib/images/msteel.png",atk:223,def:169,nai:137,maxhp:120,
+      maxcp4:2485,
+      na:"三合一磁怪"
+  ),
+  Post(
+      pic:"lib/images/p205.png",
+      ttyy:"lib/images/mbug.pnglib/images/msteel.png",atk:161,def:205,nai:181,maxhp:154,
+      maxcp4:2282,
+      na:"佛烈托斯"
+  ),
+  Post(
+      pic:"lib/images/p208.png",
+      ttyy:"lib/images/msteel.pnglib/images/mground.png",atk:148,def:272,nai:181,maxhp:154,
+      maxcp4:2414,
+      na:"大鋼蛇"
+  ),
+  Post(
+      pic:"lib/images/p212.png",
+      ttyy:"lib/images/mbug.pnglib/images/msteel.png",atk:236,def:181,nai:172,maxhp:147,
+      maxcp4:3001,
+      na:"巨鉗螳螂"
+  ),
+  Post(
+      pic:"lib/images/p227.png",
+      ttyy:"lib/images/msteel.pnglib/images/mflying.png",atk:148,def:226,nai:163,maxhp:140,
+      maxcp4:2108,
+      na:"盔甲鳥"
+  ),
+  Post(
+      pic:"lib/images/p303.png",
+      ttyy:"lib/images/msteel.pnglib/images/mfairy.png",atk:155,def:141,nai:137,maxhp:120,
+      maxcp4:1634,
+      na:"大嘴娃"
+  ),
+  Post(
+    pic:"lib/images/p304.png",
+    ttyy:"lib/images/msteel.pnglib/images/mrock.png",atk:121,def:141,nai:137,maxhp:120,
+    maxcp4:1307,
+    na:"可可多拉",
+  ),
+  Post(
+      pic:"lib/images/p305.png",
+      ttyy:"lib/images/msteel.pnglib/images/mrock.png",atk:158,def:198,nai:155,maxhp:134,
+      maxcp4:2056,
+      na:"可多拉"
+  ),
+  Post(
+      pic:"lib/images/p306.png",
+      ttyy:"lib/images/msteel.pnglib/images/mrock.png",atk:198,def:257,nai:172,maxhp:147,
+      maxcp4:3000,
+      na:"波士可多拉"
+  ),
+  Post(
+      pic:"lib/images/p374.png",
+      ttyy:"lib/images/msteel.pnglib/images/mpsychic.png",atk:96,def:132,nai:120,maxhp:106,
+      maxcp4:976,
+      na:"鐵啞鈴"
+  ),
+  Post(
+      pic:"lib/images/p375.png",
+      ttyy:"lib/images/msteel.pnglib/images/mpsychic.png",atk:138,def:176,nai:155,maxhp:134,
+      maxcp4:1721,
+      na:"金屬怪"
+  ),
+  Post(
+      pic:"lib/images/p376.png",
+      ttyy:"lib/images/msteel.pnglib/images/mpsychic.png",atk:257,def:228,nai:190,maxhp:162,
+      maxcp4:3791,
+      na:"巨金怪"
+  ),
+  Post(
+      pic:"lib/images/p379.png",
+      ttyy:"lib/images/msteel.png",atk:143,def:285,nai:190,maxhp:162,
+      maxcp4:2447,
+      na:"雷吉斯奇魯"
+  ),
+  Post(
+      pic:"lib/images/p385.png",
+      ttyy:"lib/images/msteel.pnglib/images/mpsychic.png",atk:210,def:210,nai:225,maxhp:189,
+      maxcp4:3265,
+      na:"基拉祈"
+  ),
+  Post(
+      pic:"lib/images/p395.png",
+      ttyy:"lib/images/mwater.pnglib/images/msteel.png",atk:210,def:186,nai:197,maxhp:167,
+      maxcp4:2900,
+      na:"帝王拿波"
+  ),
+  Post(
+      pic:"lib/images/p410.png",
+      ttyy:"lib/images/mrock.pnglib/images/msteel.png",atk:76,def:195,nai:102,maxhp:92,
+      maxcp4:890,
+      na:"盾甲龍"
+  ),
+  Post(
+      pic:"lib/images/p411.png",
+      ttyy:"lib/images/mrock.pnglib/images/msteel.png",atk:94,def:286,nai:155,maxhp:134,
+      maxcp4:1539,
+      na:"護城龍"
+  ),
+  Post(
+      pic:"lib/images/p436.png",
+      ttyy:"lib/images/msteel.pnglib/images/mpsychic.png",atk:43,def:154,nai:149,maxhp:129,
+      maxcp4:603,
+      na:"銅鏡怪"
+  ),
+  Post(
+      pic:"lib/images/p437.png",
+      ttyy:"lib/images/msteel.pnglib/images/mpsychic.png",atk:161,def:213,nai:167,maxhp:143,
+      maxcp4:2239,
+      na:"青銅鐘"
+  ),
+  Post(
+    pic:"lib/images/p448.png",
+    ttyy:"lib/images/mfighting.pnglib/images/msteel.png",atk:236,def:144,nai:172,maxhp:147,
+    maxcp4:2703,
+    na:"路卡利歐",
+  ),
+  Post(
+      pic:"lib/images/p462.png",
+      ttyy:"lib/images/melectric.pnglib/images/msteel.png",atk:238,def:205,nai:172,maxhp:147,
+      maxcp4:3205,
+      na:"自爆磁怪"
+  ),
+  Post(
+      pic:"lib/images/p476.png",
+      ttyy:"lib/images/mrock.pnglib/images/msteel.png",atk:135,def:275,nai:155,maxhp:134,
+      maxcp4:2080,
+      na:"大朝北鼻"
+  ),
+  Post(
+      pic:"lib/images/p483.png",
+      ttyy:"lib/images/msteel.pnglib/images/mdragon.png",atk:275,def:211,nai:205,maxhp:173,
+      maxcp4:4038,
+      na:"帝牙盧卡"
+  ),
+  Post(
+      pic:"lib/images/p485.png",
+      ttyy:"lib/images/mfire.pnglib/images/msteel.png",atk:251,def:213,nai:209,maxhp:177,
+      maxcp4:3754,
+      na:"席多藍恩"
+  ),
+  Post(
+      pic:"lib/images/p530.png",
+      ttyy:"lib/images/mground.pnglib/images/msteel.png",atk:255,def:129,nai:242,maxhp:203,
+      maxcp4:3244,
+      na:"龍頭地鼠"
+  ),
+  Post(
+      pic:"lib/images/p589.png",
+      ttyy:"lib/images/mbug.pnglib/images/msteel.png",atk:223,def:187,nai:172,maxhp:147,
+      maxcp4:2889,
+      na:"騎士蝸牛"
+  ),
+  Post(
+      pic:"lib/images/p597.png",
+      ttyy:"lib/images/mgrass.pnglib/images/msteel.png",atk:82,def:155,nai:127,maxhp:112,
+      maxcp4:941,
+      na:"種子鐵球"
+  ),
+  Post(
+      pic:"lib/images/p598.png",
+      ttyy:"lib/images/mgrass.pnglib/images/msteel.png",atk:158,def:223,nai:179,maxhp:153,
+      maxcp4:2321,
+      na:"堅果啞鈴"
+  ),
+  Post(
+      pic:"lib/images/p599.png",
+      ttyy:"lib/images/msteel.png",atk:98,def:121,nai:120,maxhp:106,
+      maxcp4:956,
+      na:"齒輪兒"
+  ),
+  Post(
+      pic:"lib/images/p600.png",
+      ttyy:"lib/images/msteel.png",atk:150,def:174,nai:155,maxhp:134,
+      maxcp4:1847,
+      na:"齒輪組"
+  ),
+  Post(
+      pic:"lib/images/p601.png",
+      ttyy:"lib/images/msteel.png",atk:199,def:214,nai:155,maxhp:134,
+      maxcp4:2637,
+      na:"齒輪怪"
+  ),
+  Post(
+      pic:"lib/images/p624.png",
+      ttyy:"lib/images/mdark.pnglib/images/msteel.png",atk:154,def:114,nai:128,maxhp:113,
+      maxcp4:1433,
+      na:"駒刀小兵"
+  ),
+  Post(
+      pic:"lib/images/p625.png",
+      ttyy:"lib/images/mdark.pnglib/images/msteel.png",atk:232,def:176,nai:163,maxhp:140,
+      maxcp4:2844,
+      na:"劈斬司令"
+  ),
+  Post(
+      pic:"lib/images/p632.png",
+      ttyy:"lib/images/mbug.pnglib/images/msteel.png",atk:217,def:188,nai:151,maxhp:131,
+      maxcp4:2659,
+      na:"鐵蟻"
+  ),
+  Post(
+      pic:"lib/images/p638.png",
+      ttyy:"lib/images/msteel.pnglib/images/mfighting.png",atk:192,def:229,nai:209,maxhp:177,
+      maxcp4:3022,
+      na:"勾帕路翁"
+  ),
+  Post(
+    pic:"lib/images/p649.png",
+    ttyy:"lib/images/mbug.pnglib/images/msteel.png",atk:252,def:199,nai:174,maxhp:149,
+    maxcp4:3353,
+    na:"蓋諾賽克特",
+  ),
+];
+final List<Post> mlwater = [
+  Post(
+      pic:"lib/images/p7.png",
+      ttyy:"lib/images/mwater.png",atk:94,def:121,nai:127,maxhp:112,
+      maxcp4:946,
+      na:"傑尼龜"
+  ),
+  Post(
+      pic:"lib/images/p8.png",
+      ttyy:"lib/images/mwater.png",atk:126,def:155,nai:153,maxhp:132,
+      maxcp4:1488,
+      na:"卡咪龜"
+  ),
+  Post(
+      pic:"lib/images/p9.png",
+      ttyy:"lib/images/mwater.png",atk:171,def:207,nai:188,maxhp:160,
+      maxcp4:2466,
+      na:"水箭龜"
+  ),
+  Post(
+    pic:"lib/images/p54.png",
+    ttyy:"lib/images/mwater.png",atk:122,def:95,nai:137,maxhp:120,
+    maxcp4:1106,
+    na:"可達鴨",
+  ),
+  Post(
+      pic:"lib/images/p55.png",
+      ttyy:"lib/images/mwater.png",atk:191,def:162,nai:190,maxhp:162,
+      maxcp4:2450,
+      na:"哥達鴨"
+  ),
+  Post(
+      pic:"lib/images/p60.png",
+      ttyy:"lib/images/mwater.png",atk:101,def:82,nai:120,maxhp:106,
+      maxcp4:829,
+      na:"蚊香蝌蚪"
+  ),
+  Post(
+      pic:"lib/images/p61.png",
+      ttyy:"lib/images/mwater.png",atk:130,def:123,nai:163,maxhp:140,
+      maxcp4:1419,
+      na:"蚊香君"
+  ),
+  Post(
+      pic:"lib/images/p62.png",
+      ttyy:"lib/images/mwater.pnglib/images/mfighting.png",atk:182,def:184,nai:207,maxhp:175,
+      maxcp4:2586,
+      na:"蚊香泳士"
+  ),
+  Post(
+      pic:"lib/images/p72.png",
+      ttyy:"lib/images/mwater.pnglib/images/mpoison.png",atk:97,def:149,nai:120,maxhp:106,
+      maxcp4:1040,
+      na:"瑪瑙水母"
+  ),
+  Post(
+      pic:"lib/images/p73.png",
+      ttyy:"lib/images/mwater.pnglib/images/mpoison.png",atk:166,def:209,nai:190,maxhp:162,
+      maxcp4:2422,
+      na:"毒刺水母"
+  ),
+  Post(
+      pic:"lib/images/p79.png",
+      ttyy:"lib/images/mwater.pnglib/images/mpsychic.png",atk:109,def:98,nai:207,maxhp:175,
+      maxcp4:1226,
+      na:"呆呆獸"
+  ),
+  Post(
+      pic:"lib/images/p80.png",
+      ttyy:"lib/images/mwater.pnglib/images/mpsychic.png",atk:177,def:180,nai:216,maxhp:182,
+      maxcp4:2545,
+      na:"呆殼獸"
+  ),
+  Post(
+      pic:"lib/images/p86.png",
+      ttyy:"lib/images/mwater.png",atk:85,def:121,nai:163,maxhp:140,
+      maxcp4:971,
+      na:"小海獅"
+  ),
+  Post(
+      pic:"lib/images/p87.png",
+      ttyy:"lib/images/mwater.pnglib/images/mice.png",atk:139,def:177,nai:207,maxhp:175,
+      maxcp4:1985,
+      na:"白海獅"
+  ),
+  Post(
+      pic:"lib/images/p90.png",
+      ttyy:"lib/images/mwater.png",atk:116,def:134,nai:102,maxhp:92,
+      maxcp4:1080,
+      na:"大舌貝"
+  ),
+  Post(
+      pic:"lib/images/p91.png",
+      ttyy:"lib/images/mwater.pnglib/images/mice.png",atk:186,def:256,nai:137,maxhp:120,
+      maxcp4:2547,
+      na:"刺甲貝"
+  ),
+  Post(
+      pic:"lib/images/p98.png",
+      ttyy:"lib/images/mwater.png",atk:181,def:124,nai:102,maxhp:92,
+      maxcp4:1561,
+      na:"大鉗蟹"
+  ),
+  Post(
+      pic:"lib/images/p99.png",
+      ttyy:"lib/images/mwater.png",atk:240,def:181,nai:146,maxhp:127,
+      maxcp4:2829,
+      na:"巨鉗蟹"
+  ),
+  Post(
+    pic:"lib/images/p116.png",
+    ttyy:"lib/images/mwater.png",atk:129,def:103,nai:102,maxhp:92,
+    maxcp4:1056,
+    na:"墨海馬",
+  ),
+  Post(
+      pic:"lib/images/p117.png",
+      ttyy:"lib/images/mwater.png",atk:187,def:156,nai:146,maxhp:127,
+      maxcp4:2093,
+      na:"海刺龍"
+  ),
+  Post(
+    pic:"lib/images/p118.png",
+    ttyy:"lib/images/mwater.png",atk:123,def:110,nai:128,maxhp:113,
+    maxcp4:1152,
+    na:"角金魚",
+  ),
+  Post(
+      pic:"lib/images/p119.png",
+      ttyy:"lib/images/mwater.png",atk:175,def:147,nai:190,maxhp:162,
+      maxcp4:2162,
+      na:"金魚王"
+  ),
+  Post(
+      pic:"lib/images/p120.png",
+      ttyy:"lib/images/mwater.png",atk:137,def:112,nai:102,maxhp:92,
+      maxcp4:1157,
+      na:"海星星"
+  ),
+  Post(
+      pic:"lib/images/p121.png",
+      ttyy:"lib/images/mwater.pnglib/images/mpsychic.png",atk:210,def:184,nai:155,maxhp:134,
+      maxcp4:2584,
+      na:"寶石海星"
+  ),
+  Post(
+      pic:"lib/images/p129.png",
+      ttyy:"lib/images/mwater.png",atk:29,def:85,nai:85,maxhp:79,
+      maxcp4:274,
+      na:"鯉魚王"
+  ),
+  Post(
+      pic:"lib/images/p130.png",
+      ttyy:"lib/images/mwater.pnglib/images/mflying.png",atk:237,def:186,nai:216,maxhp:182,
+      maxcp4:3391,
+      na:"暴鯉龍"
+  ),
+  Post(
+      pic:"lib/images/p131.png",
+      ttyy:"lib/images/mwater.pnglib/images/mice.png",atk:165,def:174,nai:277,maxhp:230,
+      maxcp4:2641,
+      na:"拉普拉斯"
+  ),
+  Post(
+      pic:"lib/images/p134.png",
+      ttyy:"lib/images/mwater.png",atk:205,def:161,nai:277,maxhp:230,
+      maxcp4:3114,
+      na:"水伊布"
+  ),
+  Post(
+      pic:"lib/images/p138.png",
+      ttyy:"lib/images/mrock.pnglib/images/mwater.png",atk:155,def:153,nai:111,maxhp:99,
+      maxcp4:1544,
+      na:"菊石獸"
+  ),
+  Post(
+      pic:"lib/images/p139.png",
+      ttyy:"lib/images/mrock.pnglib/images/mwater.png",atk:207,def:201,nai:172,maxhp:147,
+      maxcp4:2786,
+      na:"多刺菊石獸"
+  ),
+  Post(
+      pic:"lib/images/p140.png",
+      ttyy:"lib/images/mrock.pnglib/images/mwater.png",atk:148,def:140,nai:102,maxhp:92,
+      maxcp4:1370,
+      na:"化石盔"
+  ),
+  Post(
+      pic:"lib/images/p141.png",
+      ttyy:"lib/images/mrock.pnglib/images/mwater.png",atk:220,def:186,nai:155,maxhp:134,
+      maxcp4:2713,
+      na:"鐮刀盔"
+  ),
+  Post(
+      pic:"lib/images/p158.png",
+      ttyy:"lib/images/mwater.png",atk:117,def:109,nai:137,maxhp:120,
+      maxcp4:1131,
+      na:"小鋸鱷"
+  ),
+  Post(
+      pic:"lib/images/p159.png",
+      ttyy:"lib/images/mwater.png",atk:150,def:142,nai:163,maxhp:140,
+      maxcp4:1722,
+      na:"藍鱷"
+  ),
+  Post(
+      pic:"lib/images/p160.png",
+      ttyy:"lib/images/mwater.png",atk:205,def:188,nai:198,maxhp:168,
+      maxcp4:2857,
+      na:"大力鱷"
+  ),
+  Post(
+      pic:"lib/images/p170.png",
+      ttyy:"lib/images/mwater.pnglib/images/melectric.png",atk:106,def:97,nai:181,maxhp:154,
+      maxcp4:1119,
+      na:"燈籠魚"
+  ),
+  Post(
+      pic:"lib/images/p171.png",
+      ttyy:"lib/images/mwater.pnglib/images/melectric.png",atk:146,def:137,nai:268,maxhp:223,
+      maxcp4:2085,
+      na:"電燈怪"
+  ),
+  Post(
+      pic:"lib/images/p183.png",
+      ttyy:"lib/images/mwater.pnglib/images/mfairy.png",atk:37,def:93,nai:172,maxhp:147,
+      maxcp4:461,
+      na:"瑪力露"
+  ),
+  Post(
+      pic:"lib/images/p184.png",
+      ttyy:"lib/images/mwater.pnglib/images/mfairy.png",atk:112,def:152,nai:225,maxhp:189,
+      maxcp4:1588,
+      na:"瑪力露麗"
+  ),
+  Post(
+      pic:"lib/images/p186.png",
+      ttyy:"lib/images/mwater.png",atk:174,def:179,nai:207,maxhp:175,
+      maxcp4:2449,
+      na:"蚊香蛙皇"
+  ),
+  Post(
+      pic:"lib/images/p194.png",
+      ttyy:"lib/images/mwater.pnglib/images/mground.png",atk:75,def:66,nai:146,maxhp:127,
+      maxcp4:641,
+      na:"烏波"
+  ),
+  Post(
+      pic:"lib/images/p195.png",
+      ttyy:"lib/images/mwater.pnglib/images/mground.png",atk:152,def:143,nai:216,maxhp:182,
+      maxcp4:1992,
+      na:"沼王"
+  ),
+  Post(
+      pic:"lib/images/p199.png",
+      ttyy:"lib/images/mwater.pnglib/images/mpsychic.png",atk:177,def:180,nai:216,maxhp:182,
+      maxcp4:2545,
+      na:"呆呆王"
+  ),
+  Post(
+      pic:"lib/images/p211.png",
+      ttyy:"lib/images/mwater.pnglib/images/mpoison.png",atk:184,def:138,nai:163,maxhp:140,
+      maxcp4:2051,
+      na:"千針魚"
+  ),
+  Post(
+    pic:"lib/images/p222.png",
+    ttyy:"lib/images/mwater.pnglib/images/mrock.png",atk:118,def:156,nai:146,maxhp:127,
+    maxcp4:1378,
+    na:"太陽珊瑚",
+  ),
+  Post(
+      pic:"lib/images/p223.png",
+      ttyy:"lib/images/mwater.png",atk:127,def:69,nai:111,maxhp:99,
+      maxcp4:912,
+      na:"鐵炮魚"
+  ),
+  Post(
+      pic:"lib/images/p224.png",
+      ttyy:"lib/images/mwater.png",atk:197,def:141,nai:181,maxhp:154,
+      maxcp4:2315,
+      na:"章魚桶"
+  ),
+  Post(
+      pic:"lib/images/p226.png",
+      ttyy:"lib/images/mwater.pnglib/images/mflying.png",atk:148,def:226,nai:163,maxhp:140,
+      maxcp4:2108,
+      na:"巨翅飛魚"
+  ),
+  Post(
+      pic:"lib/images/p230.png",
+      ttyy:"lib/images/mwater.pnglib/images/mdragon.png",atk:194,def:194,nai:181,maxhp:154,
+      maxcp4:2641,
+      na:"刺龍王"
+  ),
+  Post(
+    pic:"lib/images/p245.png",
+    ttyy:"lib/images/mwater.png",atk:180,def:235,nai:225,maxhp:189,
+    maxcp4:2983,
+    na:"水君",
+  ),
+  Post(
+      pic:"lib/images/p258.png",
+      ttyy:"lib/images/mwater.png",atk:126,def:93,nai:137,maxhp:120,
+      maxcp4:1128,
+      na:"水躍魚"
+  ),
+  Post(
+    pic:"lib/images/p259.png",
+    ttyy:"lib/images/mwater.pnglib/images/mground.png",atk:156,def:133,nai:172,maxhp:147,
+    maxcp4:1776,
+    na:"沼躍魚",
+  ),
+  Post(
+      pic:"lib/images/p260.png",
+      ttyy:"lib/images/mwater.pnglib/images/mground.png",atk:208,def:175,nai:225,maxhp:189,
+      maxcp4:2974,
+      na:"巨沼怪"
+  ),
+  Post(
+      pic:"lib/images/p270.png",
+      ttyy:"lib/images/mwater.pnglib/images/mgrass.png",atk:71,def:77,nai:120,maxhp:106,
+      maxcp4:598,
+      na:"蓮葉童子"
+  ),
+  Post(
+      pic:"lib/images/p271.png",
+      ttyy:"lib/images/mwater.pnglib/images/mgrass.png",atk:112,def:119,nai:155,maxhp:134,
+      maxcp4:1197,
+      na:"蓮帽小童"
+  ),
+  Post(
+      pic:"lib/images/p272.png",
+      ttyy:"lib/images/mwater.pnglib/images/mgrass.png",atk:173,def:176,nai:190,maxhp:162,
+      maxcp4:2323,
+      na:"樂天河童"
+  ),
+  Post(
+      pic:"lib/images/p278.png",
+      ttyy:"lib/images/mwater.pnglib/images/mflying.png",atk:106,def:61,nai:120,maxhp:106,
+      maxcp4:765,
+      na:"長翅鷗"
+  ),
+  Post(
+      pic:"lib/images/p279.png",
+      ttyy:"lib/images/mwater.pnglib/images/mflying.png",atk:175,def:174,nai:155,maxhp:134,
+      maxcp4:2127,
+      na:"大嘴鷗"
+  ),
+  Post(
+      pic:"lib/images/p283.png",
+      ttyy:"lib/images/mbug.pnglib/images/mwater.png",atk:93,def:87,nai:120,maxhp:106,
+      maxcp4:791,
+      na:"溜溜糖球"
+  ),
+  Post(
+      pic:"lib/images/p318.png",
+      ttyy:"lib/images/mwater.pnglib/images/mdark.png",atk:171,def:39,nai:128,maxhp:113,
+      maxcp4:1020,
+      na:"利牙魚"
+  ),
+  Post(
+    pic:"lib/images/p319.png",
+    ttyy:"lib/images/mwater.pnglib/images/mdark.png",atk:243,def:83,nai:172,maxhp:147,
+    maxcp4:2181,
+    na:"巨牙鯊",
+  ),
+  Post(
+      pic:"lib/images/p320.png",
+      ttyy:"lib/images/mwater.png",atk:136,def:68,nai:277,maxhp:230,
+      maxcp4:1468,
+      na:"吼吼鯨"
+  ),
+  Post(
+      pic:"lib/images/p321.png",
+      ttyy:"lib/images/mwater.png",atk:175,def:87,nai:347,maxhp:286,
+      maxcp4:2280,
+      na:"吼鯨王"
+  ),
+  Post(
+      pic:"lib/images/p339.png",
+      ttyy:"lib/images/mwater.pnglib/images/mground.png",atk:93,def:82,nai:137,maxhp:120,
+      maxcp4:819,
+      na:"泥泥鰍"
+  ),
+  Post(
+      pic:"lib/images/p340.png",
+      ttyy:"lib/images/mwater.pnglib/images/mground.png",atk:151,def:141,nai:242,maxhp:203,
+      maxcp4:2075,
+      na:"鯰魚王"
+  ),
+  Post(
+      pic:"lib/images/p341.png",
+      ttyy:"lib/images/mwater.png",atk:141,def:99,nai:125,maxhp:110,
+      maxcp4:1230,
+      na:"龍蝦小兵"
+  ),
+  Post(
+      pic:"lib/images/p342.png",
+      ttyy:"lib/images/mwater.pnglib/images/mdark.png",atk:224,def:142,nai:160,maxhp:138,
+      maxcp4:2474,
+      na:"鐵螯龍蝦"
+  ),
+  Post(
+      pic:"lib/images/p349.png",
+      ttyy:"lib/images/mwater.png",atk:29,def:85,nai:85,maxhp:79,
+      maxcp4:274,
+      na:"醜醜魚"
+  ),
+  Post(
+      pic:"lib/images/p350.png",
+      ttyy:"lib/images/mwater.png",atk:192,def:219,nai:216,maxhp:182,
+      maxcp4:3005,
+      na:"美納斯"
+  ),
+  Post(
+      pic:"lib/images/p363.png",
+      ttyy:"lib/images/mice.pnglib/images/mwater.png",atk:95,def:90,nai:172,maxhp:147,
+      maxcp4:962,
+      na:"海豹球"
+  ),
+  Post(
+      pic:"lib/images/p364.png",
+      ttyy:"lib/images/mice.pnglib/images/mwater.png",atk:137,def:132,nai:207,maxhp:175,
+      maxcp4:1714,
+      na:"海魔獅"
+  ),
+  Post(
+      pic:"lib/images/p365.png",
+      ttyy:"lib/images/mice.pnglib/images/mwater.png",atk:182,def:176,nai:242,maxhp:203,
+      maxcp4:2726,
+      na:"帝牙海獅"
+  ),
+  Post(
+      pic:"lib/images/p366.png",
+      ttyy:"lib/images/mwater.png",atk:133,def:135,nai:111,maxhp:99,
+      maxcp4:1270,
+      na:"珍珠貝"
+  ),
+  Post(
+      pic:"lib/images/p367.png",
+      ttyy:"lib/images/mwater.png",atk:197,def:179,nai:146,maxhp:127,
+      maxcp4:2340,
+      na:"獵斑魚"
+  ),
+  Post(
+      pic:"lib/images/p368.png",
+      ttyy:"lib/images/mwater.png",atk:211,def:179,nai:146,maxhp:127,
+      maxcp4:2494,
+      na:"櫻花魚"
+  ),
+  Post(
+      pic:"lib/images/p369.png",
+      ttyy:"lib/images/mwater.pnglib/images/mrock.png",atk:162,def:203,nai:225,maxhp:189,
+      maxcp4:2528,
+      na:"古空棘魚"
+  ),
+  Post(
+      pic:"lib/images/p370.png",
+      ttyy:"lib/images/mwater.png",atk:81,def:128,nai:125,maxhp:110,
+      maxcp4:848,
+      na:"愛心魚"
+  ),
+  Post(
+      pic:"lib/images/p382.png",
+      ttyy:"lib/images/mwater.png",atk:270,def:228,nai:205,maxhp:173,
+      maxcp4:4115,
+      na:"蓋歐卡"
+  ),
+  Post(
+      pic:"lib/images/p393.png",
+      ttyy:"lib/images/mwater.png",atk:112,def:102,nai:142,maxhp:124,
+      maxcp4:1075,
+      na:"波加曼"
+  ),
+  Post(
+      pic:"lib/images/p394.png",
+      ttyy:"lib/images/mwater.png",atk:150,def:139,nai:162,maxhp:139,
+      maxcp4:1701,
+      na:"波皇子"
+  ),
+  Post(
+      pic:"lib/images/p395.png",
+      ttyy:"lib/images/mwater.pnglib/images/msteel.png",atk:210,def:186,nai:197,maxhp:167,
+      maxcp4:2900,
+      na:"帝王拿波"
+  ),
+  Post(
+      pic:"lib/images/p400.png",
+      ttyy:"lib/images/mnormal.pnglib/images/mwater.png",atk:162,def:119,nai:188,maxhp:160,
+      maxcp4:1823,
+      na:"大尾狸"
+  ),
+  Post(
+      pic:"lib/images/p418.png",
+      ttyy:"lib/images/mwater.png",atk:132,def:67,nai:146,maxhp:127,
+      maxcp4:1054,
+      na:"泳圈鼬"
+  ),
+  Post(
+      pic:"lib/images/p419.png",
+      ttyy:"lib/images/mwater.png",atk:221,def:114,nai:198,maxhp:168,
+      maxcp4:2443,
+      na:"浮潛鼬"
+  ),
+  Post(
+      pic:"lib/images/p422.png",
+      ttyy:"lib/images/mwater.png",atk:103,def:105,nai:183,maxhp:156,
+      maxcp4:1136,
+      na:"無殼海兔"
+  ),
+  Post(
+      pic:"lib/images/p423.png",
+      ttyy:"lib/images/mwater.pnglib/images/mground.png",atk:169,def:143,nai:244,maxhp:204,
+      maxcp4:2324,
+      na:"海兔獸"
+  ),
+  Post(
+      pic:"lib/images/p456.png",
+      ttyy:"lib/images/mwater.png",atk:96,def:116,nai:135,maxhp:118,
+      maxcp4:971,
+      na:"螢光魚"
+  ),
+  Post(
+      pic:"lib/images/p457.png",
+      ttyy:"lib/images/mwater.png",atk:142,def:170,nai:170,maxhp:146,
+      maxcp4:1814,
+      na:"霓虹魚"
+  ),
+  Post(
+    pic:"lib/images/p458.png",
+    ttyy:"lib/images/mwater.pnglib/images/mflying.png",atk:105,def:179,nai:128,maxhp:113,
+    maxcp4:1248,
+    na:"小球飛魚",
+  ),
+  Post(
+      pic:"lib/images/p484.png",
+      ttyy:"lib/images/mwater.pnglib/images/mdragon.png",atk:280,def:215,nai:189,maxhp:161,
+      maxcp4:3991,
+      na:"帕路奇亞"
+  ),
+  Post(
+      pic:"lib/images/p489.png",
+      ttyy:"lib/images/mwater.png",atk:162,def:162,nai:190,maxhp:162,
+      maxcp4:2105,
+      na:"霏歐納"
+  ),
+  Post(
+      pic:"lib/images/p490.png",
+      ttyy:"lib/images/mwater.png",atk:210,def:210,nai:225,maxhp:189,
+      maxcp4:3265,
+      na:"瑪納霏"
+  ),
+  Post(
+      pic:"lib/images/p501.png",
+      ttyy:"lib/images/mwater.png",atk:117,def:85,nai:146,maxhp:127,
+      maxcp4:1046,
+      na:"水水獺"
+  ),
+  Post(
+      pic:"lib/images/p502.png",
+      ttyy:"lib/images/mwater.png",atk:159,def:116,nai:181,maxhp:154,
+      maxcp4:1741,
+      na:"雙刃丸"
+  ),
+  Post(
+      pic:"lib/images/p503.png",
+      ttyy:"lib/images/mwater.png",atk:212,def:157,nai:216,maxhp:182,
+      maxcp4:2826,
+      na:"大劍鬼"
+  ),
+  Post(
+      pic:"lib/images/p515.png",
+      ttyy:"lib/images/mwater.png",atk:104,def:94,nai:137,maxhp:120,
+      maxcp4:956,
+      na:"冷水猴"
+  ),
+  Post(
+      pic:"lib/images/p516.png",
+      ttyy:"lib/images/mwater.png",atk:206,def:133,nai:181,maxhp:154,
+      maxcp4:2350,
+      na:"冷水猿"
+  ),
+  Post(
+      pic:"lib/images/p535.png",
+      ttyy:"lib/images/mwater.png",atk:98,def:78,nai:137,maxhp:120,
+      maxcp4:839,
+      na:"圓蝌蚪"
+  ),
+  Post(
+      pic:"lib/images/p536.png",
+      ttyy:"lib/images/mwater.pnglib/images/mground.png",atk:128,def:109,nai:181,maxhp:154,
+      maxcp4:1392,
+      na:"藍蟾蜍"
+  ),
+  Post(
+      pic:"lib/images/p537.png",
+      ttyy:"lib/images/mwater.pnglib/images/mground.png",atk:188,def:150,nai:233,maxhp:195,
+      maxcp4:2564,
+      na:"蟾蜍王"
+  ),
+  Post(
+      pic:"lib/images/p550.png",
+      ttyy:"lib/images/mwater.png",atk:189,def:129,nai:172,maxhp:147,
+      maxcp4:2090,
+      na:"勇士鱸魚"
+  ),
+  Post(
+      pic:"lib/images/p564.png",
+      ttyy:"lib/images/mwater.pnglib/images/mrock.png",atk:134,def:146,nai:144,maxhp:125,
+      maxcp4:1488,
+      na:"原蓋海龜"
+  ),
+  Post(
+      pic:"lib/images/p565.png",
+      ttyy:"lib/images/mwater.pnglib/images/mrock.png",atk:192,def:197,nai:179,maxhp:153,
+      maxcp4:2621,
+      na:"肋骨海龜"
+  ),
+  Post(
+      pic:"lib/images/p580.png",
+      ttyy:"lib/images/mwater.pnglib/images/mflying.png",atk:84,def:96,nai:158,maxhp:136,
+      maxcp4:856,
+      na:"鴨寶寶"
+  ),
+  Post(
+      pic:"lib/images/p581.png",
+      ttyy:"lib/images/mwater.pnglib/images/mflying.png",atk:182,def:132,nai:181,maxhp:154,
+      maxcp4:2088,
+      na:"首席天鵝"
+  ),
+  Post(
+      pic:"lib/images/p592.png",
+      ttyy:"lib/images/mwater.pnglib/images/mghost.png",atk:115,def:134,nai:146,maxhp:127,
+      maxcp4:1257,
+      na:"輕飄飄"
+  ),
+  Post(
+    pic:"lib/images/p593.png",
+    ttyy:"lib/images/mwater.pnglib/images/mghost.png",atk:159,def:178,nai:225,maxhp:189,
+    maxcp4:2338,
+    na:"胖嘟嘟",
+  ),
+  Post(
+      pic:"lib/images/p594.png",
+      ttyy:"lib/images/mwater.png",atk:138,def:131,nai:338,maxhp:278,
+      maxcp4:2169,
+      na:"保母曼波"
+  ),
+  Post(
+    pic:"lib/images/p647.png",
+    ttyy:"lib/images/mwater.pnglib/images/mfighting.png",atk:260,def:192,nai:209,maxhp:177,
+    maxcp4:3698,
+    na:"凱路迪歐",
+  ),
+];
